@@ -1,0 +1,1758 @@
+path_str,is_leaf
+Appliances & Kitchenware,False
+Appliances & Kitchenware > Kitchenware,False
+Appliances & Kitchenware > Kitchenware > Dining & Tableware,False
+"Appliances & Kitchenware > Kitchenware > Dining & Tableware > Carafes, Pitchers & Tumblers",True
+Appliances & Kitchenware > Kitchenware > Dining & Tableware > Drinkware & Glassware,True
+Appliances & Kitchenware > Kitchenware > Dining & Tableware > Flatware & Cutlery,True
+Appliances & Kitchenware > Kitchenware > Dining & Tableware > Salt and Pepper Shakers & Mills,True
+Appliances & Kitchenware > Kitchenware > Dining & Tableware > Tableware,True
+Appliances & Kitchenware > Kitchenware > Kitchen Accessories,False
+Appliances & Kitchenware > Kitchenware > Kitchen Accessories > Aprons,True
+Appliances & Kitchenware > Kitchenware > Kitchen Accessories > Cookbooks & Recipe Holders,True
+Appliances & Kitchenware > Kitchenware > Kitchen Accessories > Kitchen Storage & Organization,True
+Appliances & Kitchenware > Kitchenware > Kitchen Accessories > Oven Mitts & Potholders,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools,False
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Bakeware,True
+"Appliances & Kitchenware > Kitchenware > Kitchen Tools > Cake, Cookie & Pastry Decorations",True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Cooking Utensils,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Cutting Boards,True
+"Appliances & Kitchenware > Kitchenware > Kitchen Tools > Food Mills, Shavers & Spice Grinders",True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Grilling Products,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Kitchen Pizza Tools,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Kitchen Tools & Gadgets,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Meat Preparation Equipment,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Mixing Bowls,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Pots & Pans,True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Salad Spinners,True
+"Appliances & Kitchenware > Kitchenware > Kitchen Tools > Sifters, Strainers & Colanders",True
+Appliances & Kitchenware > Kitchenware > Kitchen Tools > Skillets & Braising Pans,True
+Appliances & Kitchenware > Major Appliances,False
+Appliances & Kitchenware > Major Appliances > Dishwashers,True
+Appliances & Kitchenware > Major Appliances > Food Warmers,True
+Appliances & Kitchenware > Major Appliances > Freezers,True
+Appliances & Kitchenware > Major Appliances > Ice Makers & Dispensers,True
+Appliances & Kitchenware > Major Appliances > Range Hoods,True
+Appliances & Kitchenware > Major Appliances > Refrigerators,True
+Appliances & Kitchenware > Major Appliances > Washers & Dryers,True
+Appliances & Kitchenware > Small Appliances,False
+Appliances & Kitchenware > Small Appliances > Bread Machines,True
+Appliances & Kitchenware > Small Appliances > Cotton Candy Machines,True
+Appliances & Kitchenware > Small Appliances > Deep Fryers,True
+Appliances & Kitchenware > Small Appliances > Egg Cookers & Servers,True
+Appliances & Kitchenware > Small Appliances > Fondue Sets,True
+Appliances & Kitchenware > Small Appliances > Food Dehydrators,True
+"Appliances & Kitchenware > Small Appliances > Griddles, Grills & Waffle Makers",True
+Appliances & Kitchenware > Small Appliances > Ice Cream & Yogurt Makers,True
+Appliances & Kitchenware > Small Appliances > Ice Makers & Snow Cone Machines,True
+Appliances & Kitchenware > Small Appliances > Microwaves,True
+Appliances & Kitchenware > Small Appliances > Pasta Makers,True
+Appliances & Kitchenware > Small Appliances > Popcorn Machines,True
+Appliances & Kitchenware > Small Appliances > Rice Cookers & Steamers,True
+Appliances & Kitchenware > Small Appliances > Slow Cookers & Roasters,True
+Arts & Crafts,False
+Arts & Crafts > Art & Drawing Pens,True
+Arts & Crafts > Art Brushes,True
+Arts & Crafts > Art Paper & Rolls,True
+Arts & Crafts > Canvas & Art Boards,True
+Arts & Crafts > Chalk,True
+Arts & Crafts > Charcoal,True
+Arts & Crafts > Coloring Books,True
+Arts & Crafts > Crafting,False
+Arts & Crafts > Crafting > Art Portfolios & Craft Storage,True
+Arts & Crafts > Crafting > Craft Kits,True
+Arts & Crafts > Crafting > Craft Supplies,True
+Arts & Crafts > Crayons,True
+Arts & Crafts > Drafting Supplies,True
+Arts & Crafts > Drawing & Colored Pencils,True
+Arts & Crafts > Drawing Tools & Supplies,True
+Arts & Crafts > Paint,True
+Arts & Crafts > Painting Accessories,True
+Arts & Crafts > Pastels,True
+Arts & Crafts > Scrapbooking,False
+Arts & Crafts > Scrapbooking > Die Cutting,True
+Arts & Crafts > Scrapbooking > Scrapbooking Albums & Kits,True
+Arts & Crafts > Scrapbooking > Stamps & Stencils,True
+Arts & Crafts > Scrapbooking > Stickers & Embellishments,True
+Arts & Crafts > Sketch Pads & Books,True
+Audio,False
+Audio > Headphones,False
+Audio > Headphones > Headphones,True
+Audio > Headsets & Microphones,False
+Audio > Headsets & Microphones > Headsets,True
+Audio > Portable Audio,False
+Audio > Portable Audio > Home Theater Audio,False
+Audio > Portable Audio > Home Theater Audio > Home Theater Speaker Systems,True
+Audio > Portable Audio > Home Theater Audio > Home Theater Speakers,True
+Audio > Portable Audio > Home Theater Audio > Receivers & Amplifiers,True
+Audio > Portable Audio > Home Theater Audio > Retro Audio,True
+Audio > Portable Audio > Home Theater Audio > Speaker Stands,True
+Audio > Portable Audio > Listening Centers,True
+Audio > Portable Audio > Portable Speakers & Radios,True
+Audio > Portable Audio > Two Way Radios,True
+Audio > Portable Audio > Voice Recorders,True
+"Bags, Backpacks & Luggage",False
+"Bags, Backpacks & Luggage > Backpacks & Laptop Bags",False
+"Bags, Backpacks & Luggage > Backpacks & Laptop Bags > Backpacks",True
+"Bags, Backpacks & Luggage > Backpacks & Laptop Bags > Laptop Bags",True
+"Bags, Backpacks & Luggage > Backpacks & Laptop Bags > Laptop Sleeves & Cases",True
+"Bags, Backpacks & Luggage > Backpacks & Laptop Bags > Messenger Bags",True
+"Bags, Backpacks & Luggage > Briefcases & Padfolios",False
+"Bags, Backpacks & Luggage > Briefcases & Padfolios > Briefcases",True
+"Bags, Backpacks & Luggage > Briefcases & Padfolios > Padfolios",True
+"Bags, Backpacks & Luggage > Briefcases & Padfolios > Totes & Handbags",True
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories",False
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Luggage & Duffel Bags",False
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Luggage & Duffel Bags > Sport & Duffel Bags",True
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Luggage & Duffel Bags > Suitcases & Luggage Sets",True
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Travel Accessories",False
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Travel Accessories > Luggage Tags, Locks & Covers",True
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Travel Accessories > Personal Travel Accessories",True
+"Bags, Backpacks & Luggage > Luggage & Travel Accessories > Travel Accessories > Toiletry Bags, Packing Cubes & Travel Pouches",True
+"Bags, Backpacks & Luggage > Totes & Handbags",False
+"Bags, Backpacks & Luggage > Totes & Handbags > Lunch Bags & Boxes",True
+Batteries & Power,False
+Batteries & Power > Battery Shop,False
+Batteries & Power > Battery Shop > Camera & Camcorder Batteries & Chargers,True
+Batteries & Power > Battery Shop > Cell Phone Batteries,True
+Batteries & Power > Battery Shop > Computer & Laptop Batteries,True
+Batteries & Power > Battery Shop > Cordless Phone Batteries,True
+Batteries & Power > Battery Shop > General Purpose Batteries,True
+Batteries & Power > Battery Shop > Hearing Aid Batteries,True
+Batteries & Power > Battery Shop > Specialty Batteries,True
+Batteries & Power > Power Management,False
+Batteries & Power > Power Management > Battery Backup & UPS,True
+Batteries & Power > Power Management > Extension Cords,True
+Batteries & Power > Power Management > Power Distribution Units,True
+Batteries & Power > Power Management > Power Inverters,True
+Batteries & Power > Power Management > Surge Protectors & Power Strips,True
+Batteries & Power > Power Management > UPS Accessories,True
+Cleaning Supplies,False
+Cleaning Supplies > Chemical Sterilization Equipment,True
+Cleaning Supplies > Cleaning Chemicals & Wipes,False
+Cleaning Supplies > Cleaning Chemicals & Wipes > Air Fresheners & Deodorizers,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Carpet Care,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Cleaning Chemicals,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Dilution Control Systems & Chemicals,False
+Cleaning Supplies > Cleaning Chemicals & Wipes > Dilution Control Systems & Chemicals > Dilution Control Chemicals,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Dilution Control Systems & Chemicals > Dilution Control System & Accessories,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Disinfectant Wipes,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Hard Floor Care,True
+Cleaning Supplies > Cleaning Chemicals & Wipes > Urinal Screens,True
+Cleaning Supplies > Cleaning Tools,False
+Cleaning Supplies > Cleaning Tools > Cleaning Brushes & Toilet Plungers,True
+"Cleaning Supplies > Cleaning Tools > Cleaning Carts, Caddies & Accessories",False
+"Cleaning Supplies > Cleaning Tools > Cleaning Carts, Caddies & Accessories > Cleaning Caddies",True
+"Cleaning Supplies > Cleaning Tools > Cleaning Carts, Caddies & Accessories > Cleaning Cart Accessories",True
+"Cleaning Supplies > Cleaning Tools > Cleaning Carts, Caddies & Accessories > Cleaning Carts",True
+Cleaning Supplies > Cleaning Tools > Cleaning Cloths & Rags,True
+Cleaning Supplies > Cleaning Tools > Dusters,True
+"Cleaning Supplies > Cleaning Tools > Mops, Brooms & Dustpans",False
+"Cleaning Supplies > Cleaning Tools > Mops, Brooms & Dustpans > Mop Buckets & Wringers",True
+"Cleaning Supplies > Cleaning Tools > Mops, Brooms & Dustpans > Mop Heads & Refill Pads",True
+"Cleaning Supplies > Cleaning Tools > Mops, Brooms & Dustpans > Mops",True
+Cleaning Supplies > Cleaning Tools > Sponges & Scrubbers,True
+Cleaning Supplies > Cleaning Tools > Spray Bottles & Sprayers,True
+Cleaning Supplies > Cleaning Tools > Squeegees,True
+Cleaning Supplies > Dish Soap,True
+Cleaning Supplies > Dishwasher Detergent,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment,False
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Auto Scrubbers,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Carpet Extractors & Cleaners,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Floor Finish Applicators,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Floor Machines & Burnishers,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Floor Pads,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Vacuum Parts & Accessories,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Vacuums,True
+Cleaning Supplies > Floor & Carpet Cleaning Equipment > Wet/Dry Vacuums,True
+Cleaning Supplies > Hand Soaps & Sanitizers,False
+Cleaning Supplies > Hand Soaps & Sanitizers > Hand Sanitizer,True
+Cleaning Supplies > Hand Soaps & Sanitizers > Hand Soap,True
+Cleaning Supplies > Hand Soaps & Sanitizers > Hand Soap & Sanitizer Dispensers,True
+Cleaning Supplies > Janitorial Paper & Dispensers,False
+Cleaning Supplies > Janitorial Paper & Dispensers > Dispensers & Restroom Equipment,False
+Cleaning Supplies > Janitorial Paper & Dispensers > Dispensers & Restroom Equipment > Toilet Paper Dispensers,True
+Cleaning Supplies > Laundry Care,False
+Cleaning Supplies > Laundry Care > Dryer Sheets,True
+Cleaning Supplies > Laundry Care > Fabric Softener,True
+Cleaning Supplies > Laundry Care > Laundry Detergent,True
+Cleaning Supplies > Laundry Care > Laundry Room Organization,False
+Cleaning Supplies > Laundry Care > Laundry Room Organization > Clothes Drying,True
+Cleaning Supplies > Laundry Care > Laundry Room Organization > Laundry Accessories,True
+"Cleaning Supplies > Laundry Care > Laundry Room Organization > Laundry Baskets, Hampers & Sorters",True
+Cleaning Supplies > Laundry Care > Laundry Sanitizers & Bleach,True
+Cleaning Supplies > Laundry Care > Laundry Stain Removers,True
+Cleaning Supplies > Laundry Care > Scent Boosters,True
+Cleaning Supplies > Natural Cleaning Supplies,False
+Cleaning Supplies > Natural Cleaning Supplies > Natural Cleaning Supplies,True
+Cleaning Supplies > Pest Control,True
+Cleaning Supplies > Sink Strainers,True
+Cleaning Supplies > Waste & Recycling,False
+Cleaning Supplies > Waste & Recycling > Trash Bags,True
+Cleaning Supplies > Waste & Recycling > Trash Cans & Recycling Bins,True
+Cleaning Supplies > Waste & Recycling > Waste Receptacle Lids & Accessories,True
+"Coffee, Water & Snacks",False
+"Coffee, Water & Snacks > Breakroom Appliances",False
+"Coffee, Water & Snacks > Breakroom Appliances > Blenders & Food Processors",True
+"Coffee, Water & Snacks > Breakroom Appliances > Drink Makers",True
+"Coffee, Water & Snacks > Breakroom Appliances > Juicers",True
+"Coffee, Water & Snacks > Breakroom Appliances > Napkin Dispensers",True
+"Coffee, Water & Snacks > Breakroom Appliances > Paper Towel Dispensers",True
+"Coffee, Water & Snacks > Breakroom Appliances > Toaster Ovens",True
+"Coffee, Water & Snacks > Breakroom Appliances > Water Filters & Dispensers",True
+"Coffee, Water & Snacks > Candy, Gum & Mints",False
+"Coffee, Water & Snacks > Candy, Gum & Mints > Chocolate",True
+"Coffee, Water & Snacks > Candy, Gum & Mints > Gum & Mints",True
+"Coffee, Water & Snacks > Candy, Gum & Mints > Gummy & Chewy Candy",True
+"Coffee, Water & Snacks > Candy, Gum & Mints > Hard Candy & Lollipops",True
+"Coffee, Water & Snacks > Coffee",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies",False
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Carafes, Kettles & Decanters",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Cocoa",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Coffee Filters",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Coffee Grinders",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Coffee Makers & Espresso Machines",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Coffee Organizers & Dispensers",True
+"Coffee, Water & Snacks > Coffee, Coffee Makers & Supplies > Tea",True
+"Coffee, Water & Snacks > Paper Products",False
+"Coffee, Water & Snacks > Paper Products > Facial Tissue",True
+"Coffee, Water & Snacks > Paper Products > Paper Towels",True
+"Coffee, Water & Snacks > Paper Products > Toilet Paper & Bath Tissue",True
+"Coffee, Water & Snacks > Paper Products > Toilet Seat Covers",True
+"Coffee, Water & Snacks > Plates, Cups & Cutlery",True
+"Coffee, Water & Snacks > Single Serve Coffee, Tea & Cocoa",True
+"Coffee, Water & Snacks > Snacks & Food",False
+"Coffee, Water & Snacks > Snacks & Food > Chips",True
+"Coffee, Water & Snacks > Snacks & Food > Cookies",True
+"Coffee, Water & Snacks > Snacks & Food > Crackers",True
+"Coffee, Water & Snacks > Snacks & Food > Fresh, Frozen & Dry Groceries",False
+"Coffee, Water & Snacks > Snacks & Food > Fresh, Frozen & Dry Groceries > Condiments",True
+"Coffee, Water & Snacks > Snacks & Food > Fresh, Frozen & Dry Groceries > Dry Goods",True
+"Coffee, Water & Snacks > Snacks & Food > Fresh, Frozen & Dry Groceries > Fresh Groceries",True
+"Coffee, Water & Snacks > Snacks & Food > Fresh, Frozen & Dry Groceries > Frozen Foods",True
+"Coffee, Water & Snacks > Snacks & Food > Fresh, Frozen & Dry Groceries > Sugar & Sweeteners",True
+"Coffee, Water & Snacks > Snacks & Food > Fruit Snacks",True
+"Coffee, Water & Snacks > Snacks & Food > Jerky & Meat Sticks",True
+"Coffee, Water & Snacks > Snacks & Food > Nuts & Seeds",True
+"Coffee, Water & Snacks > Snacks & Food > Popcorn",True
+"Coffee, Water & Snacks > Snacks & Food > Pretzels",True
+"Coffee, Water & Snacks > Snacks & Food > Snack & Trail Mixes",True
+"Coffee, Water & Snacks > Snacks & Food > Snacks & Granola Bars",True
+"Coffee, Water & Snacks > Snacks & Food > Variety Snack Packs",True
+"Coffee, Water & Snacks > Water & Beverages",False
+"Coffee, Water & Snacks > Water & Beverages > Energy & Sports Drinks",True
+"Coffee, Water & Snacks > Water & Beverages > Juice",True
+"Coffee, Water & Snacks > Water & Beverages > Liquid & Powdered Drink Mixes",True
+"Coffee, Water & Snacks > Water & Beverages > Milk & Creamer",True
+"Coffee, Water & Snacks > Water & Beverages > Soda",True
+"Coffee, Water & Snacks > Water & Beverages > Water",True
+"Coffee, Water & Snacks > Water & Beverages > Water Bottles, Tumblers & Travel Mugs",True
+Computer Software,False
+Computer Software > Accounting Software,True
+Computer Software > Antivirus Software,True
+Computer Software > Education & Language Learning Software,True
+Computer Software > Finance Software,True
+Computer Software > Hobbies & Personal Interest Software,True
+Computer Software > Legal Software,True
+Computer Software > Microsoft Office,True
+Computer Software > Office & Business Software,True
+Computer Software > PC Games & Accessories,False
+Computer Software > PC Games & Accessories > PC Games,True
+Computer Software > PC Games & Accessories > PC Gaming Accessories,True
+Computer Software > PDF Software,True
+Computer Software > Photo Editing & Graphic Design Software,True
+Computer Software > Tax Software,True
+Computer Software > Video Editing & Music Software,True
+Computer Software > Windows Operating Systems,True
+Computers & Accessories,False
+Computers & Accessories > Computer Accessories & Peripherals,False
+Computers & Accessories > Computer Accessories & Peripherals > Cables & Cable Accessories,False
+Computers & Accessories > Computer Accessories & Peripherals > Cables & Cable Accessories > Adapters & Splitters,True
+Computers & Accessories > Computer Accessories & Peripherals > Cables & Cable Accessories > Cable Management,True
+Computers & Accessories > Computer Accessories & Peripherals > Cables & Cable Accessories > Cables,True
+Computers & Accessories > Computer Accessories & Peripherals > Cables & Cable Accessories > USB Hubs,True
+Computers & Accessories > Computer Accessories & Peripherals > Computer Cleaning & Maintenance,True
+Computers & Accessories > Computer Accessories & Peripherals > Computer Keyboards,True
+Computers & Accessories > Computer Accessories & Peripherals > Computer Mice,True
+Computers & Accessories > Computer Accessories & Peripherals > Computer Privacy Screens & Protectors,True
+Computers & Accessories > Computer Accessories & Peripherals > Computer Speakers,True
+Computers & Accessories > Computer Accessories & Peripherals > Graphic Tablets,True
+Computers & Accessories > Computer Accessories & Peripherals > Keyboard & Mouse Combos,True
+Computers & Accessories > Computer Accessories & Peripherals > Keyboard Trays,True
+Computers & Accessories > Computer Accessories & Peripherals > Laptop Accessories,False
+Computers & Accessories > Computer Accessories & Peripherals > Laptop Accessories > Laptop Chargers & Adapters,True
+Computers & Accessories > Computer Accessories & Peripherals > Laptop Accessories > Laptop Docking Stations,True
+Computers & Accessories > Computer Accessories & Peripherals > Laptop Accessories > Laptop Locks,True
+Computers & Accessories > Computer Accessories & Peripherals > Laptop Accessories > Laptop Stands & Lap Desks,True
+Computers & Accessories > Computer Accessories & Peripherals > Laptop Cooling Pads,True
+Computers & Accessories > Computer Accessories & Peripherals > Mouse Pads & Wrist Rests,True
+Computers & Accessories > Computer Accessories & Peripherals > Multi-Factor Authentication,True
+Computers & Accessories > Computer Accessories & Peripherals > Webcams,True
+Computers & Accessories > Computer Deals,True
+Computers & Accessories > Computer Monitors & Stands,False
+Computers & Accessories > Computer Monitors & Stands > Computer Monitors,True
+Computers & Accessories > Computer Monitors & Stands > Monitor Stands & Mounts,True
+Computers & Accessories > Computer Parts & Components,False
+Computers & Accessories > Computer Parts & Components > Computer Cards,True
+Computers & Accessories > Computer Parts & Components > Computer Fans,True
+Computers & Accessories > Computer Parts & Components > Computer Processors / CPUs,True
+Computers & Accessories > Computer Parts & Components > Graphics Cards,True
+Computers & Accessories > Computer Parts & Components > Internal Hard Drives,True
+Computers & Accessories > Computer Parts & Components > Memory,True
+Computers & Accessories > Computer Parts & Components > Motherboards,True
+Computers & Accessories > Computer Parts & Components > Power Supplies,True
+Computers & Accessories > Computer Parts & Components > RAID Controllers,True
+Computers & Accessories > Computer Parts & Components > Tower Computer Cases,True
+Computers & Accessories > Computer Parts & Components > Video Capture Devices,True
+Computers & Accessories > Desktop Computers,True
+Computers & Accessories > Laptops,True
+Computers & Accessories > Servers & Accessories,False
+Computers & Accessories > Servers & Accessories > KVM Cables & Switches,True
+Computers & Accessories > Servers & Accessories > Server Racks & Cabinets,True
+Computers & Accessories > Servers & Accessories > Servers,True
+Computers & Accessories > Windows 10 PCs,True
+Decor,False
+Decor > Rug Pads,True
+Decor > Rugs,True
+Education,True
+Expanded Assortment,False
+Expanded Assortment > Fitness,True
+Expanded Assortment > Outdoors & Recreation,True
+Expanded Assortment > Paint & Paint Supplies,False
+Expanded Assortment > Paint & Paint Supplies > Paint Brushes,True
+Expanded Assortment > Paint & Paint Supplies > Paint Rollers,True
+Expanded Assortment > Paint & Paint Supplies > Paint Strippers,True
+Expanded Assortment > Paint & Paint Supplies > Paint Trays & Liners,True
+Expanded Assortment > Paint & Paint Supplies > Paints,True
+Expanded Assortment > Paint & Paint Supplies > Spray Guns,True
+Expanded Assortment > Personal Care & Eyewear,False
+Expanded Assortment > Personal Care & Eyewear > Electric Shavers,True
+Expanded Assortment > Personal Care & Eyewear > Hair Styling Products,True
+Expanded Assortment > Personal Care & Eyewear > Manicure Kits,True
+Expanded Assortment > Personal Care & Eyewear > Perfumes & Cologne,True
+Expanded Assortment > Personal Care & Eyewear > Toothpaste,True
+Expanded Assortment > Pet Supplies & Accessories,False
+Expanded Assortment > Pet Supplies & Accessories > Bird Supplies,False
+"Expanded Assortment > Pet Supplies & Accessories > Bird Supplies > Bird Food, Treats and Healthcare",True
+Expanded Assortment > Pet Supplies & Accessories > Dog & Cat Supplies,False
+Expanded Assortment > Pet Supplies & Accessories > Dog & Cat Supplies > Cat Litter,True
+Expanded Assortment > Pet Supplies & Accessories > Dog & Cat Supplies > Cat Treats,True
+Expanded Assortment > Pet Supplies & Accessories > Dog & Cat Supplies > Dog & Cat Grooming Supplies,True
+Expanded Assortment > Pet Supplies & Accessories > Specialty Pet Supplies,True
+Facilities,False
+"Facilities > Adhesives, Sealants and Patching",False
+"Facilities > Adhesives, Sealants and Patching > Adhesives",False
+"Facilities > Adhesives, Sealants and Patching > Adhesives > Commercial Adhesives",True
+"Facilities > Adhesives, Sealants and Patching > Adhesives > Sealants & Caulking",True
+"Facilities > Adhesives, Sealants and Patching > Concrete & Asphalt Maintenance",False
+"Facilities > Adhesives, Sealants and Patching > Concrete & Asphalt Maintenance > Cleaners and Sealers",True
+Facilities > Air Quality,False
+Facilities > Air Quality > Air Filter Accessories,True
+Facilities > Air Quality > Air Purifier Filters,True
+Facilities > Air Quality > Air Purifiers,True
+Facilities > Air Quality > Dehumidifiers,True
+Facilities > Air Quality > Humidifiers,True
+Facilities > Air Quality > Pleated Air Filters,True
+Facilities > Bathroom Fixtures,False
+Facilities > Bathroom Fixtures > Changing Stations and Accessories,True
+Facilities > Bathroom Fixtures > Facial Tissue Dispensers,True
+Facilities > Bathroom Fixtures > Hand Dryers,True
+Facilities > Bathroom Fixtures > Sanitary Dispensers,True
+Facilities > Bathroom Fixtures > Sanitary Receptacles & Accessories,True
+Facilities > Bathroom Fixtures > Toilet Seat Cover Dispensers,True
+"Facilities > Commercial Lighting, Ballasts & Bulbs",False
+"Facilities > Commercial Lighting, Ballasts & Bulbs > Ballasts",True
+"Facilities > Commercial Lighting, Ballasts & Bulbs > Commercial Lighting",True
+"Facilities > Commercial Lighting, Ballasts & Bulbs > Light Bulbs",True
+Facilities > Electrical and Wiring,False
+Facilities > Electrical and Wiring > Electrical,False
+Facilities > Electrical and Wiring > Electrical > Fuses,True
+Facilities > Electrical and Wiring > Electrical > Plugs and Connectors,True
+Facilities > Electrical and Wiring > Electrical > Receptacles,True
+Facilities > Electrical and Wiring > Electrical > Switches and Controls,True
+Facilities > Electrical and Wiring > Electrical > Wall Plates,True
+Facilities > Electrical and Wiring > Electrical > Wire,True
+Facilities > Facilities Signs,False
+Facilities > Facilities Signs > Labor Law Posters,True
+Facilities > Facilities Signs > Safety Labels & Tags,True
+Facilities > Facilities Signs > Safety Signs,True
+Facilities > Flashlights & Lanterns,True
+Facilities > Floor Mats & Flooring,False
+Facilities > Floor Mats & Flooring > Brooms & Dustpans,True
+Facilities > Floor Mats & Flooring > Commercial Floor Mats,True
+Facilities > Grounds Maintenance,False
+Facilities > Grounds Maintenance > Outdoor Tools,False
+Facilities > Grounds Maintenance > Outdoor Tools > Lawn & Garden Tools,True
+Facilities > Grounds Maintenance > Outdoor Tools > Post Hole Diggers,True
+Facilities > Grounds Maintenance > Outdoor Tools > Pressure Washers & Accessories,True
+Facilities > Grounds Maintenance > Outdoor Tools > Rakes & Leaf Blowers,True
+Facilities > Grounds Maintenance > Snow Removal,False
+Facilities > Grounds Maintenance > Snow Removal > Salt Spreaders,True
+Facilities > Grounds Maintenance > Snow Removal > Snow Blowers,True
+"Facilities > Grounds Maintenance > Snow Removal > Snow Shovels, Pushers & Scrapers",True
+Facilities > Grounds Maintenance > Watering Equipment,False
+Facilities > Grounds Maintenance > Watering Equipment > Lawn Sprinklers,True
+Facilities > Grounds Maintenance > Watering Equipment > Water Hose Nozzles & Sprayers,True
+Facilities > Grounds Maintenance > Watering Equipment > Water Hoses & Accessories,True
+Facilities > Hand & Power Tools,False
+Facilities > Hand & Power Tools > Hand Tools,False
+Facilities > Hand & Power Tools > Hand Tools > Box Cutters & Utility Knives,True
+Facilities > Hand & Power Tools > Hand Tools > Clamps,True
+Facilities > Hand & Power Tools > Hand Tools > Crowbars & Pry Bars,True
+Facilities > Hand & Power Tools > Hand Tools > Fastening Tools,True
+Facilities > Hand & Power Tools > Hand Tools > Hammers & Striking Tools,True
+Facilities > Hand & Power Tools > Hand Tools > Hand Saws,True
+Facilities > Hand & Power Tools > Hand Tools > Hand Tool Sets,True
+Facilities > Hand & Power Tools > Hand Tools > Pliers,True
+Facilities > Hand & Power Tools > Hand Tools > Screwdrivers & Nutdrivers,True
+Facilities > Hand & Power Tools > Hand Tools > Testers & Indicators,True
+Facilities > Hand & Power Tools > Hand Tools > Wrenches,True
+Facilities > Hand & Power Tools > Measuring & Layout Tools,False
+Facilities > Hand & Power Tools > Measuring & Layout Tools > Inspection Mirrors,True
+"Facilities > Hand & Power Tools > Measuring & Layout Tools > Levels, Compasses, and Calipers",True
+Facilities > Hand & Power Tools > Measuring & Layout Tools > Measuring Wheels,True
+Facilities > Hand & Power Tools > Measuring & Layout Tools > Stud Finders,True
+Facilities > Hand & Power Tools > Measuring & Layout Tools > Tape Measures,True
+Facilities > Hand & Power Tools > Power Tools,False
+Facilities > Hand & Power Tools > Power Tools > Cordless Tools & Accessories,True
+Facilities > Hand & Power Tools > Power Tools > Drills,True
+Facilities > Hand & Power Tools > Power Tools > Pneumatic Tools,True
+Facilities > Hand & Power Tools > Power Tools > Power Saws & Accessories,True
+Facilities > Hand & Power Tools > Power Tools > Power Tool Sets,True
+Facilities > Hand & Power Tools > Power Tools > Screw Extractors & Sets,True
+Facilities > Hand & Power Tools > Tool Storage,False
+Facilities > Hand & Power Tools > Tool Storage > Soft Sided Storage,True
+Facilities > Hand & Power Tools > Tool Storage > Tool Boxes & Cases,True
+Facilities > Hand & Power Tools > Tool Storage > Tool Chests & Side Cabinets,True
+Facilities > Hardware,False
+Facilities > Hardware > Ceiling,False
+Facilities > Hardware > Ceiling > Ceiling Tiles,True
+"Facilities > Hardware > Chain, Rope & Tie Downs",False
+"Facilities > Hardware > Chain, Rope & Tie Downs > Chain Accessories",True
+"Facilities > Hardware > Chain, Rope & Tie Downs > Chains",True
+"Facilities > Hardware > Chain, Rope & Tie Downs > Straps & Bungee Cords",True
+Facilities > Hardware > Door Hardware,False
+Facilities > Hardware > Door Hardware > Commercial Locksets,True
+Facilities > Hardware > Door Hardware > Door Closers,True
+Facilities > Hardware > Door Hardware > Door Stops & Bumpers,True
+Facilities > Hardware > Door Hardware > Door Strips,True
+Facilities > Hardware > Door Hardware > Push Plates & Pulls,True
+Facilities > Hardware > Fasteners,True
+Facilities > Hardware > Wheels & Casters,True
+Facilities > Heating & Cooling,False
+Facilities > Heating & Cooling > Air Conditioners,True
+Facilities > Heating & Cooling > Bathroom Fans,True
+Facilities > Heating & Cooling > Ceiling Fans,True
+Facilities > Heating & Cooling > General Purpose Fans,True
+Facilities > Heating & Cooling > Heaters,True
+Facilities > Heating & Cooling > Industrial Fans,True
+Facilities > Heating & Cooling > Thermostats,True
+Facilities > Ladders & Step Stools,True
+Facilities > Locks & Key Control,False
+Facilities > Locks & Key Control > Key Control,True
+Facilities > Locks & Key Control > Locking Systems,True
+Facilities > Locks & Key Control > Lockout Devices,True
+Facilities > Locks & Key Control > Padlocks,True
+Facilities > Material Handling,False
+Facilities > Material Handling > Hand Trucks & Dollies,True
+"Facilities > Material Handling > Hoists, Winches & Pullers",True
+Facilities > Paint Supplies,False
+Facilities > Paint Supplies > Paint,False
+Facilities > Paint Supplies > Paint > Exterior Paint,True
+Facilities > Paint Supplies > Paint > Interior Paint,True
+Facilities > Paint Supplies > Paint > Spray Paint,True
+Facilities > Paint Supplies > Paint Accessories,False
+Facilities > Paint Supplies > Paint Accessories > Extension Poles,True
+Facilities > Paint Supplies > Paint Accessories > Paint Brushes,True
+Facilities > Paint Supplies > Paint Accessories > Paint Buckets,True
+Facilities > Paint Supplies > Paint Accessories > Paint Solvents,True
+Facilities > Paint Supplies > Paint Accessories > Paint Sprayers,True
+Facilities > Paint Supplies > Paint Accessories > Paint Trays,True
+Facilities > Paint Supplies > Paint Accessories > Primer,True
+Facilities > Paint Supplies > Paint Accessories > Roller Covers,True
+Facilities > Paint Supplies > Paint Accessories > Roller Frames,True
+Facilities > Paint Supplies > Sandpaper & Abrasives,True
+Facilities > Paint Supplies > Surface Protection,True
+Facilities > Paint Supplies > Wood Care & Maintenance,True
+Facilities > Plumbing,False
+Facilities > Plumbing > Bathroom Hardware,False
+Facilities > Plumbing > Bathroom Hardware > Bathroom Safety Hardware,True
+Facilities > Plumbing > Bathroom Hardware > Drains,True
+Facilities > Plumbing > Bathroom Hardware > Water Treatment,True
+Facilities > Plumbing > Drinking Fountain Repair & Accessories,True
+Facilities > Plumbing > Drinking Fountains,True
+Facilities > Plumbing > Faucet Repair Parts,True
+Facilities > Plumbing > Faucets,True
+Facilities > Plumbing > Sink Repair Parts,True
+Facilities > Plumbing > Sinks,True
+Facilities > Plumbing > Toilets and Urinals,False
+Facilities > Plumbing > Toilets and Urinals > Flush Valves,True
+Facilities > Plumbing > Toilets and Urinals > Toilet & Urinal Repair Parts,True
+Facilities > Plumbing > Toilets and Urinals > Toilet Seats,True
+Facilities > Plumbing > Toilets and Urinals > Toilets,True
+Facilities > Plumbing > Toilets and Urinals > Urinals,True
+Facilities > Plumbing > Tubs and Showers,False
+Facilities > Plumbing > Tubs and Showers > Handheld Shower Heads,True
+Facilities > Plumbing > Tubs and Showers > Wall Mounted Shower Heads,True
+Facilities > Spill Containment & Sorbents,True
+Facilities > Washer & Dryer Accessories,True
+Facilities > Work Lights,True
+Fitness,False
+Fitness > Fitness Equipment,False
+Fitness > Fitness Equipment > Fitness Machines,False
+Fitness > Fitness Equipment > Fitness Machines > Fitness Machines,True
+Furniture,False
+Furniture > Boards & Easels,False
+Furniture > Boards & Easels > Board Accessories,True
+Furniture > Boards & Easels > Bulletin Boards,True
+Furniture > Boards & Easels > Calendar & In-Out Boards,True
+Furniture > Boards & Easels > Chalkboards,True
+Furniture > Boards & Easels > Dry Erase Whiteboards,True
+Furniture > Boards & Easels > Easels,True
+Furniture > Bookcases & Bookshelves,True
+Furniture > Carts & Stands,False
+Furniture > Carts & Stands > Carts & Stands,True
+Furniture > Carts & Stands > TV Stands,True
+Furniture > Chair Mats,True
+Furniture > Chairs & Seating,False
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,True
+Furniture > Chairs & Seating > Big and Tall Chairs,True
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,True
+Furniture > Chairs & Seating > Chair Parts & Accessories,True
+Furniture > Chairs & Seating > Gaming Chairs,True
+Furniture > Chairs & Seating > Kids Seating,True
+Furniture > Chairs & Seating > Office Chairs,True
+"Furniture > Chairs & Seating > Recliners, Gliders & Rockers",True
+Furniture > Chairs & Seating > Sofas & Benches,False
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,True
+"Furniture > Chairs & Seating > Sofas & Benches > Sofas, Loveseats & Sectionals",True
+Furniture > Chairs & Seating > Stacking & Folding Chairs,True
+Furniture > Chairs & Seating > Stools & Ottomans,False
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools,True
+Furniture > Chairs & Seating > Stools & Ottomans > Drafting Chairs & Office Stools,True
+Furniture > Chairs & Seating > Stools & Ottomans > Foot Rests,True
+Furniture > Chairs & Seating > Stools & Ottomans > Ottomans,True
+Furniture > Cubicle & Panel Systems,False
+Furniture > Cubicle & Panel Systems > Cubicle & Panel Workstations,True
+Furniture > Cubicle & Panel Systems > Cubicle Accessories & Hardware,True
+Furniture > Cubicle & Panel Systems > Desktop Privacy Panels,True
+Furniture > Cubicle & Panel Systems > Office Partitions & Dividers,True
+Furniture > Cubicle & Panel Systems > Privacy Booths,True
+Furniture > Daycare & Nursery,False
+Furniture > Daycare & Nursery > Daycare & Nursery Supplies,True
+Furniture > Daycare & Nursery > Nursery Furniture,True
+Furniture > Daycare & Nursery > Play & Rest Mats,True
+Furniture > Decor,False
+Furniture > Decor > Artificial Plants & Flowers,False
+Furniture > Decor > Artificial Plants & Flowers > Artificial Flowers,True
+Furniture > Decor > Artificial Plants & Flowers > Artificial Garlands & Swag,True
+Furniture > Decor > Artificial Plants & Flowers > Artificial Plants,True
+Furniture > Decor > Artificial Plants & Flowers > Artificial Trees,True
+Furniture > Decor > Artificial Plants & Flowers > Artificial Wreathes,True
+Furniture > Decor > Bath & Shower Accessories,True
+Furniture > Decor > Bath Mats & Towels,True
+Furniture > Decor > Beds & Bedding,False
+Furniture > Decor > Beds & Bedding > Bedding,True
+Furniture > Decor > Beds & Bedding > Beds & Mattresses,True
+Furniture > Decor > Beds & Bedding > Blankets & Throws,True
+Furniture > Decor > Beds & Bedding > Headboards,True
+Furniture > Decor > Beds & Bedding > Mattress Pads & Toppers,True
+Furniture > Decor > Beds & Bedding > Pillows,True
+Furniture > Decor > Candles,True
+Furniture > Decor > Clocks & Timers,True
+"Furniture > Decor > Curtains, Blinds & Shades",True
+Furniture > Decor > Decorative Accents,True
+Furniture > Decor > Essential Oils & Diffusers,True
+Furniture > Decor > Home & Office Decor,False
+Furniture > Decor > Home & Office Decor > Accent Furniture,True
+Furniture > Decor > Home & Office Decor > Accent Room Dividers,True
+"Furniture > Decor > Home & Office Decor > Decorative Baskets, Bowls and Boxes",True
+Furniture > Decor > Home & Office Decor > Decorative Plates,True
+Furniture > Decor > Home & Office Decor > Home & Office Bars,True
+Furniture > Decor > Home & Office Decor > Home Accents,True
+Furniture > Decor > Home & Office Decor > Indoor Fireplaces,True
+Furniture > Decor > Home & Office Decor > Living Room Accents,True
+Furniture > Decor > Mirrors,True
+Furniture > Decor > Picture Frames & Photo Albums,True
+Furniture > Decor > Seasonal Decor,False
+Furniture > Decor > Seasonal Decor > Figurines & Tabletop Decor,True
+Furniture > Decor > Seasonal Decor > Holiday Lighting,True
+Furniture > Decor > Seasonal Decor > Inflatables,True
+Furniture > Decor > Seasonal Decor > Ornaments & Tree Decor,True
+Furniture > Decor > Seasonal Decor > Standing Decor,True
+Furniture > Decor > Seasonal Decor > Window & Wall Decor & Signs,True
+Furniture > Decor > Shower Curtains & Accessories,True
+Furniture > Decor > Wall Art,False
+Furniture > Decor > Wall Art > Abstract Art,True
+Furniture > Decor > Wall Art > African Art,True
+Furniture > Decor > Wall Art > Animal Art,True
+Furniture > Decor > Wall Art > Art by Famous Artists,True
+Furniture > Decor > Wall Art > Automotive & Car Art,True
+Furniture > Decor > Wall Art > Contemporary Art,True
+Furniture > Decor > Wall Art > Floral Art,True
+Furniture > Decor > Wall Art > Food & Kitchen Art,True
+Furniture > Decor > Wall Art > Framed Posters,True
+Furniture > Decor > Wall Art > Garden Landscape,True
+Furniture > Decor > Wall Art > Kids & Whimsical Art,True
+Furniture > Decor > Wall Art > Map Art,True
+Furniture > Decor > Wall Art > Motivational Art,True
+Furniture > Decor > Wall Art > Music Art,True
+Furniture > Decor > Wall Art > Nature Landscape Art,True
+Furniture > Decor > Wall Art > People & Fashion Art,True
+Furniture > Decor > Wall Art > Photography,True
+Furniture > Decor > Wall Art > Ships & Maritime Art,True
+Furniture > Decor > Wall Art > Sports Art,True
+Furniture > Decor > Wall Art > Still Life,True
+Furniture > Decor > Wall Art > Urban Art,True
+Furniture > Decor > Wall Art > Vintage Art,True
+Furniture > Decor > Wall Art > Wall Art/Decor,True
+Furniture > Decor > Wall Art > Wall Decals,True
+Furniture > Decor > Weather Instruments,True
+Furniture > Desks,False
+Furniture > Desks > CPU Holders & Mounts,True
+Furniture > Desks > Desk Components & Hutches,False
+Furniture > Desks > Desk Components & Hutches > Desk Components,True
+Furniture > Desks > Desk Components & Hutches > Hutches,True
+Furniture > Desks > Desking Accessories,True
+Furniture > Desks > Office Desks,True
+Furniture > Desks > Sit & Stand Desks,True
+Furniture > File Cabinets,True
+Furniture > Home & Office Tables,False
+Furniture > Home & Office Tables > Accent & Coffee Tables,True
+Furniture > Home & Office Tables > Breakroom & Dining Tables,True
+Furniture > Home & Office Tables > Classroom & Kids' Tables,True
+Furniture > Home & Office Tables > Conference Room Tables,True
+Furniture > Home & Office Tables > Folding Tables,True
+Furniture > Home & Office Tables > Specialty & Drafting Tables,True
+Furniture > Home & Office Tables > Table Components,False
+Furniture > Home & Office Tables > Table Components > Table Bases,True
+Furniture > Home & Office Tables > Table Components > Table Tops,True
+Furniture > Home & Office Tables > Training Room Tables,True
+Furniture > Lamps & Lighting,False
+Furniture > Lamps & Lighting > Accent Lighting,True
+Furniture > Lamps & Lighting > Ceiling Lighting,True
+Furniture > Lamps & Lighting > Craft Lighting & Magnifiers,True
+Furniture > Lamps & Lighting > Desk Lamps,True
+Furniture > Lamps & Lighting > Floor Lamps,True
+Furniture > Lamps & Lighting > Lamp Shades,True
+"Furniture > Lamps & Lighting > Lighting Controls, Dimmers & Accessories",False
+"Furniture > Lamps & Lighting > Lighting Controls, Dimmers & Accessories > Lighting Accessories",True
+"Furniture > Lamps & Lighting > Lighting Controls, Dimmers & Accessories > Lighting Controls & Dimmers",True
+"Furniture > Lamps & Lighting > Lighting Controls, Dimmers & Accessories > Transformers",True
+Furniture > Lamps & Lighting > Outdoor Lighting,True
+Furniture > Lamps & Lighting > Specialty Lighting,True
+Furniture > Lamps & Lighting > Table Lamps,True
+Furniture > Lamps & Lighting > Under Cabinet Lighting,True
+Furniture > Lamps & Lighting > Wall Lamps,True
+Furniture > Lecterns & PA Systems,False
+Furniture > Lecterns & PA Systems > Lecterns,True
+Furniture > Lecterns & PA Systems > Microphones,True
+Furniture > Lecterns & PA Systems > PA Systems & Accessories,True
+Furniture > Safes & Secure Storage,True
+Furniture > School Furniture,False
+Furniture > School Furniture > Classroom Storage Furniture,True
+Furniture > School Furniture > Student Desks & Study Carrels,True
+Furniture > Standing Desk Mats,True
+Furniture > Storage Furniture,False
+Furniture > Storage Furniture > Clothing Racks & Closet Organization,False
+Furniture > Storage Furniture > Clothing Racks & Closet Organization > Closet Storage & Organizers,True
+Furniture > Storage Furniture > Clothing Racks & Closet Organization > Closet Systems,True
+Furniture > Storage Furniture > Clothing Racks & Closet Organization > Clothes Racks & Portable Closets,True
+Furniture > Storage Furniture > Clothing Racks & Closet Organization > Shoe Racks,True
+"Furniture > Storage Furniture > Coat Trees, Stands & Hooks",True
+Furniture > Storage Furniture > Display Cases,True
+Furniture > Storage Furniture > Electronics & Computer Storage Units,True
+Furniture > Storage Furniture > Lockers,True
+Furniture > Storage Furniture > Media Storage Furniture,True
+Furniture > Storage Furniture > Shelving,True
+Furniture > Storage Furniture > Storage Cabinets,True
+Furniture > Storage Furniture > Storage Cubes,True
+Furniture > Storage Furniture > Storage Organization,True
+Gaming,False
+Gaming > Gaming Accessories,True
+Gaming > Gaming Consoles,True
+Gaming > Gaming Controllers,True
+Gaming > Handheld Consoles,True
+Gaming > Video Games,True
+Gaming > Virtual Reality Headsets,True
+Gift Shop,False
+Gift Shop > Artificial Christmas Trees,True
+Gift Shop > As Seen on TV,True
+Gift Shop > Custom Appointment Cards,True
+Gift Shop > Game Room & Toys,False
+Gift Shop > Game Room & Toys > Game Room,False
+Gift Shop > Game Room & Toys > Game Room > Darts & Dart Boards,True
+Gift Shop > Game Room & Toys > Game Room > Game Room & Games,True
+Gift Shop > Game Room & Toys > Game Room > Gaming Tables & Accessories,True
+Gift Shop > Game Room & Toys > Game Room > Pool Tables & Accessories,True
+Gift Shop > Game Room & Toys > Game Room > Sports Displays & Collectibles,True
+Gift Shop > Game Room & Toys > Game Room > Sports Memorabilia & Collectibles,True
+Gift Shop > Game Room & Toys > Game Room > Tailgating Supplies,True
+"Gift Shop > Gift Sets, Photo & Custom Gifts",False
+"Gift Shop > Gift Sets, Photo & Custom Gifts > Custom Apparel",True
+"Gift Shop > Gift Sets, Photo & Custom Gifts > Gift Sets",True
+"Gift Shop > Gift Sets, Photo & Custom Gifts > Photo Gifts",True
+Gift Shop > Gourmet Gifts,True
+Gift Shop > Greeting Cards,True
+Gift Shop > Holiday Cards,True
+"Gift Shop > Home, Personal & Travel",False
+"Gift Shop > Home, Personal & Travel > Binoculars, Cameras & Telescopes",True
+"Gift Shop > Home, Personal & Travel > Grooming Sets",True
+"Gift Shop > Home, Personal & Travel > Jewelry Boxes & Cases",True
+"Gift Shop > Home, Personal & Travel > Key Chains & Rings",True
+"Gift Shop > Home, Personal & Travel > Passport Holders",True
+"Gift Shop > Home, Personal & Travel > Sculptures & Figurines",True
+"Gift Shop > Home, Personal & Travel > Unique Gifts",True
+"Gift Shop > Home, Personal & Travel > Valets",True
+"Gift Shop > Home, Personal & Travel > Wallets",True
+Gift Shop > Invitations,True
+Gift Shop > Note Cards & Postcards,True
+Gift Shop > Professional Gifts,False
+Gift Shop > Professional Gifts > Bar Accessories,True
+Gift Shop > Professional Gifts > Cigar Accessories,True
+Gift Shop > Professional Gifts > Compasses,False
+Gift Shop > Professional Gifts > Compasses > Camping,True
+Gift Shop > Professional Gifts > Compasses > Mailboxes,True
+Gift Shop > Professional Gifts > Compasses > Outdoor Decor,True
+Gift Shop > Professional Gifts > Compasses > Outdoor Furniture Covers,True
+Gift Shop > Professional Gifts > Compasses > Outdoor Heaters,True
+Gift Shop > Professional Gifts > Compasses > Patio Furniture,True
+Gift Shop > Professional Gifts > Compasses > Recreational Vehicle Accessories,True
+Gift Shop > Professional Gifts > Compasses > Solar Panels,True
+Gift Shop > Professional Gifts > Compasses > Water Recreation,True
+Gift Shop > Professional Gifts > Cufflinks,True
+Gift Shop > Professional Gifts > Money Clips,True
+Gift Shop > Professional Gifts > Paperweights,True
+Gift Shop > Professional Gifts > Wine Accessories,True
+Gift Shop > Stationery,True
+Gift Shop > Table Tents,True
+Gift Shop > Wedding Invitations & Kits,True
+Hard Drives & Data Storage,False
+Hard Drives & Data Storage > Blank Media,True
+Hard Drives & Data Storage > Disc Drives & Burners,True
+Hard Drives & Data Storage > Disc Duplicators,True
+Hard Drives & Data Storage > External Hard Drives,True
+Hard Drives & Data Storage > Hard Drive Accessories,True
+Hard Drives & Data Storage > Hard Drive Enclosures,True
+Hard Drives & Data Storage > Media Cases & Wallets,True
+Hard Drives & Data Storage > Memory Card Readers & Adapters,True
+Hard Drives & Data Storage > Memory Cards,True
+Hard Drives & Data Storage > Solid State Drives,True
+Hard Drives & Data Storage > USB Flash Drives,True
+Healthcare Supplies,False
+Healthcare Supplies > Durable Medical Equipment,False
+Healthcare Supplies > Durable Medical Equipment > Hearing Aids,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids,False
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Canes,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Crutches,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Mobility Aids Parts & Accessories,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Motorized Scooters,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Reaching & Extending Aids,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Rollators & Walkers,True
+Healthcare Supplies > Durable Medical Equipment > Mobility Aids > Wheelchairs,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics,False
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Ankle & Foot Supports,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Arm & Elbow Supports,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Back & Waist Supports,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Compression Socks & Hosiery,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Knee & Leg Supports,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Leg Walkers & Boots,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Neck Supports,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Post-Op Shoes,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Shoulder & Clavicle Supports,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Undercast Padding,True
+Healthcare Supplies > Durable Medical Equipment > Orthopedics > Wrist & Hand Supports,True
+Healthcare Supplies > Durable Medical Equipment > Patient Lift & Transfer,False
+Healthcare Supplies > Durable Medical Equipment > Patient Lift & Transfer > Lift Chairs,True
+Healthcare Supplies > Durable Medical Equipment > Patient Lift & Transfer > Lifts,True
+Healthcare Supplies > Durable Medical Equipment > Patient Lift & Transfer > Ramps,True
+Healthcare Supplies > Durable Medical Equipment > Patient Lift & Transfer > Transfer Equipment,True
+Healthcare Supplies > Durable Medical Equipment > Patient Lift & Transfer > Vehicle Lifts,True
+Healthcare Supplies > Durable Medical Equipment > Positioning Aids & Pressure Relief,False
+Healthcare Supplies > Durable Medical Equipment > Positioning Aids & Pressure Relief > Invalid Rings,True
+"Healthcare Supplies > Durable Medical Equipment > Positioning Aids & Pressure Relief > Wedges, Blocks & Rolls",True
+Healthcare Supplies > Durable Medical Equipment > Positioning Aids & Pressure Relief > Wheelchair Seat & Back Cushions,True
+Healthcare Supplies > Durable Medical Equipment > Shower & Bath Aids,False
+Healthcare Supplies > Durable Medical Equipment > Shower & Bath Aids > Commodes,True
+Healthcare Supplies > Durable Medical Equipment > Shower & Bath Aids > Grooming & Dressing Aids,True
+Healthcare Supplies > Durable Medical Equipment > Shower & Bath Aids > Raised Toilet Seats,True
+Healthcare Supplies > Durable Medical Equipment > Shower & Bath Aids > Shower Chairs / Benches,True
+Healthcare Supplies > Environmental Services,True
+Healthcare Supplies > First Aid,False
+Healthcare Supplies > First Aid > CPR Face Shields & Masks,True
+Healthcare Supplies > First Aid > Defibrillators,True
+Healthcare Supplies > First Aid > Emergency Preparedness,True
+Healthcare Supplies > First Aid > First Aid Kits,True
+"Healthcare Supplies > First Aid > First Aid, AED & CPR Training & Program Management",True
+Healthcare Supplies > OTC Pharmaceuticals,False
+Healthcare Supplies > OTC Pharmaceuticals > Hot & Cold Therapy,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins,False
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Antacids,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Anti-Nausea & Digestive Aids,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Clinical Nutrition,True
+"Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Cough, Cold, Flu & Allergy",True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Ear Drops & Eye Drops,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Laxatives,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Pain Relievers,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Pill Organizers & Storage,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Probiotics,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Sleep Aids,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Stop Smoking Aids,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Topical Pain Relief,True
+Healthcare Supplies > OTC Pharmaceuticals > Medicine & Vitamins > Vitamins & Supplements,True
+Healthcare Supplies > Patient Care,False
+Healthcare Supplies > Patient Care > Beds & Bedside Care,False
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Bedpans & Portable Urinals,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Disposable Medical & Dental Cups,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Emesis Bags & Basins,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Hospital Mattresses,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Mattress Overlays,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Medical Bed Parts,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Medical Beds,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Overbed Tables,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Patient Belonging Bags,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Patient Privacy Screens,True
+Healthcare Supplies > Patient Care > Beds & Bedside Care > Washbasins,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments,False
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Blood Pressure Monitors,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Drug & Alcohol Test Kits,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Endoscopic Lamps & Bulbs,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Glucose Meters & Accessories,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Health & Body Weight Scales,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Medical Scissors & Shears,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Monitoring Equipment,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Needles,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Neurological & Sensory Instruments,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > OB/GYN Examination,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Otoscopes & Ophthalmoscopes,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Oximeters,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Stethoscopes,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Syringes,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Testing Kits,True
+Healthcare Supplies > Patient Care > Diagnostic & Exam Instruments > Tweezers,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment,False
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Cotton Balls,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Cotton Tipped Applicators,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Disposable Linens & Pillows,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Exam Room Status Flags,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Exam Table Paper,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Forceps & Clamps,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Healthcare Dispensers,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > IV Poles,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Lubricating Jelly,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Medical Drapes & Covers,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Minor Procedure Trays,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Patient Alarms,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Procedure Towels,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Scalpels,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Sharps Containers & Wall Brackets,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Tongue Depressors,True
+Healthcare Supplies > Patient Care > Exam Room Supplies & Equipment > Ultrasound Gel & Lotion,True
+Healthcare Supplies > Patient Care > Feeding Tubes & Nutrients,False
+Healthcare Supplies > Patient Care > Feeding Tubes & Nutrients > Eating & Drinking Aids,True
+Healthcare Supplies > Patient Care > Feeding Tubes & Nutrients > Feeding Pumps & Sets,True
+Healthcare Supplies > Patient Care > Feeding Tubes & Nutrients > Feeding Tubes & Syringes,True
+Healthcare Supplies > Patient Care > Feeding Tubes & Nutrients > Food & Beverage Thickeners,True
+Healthcare Supplies > Patient Care > Medical Practice Furniture,False
+Healthcare Supplies > Patient Care > Medical Practice Furniture > Exam Room Tables,True
+Healthcare Supplies > Patient Care > Medical Practice Furniture > Medical Cabinets,True
+Healthcare Supplies > Patient Care > Medical Practice Furniture > Medical Instrument Stands & Trays,True
+Healthcare Supplies > Patient Care > Medical Practice Furniture > Phlebotomy Chairs,True
+Healthcare Supplies > Patient Care > Practice Front Desk Supplies,False
+Healthcare Supplies > Patient Care > Practice Front Desk Supplies > Medical Take Home Bags,True
+Healthcare Supplies > Patient Care > Practice Front Desk Supplies > Patient ID Bands,True
+Healthcare Supplies > Patient Care > Practice Front Desk Supplies > Personal Care Kits,True
+Healthcare Supplies > Patient Care > Respiratory Therapy,False
+Healthcare Supplies > Patient Care > Respiratory Therapy > Aerosol Therapy,True
+Healthcare Supplies > Patient Care > Respiratory Therapy > Oxygen Therapy,True
+Healthcare Supplies > Patient Care > Respiratory Therapy > Tracheostomy Care,True
+Healthcare Supplies > Patient Care > Urology & Ostomy,False
+Healthcare Supplies > Patient Care > Urology & Ostomy > Catheter Securement Devices,True
+Healthcare Supplies > Patient Care > Urology & Ostomy > Catheters & Catheter Trays,True
+Healthcare Supplies > Patient Care > Urology & Ostomy > Ostomy Pouches & Barriers,True
+Healthcare Supplies > Personal Care,False
+Healthcare Supplies > Personal Care > Baby Care,False
+Healthcare Supplies > Personal Care > Baby Care > Baby Diapers,True
+Healthcare Supplies > Personal Care > Baby Care > Baby Formula,True
+Healthcare Supplies > Personal Care > Baby Care > Baby Kits,True
+Healthcare Supplies > Personal Care > Baby Care > Baby Skin Care,True
+Healthcare Supplies > Personal Care > Baby Care > Baby Wipes,True
+Healthcare Supplies > Personal Care > Baby Care > Youth Feeding Supplies,True
+Healthcare Supplies > Personal Care > Incontinence,False
+Healthcare Supplies > Personal Care > Incontinence > Adult Briefs,True
+Healthcare Supplies > Personal Care > Incontinence > Incontinence Liners & Pads,True
+Healthcare Supplies > Personal Care > Incontinence > Underpads,True
+Healthcare Supplies > Personal Care > Maternity,False
+Healthcare Supplies > Personal Care > Maternity > Irrigation Bottles,True
+Healthcare Supplies > Personal Care > Maternity > Labor & Delivery Kits,True
+Healthcare Supplies > Personal Care > Maternity > Maternity Belts,True
+Healthcare Supplies > Personal Care > Maternity > Perineal Spray & Wash,True
+Healthcare Supplies > Personal Care > Period Care,False
+Healthcare Supplies > Personal Care > Period Care > Menstrual Pads,True
+Healthcare Supplies > Personal Care > Period Care > Tampons,True
+Healthcare Supplies > Personal Care > Skin Care,False
+Healthcare Supplies > Personal Care > Skin Care > Bath Soap & Body Wash,True
+Healthcare Supplies > Personal Care > Skin Care > Body Powder,True
+Healthcare Supplies > Personal Care > Skin Care > Cleanser,True
+Healthcare Supplies > Personal Care > Skin Care > Deodorant,True
+Healthcare Supplies > Personal Care > Skin Care > Disposable Washcloths & Bathing Wipes,True
+Healthcare Supplies > Personal Care > Skin Care > Epsom Salt,True
+Healthcare Supplies > Personal Care > Skin Care > Eye Cream,True
+Healthcare Supplies > Personal Care > Skin Care > Hair Removal,True
+Healthcare Supplies > Personal Care > Skin Care > Lip Balm,True
+Healthcare Supplies > Personal Care > Skin Care > Lotion & Moisturizer,True
+Healthcare Supplies > Personal Care > Skin Care > Skin Care Treatment,True
+Healthcare Supplies > Personal Care > Skin Care > Sunscreen & Sunblock,True
+Healthcare Supplies > Personal Care > Skin Care > Supplements,True
+Healthcare Supplies > Personal Dental Care,False
+Healthcare Supplies > Personal Dental Care > Oral Care,False
+Healthcare Supplies > Personal Dental Care > Oral Care > Dental Floss & Flossers,True
+Healthcare Supplies > Personal Dental Care > Oral Care > Denture Care,True
+Healthcare Supplies > Personal Dental Care > Oral Care > Fluoride Home Use,True
+Healthcare Supplies > Personal Dental Care > Oral Care > Fluoride Trays,True
+Healthcare Supplies > Personal Dental Care > Oral Care > Interdental Cleaners,True
+Healthcare Supplies > Personal Dental Care > Oral Care > Mouthwashes & Rinses,True
+Healthcare Supplies > Personal Dental Care > Oral Care > Toothbrushes,True
+Healthcare Supplies > Physical Therapy and Rehabilitation Equipment,False
+Healthcare Supplies > Physical Therapy and Rehabilitation Equipment > Electrodes & TENS Units,True
+Healthcare Supplies > Physical Therapy and Rehabilitation Equipment > Rehabilitation & Therapeutic Equipment,True
+Healthcare Supplies > Physical Therapy and Rehabilitation Equipment > Traction Therapy,True
+Healthcare Supplies > Professional Dental Supplies,False
+Healthcare Supplies > Professional Dental Supplies > Dental Instruments,False
+"Healthcare Supplies > Professional Dental Supplies > Dental Instruments > Bracket Holders, Band Seaters & Accessories",True
+Healthcare Supplies > Professional Dental Supplies > Dental Instruments > Dental Mirrors,True
+"Healthcare Supplies > Professional Dental Supplies > Dental Instruments > Excavators, Hatchets & Margin Trimmers",True
+"Healthcare Supplies > Professional Dental Supplies > Dental Instruments > Mouth Props, Cheek Retractors & Gags",True
+"Healthcare Supplies > Professional Dental Supplies > Dental Instruments > Scalpels, Scissors, Knives & Cutters",True
+Healthcare Supplies > Professional Dental Supplies > Dental Instruments > Ultrasonic Scaler Tips & Inserts,True
+Healthcare Supplies > Professional Dental Supplies > Impression Material & Accessories,True
+Healthcare Supplies > Professional Dental Supplies > Infection Prevention,False
+Healthcare Supplies > Professional Dental Supplies > Infection Prevention > Dental Applicators & Swabs,True
+Healthcare Supplies > Professional Dental Supplies > Lab Products,True
+Healthcare Supplies > Professional Dental Supplies > Operatory Products,True
+Healthcare Supplies > Professional Dental Supplies > Orthodontic,True
+Healthcare Supplies > Professional Dental Supplies > Restoratives & Cosmetic,True
+Healthcare Supplies > Wound Care,False
+Healthcare Supplies > Wound Care > Advanced Wound Care,False
+Healthcare Supplies > Wound Care > Advanced Wound Care > Alginate Dressings,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Cast Protectors,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Composite & Island Dressings,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Foam Dressings,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Protective Arm & Leg Sleeves,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Silver Dressings,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Skin Protectants & Barriers,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Tourniquets,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Transparent Film Dressings,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Wound Closure,True
+Healthcare Supplies > Wound Care > Advanced Wound Care > Wound Measurement,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics,False
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Alcohol Pads,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Anti-Itch,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Antibiotic Ointments,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Antifungals,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Antiseptics,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Burn Dressings,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Hydrogen Peroxide,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Isopropyl Rubbing Alcohol,True
+Healthcare Supplies > Wound Care > Antiseptics & Antibiotics > Wound Cleanser,True
+Healthcare Supplies > Wound Care > Bandages,False
+Healthcare Supplies > Wound Care > Bandages > Adhesive Bandages,True
+Healthcare Supplies > Wound Care > Bandages > Cohesive Bandages,True
+Healthcare Supplies > Wound Care > Bandages > Elastic Bandages,True
+Healthcare Supplies > Wound Care > Bandages > Liquid Bandages,True
+Healthcare Supplies > Wound Care > Bandages > Medical Tape,True
+Healthcare Supplies > Wound Care > Bandages > Tubular Bandages & Netting,True
+Healthcare Supplies > Wound Care > Gauze,False
+Healthcare Supplies > Wound Care > Gauze > Abdominal Pads,True
+Healthcare Supplies > Wound Care > Gauze > Conforming & Rolled Gauze,True
+Healthcare Supplies > Wound Care > Gauze > Gauze Pads & Sponges,True
+Laboratory & Scientific Supplies,False
+Laboratory & Scientific Supplies > Biochemistry,True
+Laboratory & Scientific Supplies > Chromatography,True
+Laboratory & Scientific Supplies > Controlled Environment Supplies,True
+Laboratory & Scientific Supplies > Educational Materials & Accessories,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures,False
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Hazardous Material Lab Storage,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Lab Benches,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Lab Cabinets,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Lab Carts,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Lab Chairs & Stools,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Lab Desks,True
+Laboratory & Scientific Supplies > Lab Furniture & Fixtures > Lab Sinks & Plumbing Apparatus,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment,False
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Desiccator Accessories,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Filtration Products,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Gas Handling & Extraction,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Hotplates & Accessories,True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Lab Notebooks, Recorders & Dataloggers",True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Lab Scales, Balances & Accessories",True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Laboratory Pumps & Accessories,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Light Sources,True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Microscopes, Magnification & Accessories",True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Refrigerators, Freezers & Accessories",True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Shakers, Stirrers, Hot Plates & Mixers",True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Spectroscopy, Spectrophotometers & Accessories",True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Sterilizers, Autoclaves & Accessories",True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Time & Temperature Instruments,True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Timers, Clocks & Stopwatches",True
+"Laboratory & Scientific Supplies > Lab Instruments & Equipment > Tubing, Hose & Fittings",True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Ultrasonic Cleaners,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Water & Wastewater Testing,True
+Laboratory & Scientific Supplies > Lab Instruments & Equipment > Water Purification Lab Equipment,True
+Laboratory & Scientific Supplies > Lab Safety,False
+"Laboratory & Scientific Supplies > Lab Safety > Hazard Communications, Labels, Tags & Signs",True
+Laboratory & Scientific Supplies > Lab Safety > Lab Spill Control & Containment,True
+Laboratory & Scientific Supplies > Lab Safety > Maintenance & Safety Supplies,True
+Laboratory & Scientific Supplies > Lab Safety > Material Handling & Storage,True
+Laboratory & Scientific Supplies > Labware & Consumables,False
+Laboratory & Scientific Supplies > Labware & Consumables > Caps & Closures,True
+Laboratory & Scientific Supplies > Labware & Consumables > Cleaning Supplies,True
+Laboratory & Scientific Supplies > Labware & Consumables > Cylinders,True
+"Laboratory & Scientific Supplies > Labware & Consumables > Diluters, Dispensers & Fillers",True
+Laboratory & Scientific Supplies > Labware & Consumables > Flasks,True
+Laboratory & Scientific Supplies > Labware & Consumables > Funnels,True
+Laboratory & Scientific Supplies > Labware & Consumables > General Laboratory Supplies,True
+Laboratory & Scientific Supplies > Labware & Consumables > Inoculating Loops & Needles,True
+Laboratory & Scientific Supplies > Labware & Consumables > Lab Bags,True
+Laboratory & Scientific Supplies > Labware & Consumables > Lab Bottles,True
+Laboratory & Scientific Supplies > Labware & Consumables > Lab Dispensers,True
+Laboratory & Scientific Supplies > Labware & Consumables > Metal Labware,True
+Laboratory & Scientific Supplies > Labware & Consumables > Microplates & Accessories,True
+Laboratory & Scientific Supplies > Labware & Consumables > Pipet Tips,True
+Laboratory & Scientific Supplies > Labware & Consumables > Pipets & Pipettors,True
+"Laboratory & Scientific Supplies > Labware & Consumables > Racks, Baskets & Boxes",True
+Laboratory & Scientific Supplies > Labware & Consumables > Specialty Glassware,True
+Laboratory & Scientific Supplies > Labware & Consumables > Vials & Vial Inserts,True
+Laboratory & Scientific Supplies > PH & Electrochemistry,True
+Networking & WiFi,False
+Networking & WiFi > Ethernet Switches,True
+Networking & WiFi > Firewall Devices,True
+Networking & WiFi > Mesh WiFi Systems,True
+Networking & WiFi > Modem/Router Combos,True
+Networking & WiFi > Modems,True
+Networking & WiFi > Network Adapters,True
+Networking & WiFi > Network Testing Tools,True
+Networking & WiFi > Network Transceivers,True
+Networking & WiFi > Networking Accessories,True
+Networking & WiFi > Routers,True
+Networking & WiFi > WiFi Extenders & Repeaters,True
+Networking & WiFi > Wireless Access Points,True
+Office Supplies,False
+Office Supplies > Binder Accessories,True
+Office Supplies > Binders,True
+Office Supplies > Calendars & Planners,False
+Office Supplies > Calendars & Planners > Calendars,True
+Office Supplies > Calendars & Planners > Organizer Refills & Accessories,True
+Office Supplies > Calendars & Planners > Planners & Personal Organizers,True
+"Office Supplies > Clips, Fasteners & Rubber Bands",False
+"Office Supplies > Clips, Fasteners & Rubber Bands > Binder & Paper Clips",True
+"Office Supplies > Clips, Fasteners & Rubber Bands > Magnets",True
+"Office Supplies > Clips, Fasteners & Rubber Bands > Paper Fasteners",True
+"Office Supplies > Clips, Fasteners & Rubber Bands > Rubber Bands",True
+"Office Supplies > Clips, Fasteners & Rubber Bands > Thumb Tacks & Push Pins",True
+Office Supplies > Copy & Printer Paper,True
+Office Supplies > Custom Marketing Materials,True
+Office Supplies > Desk Organizers & Accessories,False
+Office Supplies > Desk Organizers & Accessories > Book & Document Holders,True
+Office Supplies > Desk Organizers & Accessories > Bookends,True
+Office Supplies > Desk Organizers & Accessories > Business Card Holders & Files,True
+Office Supplies > Desk Organizers & Accessories > Desk Organizer Sets,True
+Office Supplies > Desk Organizers & Accessories > Desk Organizers,True
+Office Supplies > Desk Organizers & Accessories > Desk Pads,True
+Office Supplies > Desk Organizers & Accessories > Drawer Organizers,True
+Office Supplies > Desk Organizers & Accessories > File Organizers,True
+Office Supplies > Desk Organizers & Accessories > File Sorters,True
+Office Supplies > Desk Organizers & Accessories > Letter & Desktop Trays,True
+Office Supplies > Desk Organizers & Accessories > Magazine Holders,True
+Office Supplies > Desk Organizers & Accessories > Wall Files,True
+Office Supplies > Folders & Filing,False
+Office Supplies > Folders & Filing > Accordion Folders,True
+Office Supplies > Folders & Filing > Classification Folders,True
+Office Supplies > Folders & Filing > File Folders,True
+Office Supplies > Folders & Filing > File Pockets & Jackets,True
+Office Supplies > Folders & Filing > File Storage,True
+Office Supplies > Folders & Filing > Filing Accessories,True
+Office Supplies > Folders & Filing > Hanging File Folders,True
+Office Supplies > Folders & Filing > Pocket & Presentation Folders,False
+Office Supplies > Folders & Filing > Pocket & Presentation Folders > Pocket Folders,True
+Office Supplies > Folders & Filing > Pocket & Presentation Folders > Presentation Books,True
+Office Supplies > Folders & Filing > Pocket & Presentation Folders > Report Covers,True
+Office Supplies > Forms & Recordkeeping,False
+Office Supplies > Forms & Recordkeeping > Accounting & Record Journals,True
+Office Supplies > Forms & Recordkeeping > Business Forms,True
+Office Supplies > Forms & Recordkeeping > Digital Legal Forms,True
+Office Supplies > Forms & Recordkeeping > HR Forms,True
+Office Supplies > Forms & Recordkeeping > Medical Forms,True
+Office Supplies > Forms & Recordkeeping > Tax Forms,True
+Office Supplies > Label Makers & Tapes,False
+Office Supplies > Label Makers & Tapes > ID Card Printers & Accessories,True
+Office Supplies > Label Makers & Tapes > Label Maker Tapes & Printer Labels,True
+Office Supplies > Label Makers & Tapes > Label Makers,True
+Office Supplies > Labels,True
+Office Supplies > Laminators & Supplies,False
+Office Supplies > Laminators & Supplies > Laminating Machines,True
+Office Supplies > Laminators & Supplies > Laminating Pouches & Sheets,True
+Office Supplies > Notebooks & Notepads,False
+Office Supplies > Notebooks & Notepads > Journals & Diaries,True
+Office Supplies > Notebooks & Notepads > Notepads,True
+Office Supplies > Office Basics,False
+Office Supplies > Office Basics > Clipboards,True
+Office Supplies > Office Basics > Office Supply Kits,True
+Office Supplies > Office Basics > Post-it® & Sticky Notes,True
+Office Supplies > Office Basics > Post-it® / Sticky Flags & Tabs,True
+Office Supplies > Office Basics > Post-it® and Sticky Notes Dispensers,True
+Office Supplies > Office Basics > Rulers & Measuring Devices,True
+"Office Supplies > Scissors, Hole Punches & Paper Cutters",False
+"Office Supplies > Scissors, Hole Punches & Paper Cutters > Hole Punches",True
+"Office Supplies > Scissors, Hole Punches & Paper Cutters > Paper Cutters",True
+"Office Supplies > Scissors, Hole Punches & Paper Cutters > Scissors",True
+Office Supplies > Sheet Protectors,True
+Office Supplies > Stamps & Stamp Pads,True
+Office Supplies > Staplers & Staples,False
+Office Supplies > Staplers & Staples > Staple Removers,True
+Office Supplies > Staplers & Staples > Staplers,True
+Office Supplies > Staplers & Staples > Staples,True
+Office Supplies > Storage & Organization,False
+Office Supplies > Storage & Organization > Storage Baskets,True
+Office Supplies > Storage & Organization > Storage Bins,True
+Office Supplies > Storage & Organization > Storage Containers & Boxes,True
+Office Supplies > Storage & Organization > Storage Drawers,True
+Office Supplies > Storage & Organization > Storage Furniture,True
+"Office Supplies > Tape, Fasteners & Adhesives",False
+"Office Supplies > Tape, Fasteners & Adhesives > Adhesive Dots & Tape Runners",True
+"Office Supplies > Tape, Fasteners & Adhesives > Glue & Glue Sticks",True
+"Office Supplies > Tape, Fasteners & Adhesives > Hot Glue Sticks & Guns",True
+"Office Supplies > Tape, Fasteners & Adhesives > Mounting",False
+"Office Supplies > Tape, Fasteners & Adhesives > Mounting > Hook and Loop Fasteners",True
+"Office Supplies > Tape, Fasteners & Adhesives > Mounting > Hooks & Hanging Strips",True
+"Office Supplies > Tape, Fasteners & Adhesives > Mounting > Putty",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape",False
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Arts & Crafts Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Duct Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Electrical Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Filament & Strapping Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Gaffers Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Masking Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Mounting Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Packing Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Safety & Reflective Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Security Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape > Specialty Tape",True
+"Office Supplies > Tape, Fasteners & Adhesives > Tape Dispensers",True
+Office Supplies > Writing Supplies & Instruments,False
+Office Supplies > Writing Supplies & Instruments > Correction & White Out,True
+Office Supplies > Writing Supplies & Instruments > Erasers,True
+Office Supplies > Writing Supplies & Instruments > Highlighters,True
+Office Supplies > Writing Supplies & Instruments > Markers,True
+Office Supplies > Writing Supplies & Instruments > Pencil Accessories,False
+Office Supplies > Writing Supplies & Instruments > Pencil Accessories > Pencil Accessories,True
+Office Supplies > Writing Supplies & Instruments > Pencil Accessories > Pencil Cases & Pouches,True
+Office Supplies > Writing Supplies & Instruments > Pencil Accessories > Pencil Sharpeners,True
+Office Supplies > Writing Supplies & Instruments > Pencils,True
+Office Supplies > Writing Supplies & Instruments > Pens,True
+Paper,False
+Paper > Business & Loyalty Cards,True
+Paper > Card Stock,True
+Paper > Certificates & Holders,True
+Paper > Classroom Paper,True
+Paper > Construction Paper,True
+Paper > Easel Pads,True
+Paper > Envelopes,False
+Paper > Envelopes > Envelopes,True
+Paper > Envelopes > Finger Pads & Moisteners,True
+Paper > Fine Business & Resume Papers,True
+Paper > Index Cards,True
+Paper > Loose Leaf & Graph Paper,True
+Paper > Notebooks,True
+Paper > Post-it® & Sticky Notes,True
+Paper > Specialty Paper Products,False
+Paper > Specialty Paper Products > POS Paper,True
+Paper > Specialty Paper Products > Presentation & Photo Paper,True
+Paper > Specialty Paper Products > Security & Carbon Paper,True
+Paper > Stationery & Invitations,True
+Paper > Thermal Fax Paper Rolls,True
+Paper > Wide Format Paper,True
+Party Supplies,False
+Party Supplies > Anniversary Supplies,True
+Party Supplies > Balloons & Accessories,False
+Party Supplies > Balloons & Accessories > Balloon Accessories,True
+Party Supplies > Balloons & Accessories > Balloons,True
+Party Supplies > Disposable Bowls,True
+Party Supplies > Disposable Cup Lids & Sleeves,True
+Party Supplies > Disposable Cups,True
+Party Supplies > Disposable Cutlery & Dispensers,True
+Party Supplies > Disposable Plates,True
+Party Supplies > Napkins,True
+Party Supplies > Party Décor,True
+Party Supplies > Party Favors & Costumes,False
+Party Supplies > Party Favors & Costumes > Costumes & Accessories,True
+Party Supplies > Party Favors & Costumes > Favor Bags & Boxes,True
+Party Supplies > Party Favors & Costumes > Party Favors,True
+Party Supplies > Party Favors & Costumes > Party Hats,True
+Party Supplies > Party Supply Kits,True
+"Party Supplies > Ribbon, Bows & Wrapping Supplies",True
+Party Supplies > Stirrers & Straws,True
+Party Supplies > Wedding Supplies,False
+Party Supplies > Wedding Supplies > Wedding Decorations & Supplies,True
+Party Supplies > Wedding Supplies > Wedding Favors,True
+Party Supplies > Wedding Supplies > Wedding Glassware,True
+Party Supplies > Wrapping Supplies,False
+Party Supplies > Wrapping Supplies > Clear Tape,True
+Party Supplies > Wrapping Supplies > Double Sided Tape,True
+Party Supplies > Wrapping Supplies > Gift Boxes & Bags,True
+Party Supplies > Wrapping Supplies > Gift Wrap & Wrapping Paper,True
+Party Supplies > Wrapping Supplies > Tissue Paper,True
+"Phones, Cameras & Electronics",False
+"Phones, Cameras & Electronics > Cameras, Camcorders & Accessories",False
+"Phones, Cameras & Electronics > Cameras, Camcorders & Accessories > Camera & Camcorder Accessories",True
+"Phones, Cameras & Electronics > Cameras, Camcorders & Accessories > Cameras & Camcorders",True
+"Phones, Cameras & Electronics > Cameras, Camcorders & Accessories > Digital Picture Frames",True
+"Phones, Cameras & Electronics > Cell Phone Accessories",True
+"Phones, Cameras & Electronics > Cell Phone Cases",True
+"Phones, Cameras & Electronics > Cell Phone Mounts & Holders",True
+"Phones, Cameras & Electronics > Cell Phone Screen Protectors",True
+"Phones, Cameras & Electronics > Cell Phones",True
+"Phones, Cameras & Electronics > Chargers & Charging Cables",True
+"Phones, Cameras & Electronics > Drones & UAV",True
+"Phones, Cameras & Electronics > GPS",False
+"Phones, Cameras & Electronics > GPS > GPS Accessories",True
+"Phones, Cameras & Electronics > GPS > GPS Navigation Units",True
+"Phones, Cameras & Electronics > Phones & Accessories",False
+"Phones, Cameras & Electronics > Phones & Accessories > Landline Phones",True
+"Phones, Cameras & Electronics > Phones & Accessories > Office Phones",True
+"Phones, Cameras & Electronics > Phones & Accessories > Phone Accessories",True
+"Phones, Cameras & Electronics > Stylus & Smart Pens",True
+Printers & Scanners,False
+Printers & Scanners > 3D Printer Parts & Accessories,True
+Printers & Scanners > 3D Printers,True
+Printers & Scanners > Printer Accessories & Replacement Parts,True
+Printers & Scanners > Printers,True
+Printers & Scanners > Scanners & Scanner Accessories,False
+Printers & Scanners > Scanners & Scanner Accessories > Scanner Accessories & Replacement Parts,True
+Printers & Scanners > Scanners & Scanner Accessories > Scanners,True
+Restaurant & Foodservice Supplies,False
+Restaurant & Foodservice Supplies > Bar Supplies,True
+Restaurant & Foodservice Supplies > Commercial Restaurant Equipment,False
+Restaurant & Foodservice Supplies > Commercial Restaurant Equipment > Delivery Options,True
+Restaurant & Foodservice Supplies > Commercial Restaurant Equipment > Equipment Parts & Accessories,True
+Restaurant & Foodservice Supplies > Commercial Restaurant Equipment > Food Display & Merchandising,True
+Restaurant & Foodservice Supplies > Commercial Restaurant Equipment > Kitchen Work & Prep Tables,True
+Restaurant & Foodservice Supplies > Commercial Restaurant Equipment > Refrigerated Prep Tables,True
+Restaurant & Foodservice Supplies > Concession Stand Supplies,True
+Restaurant & Foodservice Supplies > Custom Restaurant Supplies,True
+Restaurant & Foodservice Supplies > Disposable Food Packaging,False
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Disposable Bags,False
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Disposable Bags > Food Storage Bags,True
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Food Packaging Wrap,False
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Food Packaging Wrap > Butcher & Freezer Paper,True
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Food Packaging Wrap > Food Wrap & Foils,True
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Single-Use Food Containers,False
+Restaurant & Foodservice Supplies > Disposable Food Packaging > Single-Use Food Containers > Carryout Containers & Boxes,True
+Restaurant & Foodservice Supplies > Pizza Supplies,True
+Restaurant & Foodservice Supplies > Restaurant Apparel,False
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel,False
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Aprons & Gloves,True
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Chef Coats,True
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Chef Hats & Headwear,True
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Chef Pants,True
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Chef Shirts & Vests,True
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Restaurant Worker Shoes,True
+Restaurant & Foodservice Supplies > Restaurant Apparel > Restaurant Apparel > Staff Shirts,True
+Restaurant & Foodservice Supplies > Restaurant Janitorial,True
+Restaurant & Foodservice Supplies > Restaurant Storage & Transport,False
+Restaurant & Foodservice Supplies > Restaurant Storage & Transport > Catering & Buffet Supplies,True
+Restaurant & Foodservice Supplies > Restaurant Storage & Transport > Chafing Dishes & Buffet Accessories,True
+Restaurant & Foodservice Supplies > Restaurant Storage & Transport > Food Storage & Containers,True
+Restaurant & Foodservice Supplies > Restaurant Storage & Transport > Kitchen Racks,True
+Restaurant & Foodservice Supplies > Restaurant Storage & Transport > Restaurant Carts & Dollies,True
+Restaurant & Foodservice Supplies > Restaurant Systems,True
+Restaurant & Foodservice Supplies > Smallwares,False
+Restaurant & Foodservice Supplies > Smallwares > Commercial Baking Tools,True
+Restaurant & Foodservice Supplies > Smallwares > Commercial Cookware,True
+Restaurant & Foodservice Supplies > Smallwares > Commercial Cutlery,True
+Restaurant & Foodservice Supplies > Smallwares > Commercial Food Prep,True
+Restaurant & Foodservice Supplies > Smallwares > Commercial Kitchen Tools,True
+Restaurant & Foodservice Supplies > Smallwares > Food Safety,True
+Restaurant & Foodservice Supplies > Smallwares > Wine Stands & Chiller Buckets,True
+Restaurant & Foodservice Supplies > Tabletop,False
+Restaurant & Foodservice Supplies > Tabletop > Bar Glassware,True
+Restaurant & Foodservice Supplies > Tabletop > Dinnerware,True
+Restaurant & Foodservice Supplies > Tabletop > Drinkware,True
+Restaurant & Foodservice Supplies > Tabletop > Flatware,True
+Restaurant & Foodservice Supplies > Tabletop > Glassware,True
+Restaurant & Foodservice Supplies > Tabletop > Host & Server Supplies,True
+Restaurant & Foodservice Supplies > Tabletop > Placemats & Tablecloths,True
+Restaurant & Foodservice Supplies > Tabletop > Serveware,True
+Retail Store Supplies,False
+Retail Store Supplies > Backroom Retail Supplies,False
+Retail Store Supplies > Backroom Retail Supplies > Backroom Storage,True
+Retail Store Supplies > Backroom Retail Supplies > Clothing Hangers & Accessories,True
+Retail Store Supplies > Backroom Retail Supplies > Dressing Room Supplies & Try-On Accessories,True
+Retail Store Supplies > Cash Handling,False
+"Retail Store Supplies > Cash Handling > Cash Boxes, Drawers & Trays",True
+Retail Store Supplies > Cash Handling > Cash Handling,True
+Retail Store Supplies > Cash Handling > Cash-Counting Machines,True
+Retail Store Supplies > Cash Handling > Counterfeit Money Detectors,True
+Retail Store Supplies > Point of Sale (POS) Equipment,False
+Retail Store Supplies > Point of Sale (POS) Equipment > Barcode Scanners & Readers,True
+Retail Store Supplies > Point of Sale (POS) Equipment > Cash Register Ribbons,True
+Retail Store Supplies > Point of Sale (POS) Equipment > Cash Registers,True
+Retail Store Supplies > Point of Sale (POS) Equipment > Credit Card Readers,True
+Retail Store Supplies > Point of Sale (POS) Equipment > POS Computers & Accessories,True
+Retail Store Supplies > Point of Sale (POS) Equipment > POS Receipt Printers,True
+Retail Store Supplies > Point of Sale (POS) Equipment > POS Software,False
+Retail Store Supplies > Point of Sale (POS) Equipment > POS Software > POS Systems & Software,True
+Retail Store Supplies > Point of Sale (POS) Equipment > Restaurant Pagers & Communication,True
+Retail Store Supplies > Pricing & Tagging,False
+Retail Store Supplies > Pricing & Tagging > Inventory Tags,True
+Retail Store Supplies > Pricing & Tagging > Pricing & Tagging Guns,True
+Retail Store Supplies > Pricing & Tagging > Pricing Tags & Retail Tags,True
+Retail Store Supplies > Promotional Products,True
+Retail Store Supplies > Retail Packaging,False
+Retail Store Supplies > Retail Packaging > Apparel Boxes & Garment Bags,True
+Retail Store Supplies > Retail Packaging > Decorative Shipping Boxes,True
+Retail Store Supplies > Retail Packaging > Food Boxes & Bags,True
+Retail Store Supplies > Retail Packaging > Mailers & Shipping Boxes,True
+Retail Store Supplies > Retail Packaging > Retail Boxes & Bags,True
+Retail Store Supplies > Retail Packaging > Shopping Bags,True
+Retail Store Supplies > Retail Signage,False
+Retail Store Supplies > Retail Signage > Custom Retail Signage,True
+Retail Store Supplies > Retail Signage > Indoor & Outdoor Retail Signage,True
+Retail Store Supplies > Retail Signage > Literature & Sign Holders,True
+Retail Store Supplies > Retail Signage > Sign Materials,True
+Retail Store Supplies > Retail Signage > Suggestion & Ballot Boxes,True
+Retail Store Supplies > Sewing & Tailoring,False
+Retail Store Supplies > Sewing & Tailoring > Elastic,True
+Retail Store Supplies > Sewing & Tailoring > Fabric,True
+Retail Store Supplies > Sewing & Tailoring > Fasteners,True
+Retail Store Supplies > Sewing & Tailoring > Garment Steamers & Irons,True
+Retail Store Supplies > Sewing & Tailoring > Handbag Hardware,True
+Retail Store Supplies > Sewing & Tailoring > Knit & Crochet Supplies,True
+Retail Store Supplies > Sewing & Tailoring > Needle Arts,True
+Retail Store Supplies > Sewing & Tailoring > Needles & Pins,True
+Retail Store Supplies > Sewing & Tailoring > Patterns & Sewing Books,True
+Retail Store Supplies > Sewing & Tailoring > Safety Pins,True
+Retail Store Supplies > Sewing & Tailoring > Sewing Machines,True
+Retail Store Supplies > Sewing & Tailoring > Sewing Rulers,True
+Retail Store Supplies > Sewing & Tailoring > Sewing Tools,True
+Retail Store Supplies > Sewing & Tailoring > Thread,True
+Retail Store Supplies > Sewing & Tailoring > Trim & Embellishments,True
+Retail Store Supplies > Sewing & Tailoring > Yarn,True
+Retail Store Supplies > Spa & Salon,False
+Retail Store Supplies > Spa & Salon > Bath & Body,False
+Retail Store Supplies > Spa & Salon > Bath & Body > Body Treatments,True
+Retail Store Supplies > Spa & Salon > Bath & Body > Shower Caps,True
+Retail Store Supplies > Spa & Salon > Bath & Body > Tanning,True
+Retail Store Supplies > Spa & Salon > Cosmetics,True
+Retail Store Supplies > Spa & Salon > Hair,False
+"Retail Store Supplies > Spa & Salon > Hair > Brushes, Combs & Piks",True
+Retail Store Supplies > Spa & Salon > Hair > Clippers & Buzzers,True
+Retail Store Supplies > Spa & Salon > Hair > Hair Color & Supplies,True
+Retail Store Supplies > Spa & Salon > Hair > Hair Styling Products,True
+Retail Store Supplies > Spa & Salon > Hair > Hair Styling Tools,True
+Retail Store Supplies > Spa & Salon > Hair > Hair Treatment,True
+Retail Store Supplies > Spa & Salon > Hair > Salon Capes,True
+Retail Store Supplies > Spa & Salon > Hair > Shampoo & Conditioner,True
+Retail Store Supplies > Spa & Salon > Nails,False
+Retail Store Supplies > Spa & Salon > Nails > Artificial Nails & Supplies,True
+Retail Store Supplies > Spa & Salon > Nails > Manicure & Pedicure Supplies,True
+Retail Store Supplies > Spa & Salon > Nails > Nail Clippers,True
+Retail Store Supplies > Spa & Salon > Nails > Nail Kits,True
+Retail Store Supplies > Spa & Salon > Nails > Nail Polish,True
+Retail Store Supplies > Spa & Salon > Nails > Nail Stickers & Appliques,True
+Retail Store Supplies > Spa & Salon > Nails > Nail Treatment & Remover,True
+Retail Store Supplies > Spa & Salon > Shaving,False
+Retail Store Supplies > Spa & Salon > Shaving > Aftershave,True
+Retail Store Supplies > Spa & Salon > Shaving > Disposable Razors,True
+Retail Store Supplies > Spa & Salon > Shaving > Hair Removal & Shaving Products,True
+Retail Store Supplies > Spa & Salon > Shaving > Razors,True
+Retail Store Supplies > Spa & Salon > Spa & Massage,False
+Retail Store Supplies > Spa & Salon > Spa & Massage > Heating & Warming Pads,True
+Retail Store Supplies > Spa & Salon > Spa & Massage > Massage & Recovery Tools,True
+Retail Store Supplies > Spa & Salon > Spa & Massage > Massage Stools,True
+Retail Store Supplies > Spa & Salon > Spa & Massage > Massage Tables,True
+"Retail Store Supplies > Spa & Salon > Spa & Massage > Oils, Creams, Lotions",True
+Retail Store Supplies > Spa & Salon > Spa & Massage > Pillows & Pillow Cover,True
+Retail Store Supplies > Spa & Salon > Spa & Massage > Sheets & Linens,True
+Retail Store Supplies > Store Fixtures & Retail Displays,False
+Retail Store Supplies > Store Fixtures & Retail Displays > Costumers,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Dress Forms,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Floor & Wall Mirrors,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Hangrails & Accessories,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Mannequins,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Merchandisers,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Pegboard & Accessories,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Retail Displays,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Slat-Grid Panels & Accessories,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Slatwall Panels & Accessories,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Store Shelving,True
+Retail Store Supplies > Store Fixtures & Retail Displays > Wire Grid Panels & Accessories,True
+Retail Store Supplies > Store Security & Operations,False
+Retail Store Supplies > Store Security & Operations > Gift Certificates,True
+Retail Store Supplies > Store Security & Operations > Motion Detectors,True
+Retail Store Supplies > Store Security & Operations > Name Tags & Badges,True
+Retail Store Supplies > Store Security & Operations > Shopping Baskets & Carts,True
+Retail Store Supplies > Time Clock Cards & Racks,True
+Retail Store Supplies > Time Clock Ribbons & Batteries,True
+Retail Store Supplies > Time Clock Systems,True
+Safety Supplies,False
+Safety Supplies > Crowd Control Accessories,True
+"Safety Supplies > Fall Protection Kits, Parts & Accessories",True
+Safety Supplies > Fire Protection,False
+Safety Supplies > Fire Protection > Fire Extinguishers,True
+Safety Supplies > Fire Protection > Smoke Alarms & Carbon Monoxide Detectors,True
+Safety Supplies > Generators,True
+Safety Supplies > Ice Melt,True
+Safety Supplies > Personal Protective Equipment (PPE),False
+Safety Supplies > Personal Protective Equipment (PPE) > Ear Protection,True
+Safety Supplies > Personal Protective Equipment (PPE) > Ergonomic Support,True
+Safety Supplies > Personal Protective Equipment (PPE) > Eye Protection,False
+Safety Supplies > Personal Protective Equipment (PPE) > Eye Protection > Eyewash Stations & Showers,True
+"Safety Supplies > Personal Protective Equipment (PPE) > Eye Protection > Safety Glasses, Goggles & Accessories",True
+Safety Supplies > Personal Protective Equipment (PPE) > Face Masks & Respirators,True
+Safety Supplies > Personal Protective Equipment (PPE) > Gloves & Hand Protection,False
+Safety Supplies > Personal Protective Equipment (PPE) > Gloves & Hand Protection > Disposable Gloves,True
+Safety Supplies > Personal Protective Equipment (PPE) > Gloves & Hand Protection > Work Gloves,True
+Safety Supplies > Personal Protective Equipment (PPE) > Head & Face Protection,False
+"Safety Supplies > Personal Protective Equipment (PPE) > Head & Face Protection > Bandanas, Headbands & Headwear",True
+Safety Supplies > Personal Protective Equipment (PPE) > Head & Face Protection > Beard & Hair Nets,True
+Safety Supplies > Personal Protective Equipment (PPE) > Head & Face Protection > Face Shields & Visors,True
+Safety Supplies > Personal Protective Equipment (PPE) > Head & Face Protection > Hard Hat & Safety Helmet Accessories,True
+Safety Supplies > Personal Protective Equipment (PPE) > Head & Face Protection > Hard Hats & Safety Helmets,True
+Safety Supplies > Personal Protective Equipment (PPE) > Life Vests,True
+Safety Supplies > Personal Protective Equipment (PPE) > Personal Protective Equipment (PPE) Kits,True
+Safety Supplies > Personal Protective Equipment (PPE) > Shoe Covers,True
+Safety Supplies > Personal Protective Equipment (PPE) > Shoe Insoles,True
+Safety Supplies > Personal Protective Equipment (PPE) > Shoe Traction,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear,False
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Coats & Jackets,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Coveralls & Overalls,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Hand Warmers & Pads,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Jackets & Vests,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Pants & Jeans,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Protective Clothing,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Raincoats & Rainwear,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Reflective Shirts,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Shirts,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Sleeves & Bibs,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Winter Hoods & Balaclavas,True
+Safety Supplies > Personal Protective Equipment (PPE) > Workwear & Rainwear > Workwear Accessories,True
+Safety Supplies > Safety Harnesses,True
+Safety Supplies > Safety Lanyards,True
+Safety Supplies > Safety Storage,False
+Safety Supplies > Safety Storage > Flammables Storage Cabinets,True
+Safety Supplies > Safety Storage > Safety Cabinets & Shelves,True
+Safety Supplies > Safety Storage > Safety Cans & Drums,True
+Safety Supplies > Safety Vests & High Visibility Clothing,True
+Safety Supplies > Security Mirrors,True
+Safety Supplies > Stanchions & Barricades,True
+"Safety Supplies > Test Instruments, Meters & Precision Tools",True
+Safety Supplies > Traffic Cones,True
+Safety Supplies > Traffic Signs,True
+School Supplies,False
+School Supplies > Classroom Essentials,True
+School Supplies > College Supplies,False
+School Supplies > College Supplies > School Masks,True
+School Supplies > Elementary School Supplies,False
+School Supplies > Elementary School Supplies > Classroom Snacks,True
+School Supplies > Elementary School Supplies > Display Boards,True
+School Supplies > High School Supplies,True
+School Supplies > Learning at Home,False
+School Supplies > Learning at Home > Board & Card Games,True
+School Supplies > Learning at Home > Building Sets,True
+School Supplies > Learning at Home > Educational & STEM Toys,True
+School Supplies > Learning at Home > Home School Furniture,True
+School Supplies > Learning at Home > Home School Supplies,True
+School Supplies > Learning at Home > Learning & Development Toys,True
+School Supplies > Learning at Home > Learning Games,True
+School Supplies > Learning at Home > Musical Instruments,True
+School Supplies > Learning at Home > Pretend Play,False
+School Supplies > Learning at Home > Pretend Play > Dolls & Dollhouses,True
+School Supplies > Learning at Home > Pretend Play > Stuffed Animals & Puppets,True
+School Supplies > Learning at Home > Pretend Play > Toy Vehicles,True
+School Supplies > Learning at Home > Puzzles,True
+School Supplies > Middle School Supplies,True
+School Supplies > Preschool Supplies,False
+School Supplies > Preschool Supplies > Classroom Posters & Charts,True
+School Supplies > Preschool Supplies > Pretend Play & Dress Up,True
+School Supplies > School Art Supplies,False
+School Supplies > School Art Supplies > Art & School Markers,True
+School Supplies > School Bags & Lunch Boxes,True
+School Supplies > School Tech,False
+School Supplies > School Tech > Computers & Accessories for School,False
+School Supplies > School Tech > Computers & Accessories for School > School Computer Monitors,True
+School Supplies > School Tech > Computers & Accessories for School > School Keyboards,True
+School Supplies > School Tech > Computers & Accessories for School > School Laptops,True
+School Supplies > School Tech > Computers & Accessories for School > Student Power Banks,True
+School Supplies > School Tech > Printers & Scanners for School,False
+School Supplies > School Tech > Printers & Scanners for School > Document Scanners,True
+School Supplies > School Tech > Printers & Scanners for School > School Printers,True
+School Supplies > Shop by Subject,True
+School Supplies > Teacher Supplies,False
+School Supplies > Teacher Supplies > Classroom Books & Digital Media,False
+School Supplies > Teacher Supplies > Classroom Books & Digital Media > CDs & DVDs,True
+School Supplies > Teacher Supplies > Classroom Books & Digital Media > Classroom Books,True
+School Supplies > Teacher Supplies > Classroom Decorations,False
+School Supplies > Teacher Supplies > Classroom Decorations > Borders & Trims,True
+School Supplies > Teacher Supplies > Classroom Decorations > Classroom Name Plates & Name Tags,True
+School Supplies > Teacher Supplies > Classroom Decorations > Decorative Accents & Board Sets,True
+School Supplies > Teacher Supplies > Classroom Decorations > Flags,True
+School Supplies > Teacher Supplies > Classroom Decorations > Letters & Numbers,True
+School Supplies > Teacher Supplies > Classroom Storage & Organization,True
+"School Supplies > Teacher Supplies > Games, Puzzles & Toys",True
+School Supplies > Teacher Supplies > Locker Accessories,True
+School Supplies > Teacher Supplies > Physical Education & Recreation,False
+"School Supplies > Teacher Supplies > Physical Education & Recreation > Bicycles, Tricycles & Accessories",True
+School Supplies > Teacher Supplies > Physical Education & Recreation > Outdoor Games,True
+School Supplies > Teacher Supplies > Physical Education & Recreation > Physical Education Equipment,True
+School Supplies > Teacher Supplies > Physical Education & Recreation > Playground Equipment,True
+School Supplies > Teacher Supplies > Physical Education & Recreation > Riding Toys & Wagons,True
+School Supplies > Teacher Supplies > Physical Education & Recreation > Sporting Goods,True
+School Supplies > Teacher Supplies > Teacher Resources,False
+School Supplies > Teacher Supplies > Teacher Resources > Bookmarks,True
+School Supplies > Teacher Supplies > Teacher Resources > Flash Cards,True
+School Supplies > Teacher Supplies > Teacher Resources > Hall Passes & Library Cards,True
+School Supplies > Teacher Supplies > Teacher Resources > Lesson Plans & Grade Books,True
+School Supplies > Teacher Supplies > Teacher Resources > Maps & Globes,True
+School Supplies > Teacher Supplies > Teacher Resources > Rewards & Incentives,True
+School Supplies > Teacher Supplies > Teacher Resources > Teaching Resources,True
+School Supplies > Teacher Supplies > Teacher Resources > Timers & Buzzers,True
+"Security, Banking & Cash",False
+"Security, Banking & Cash > Call Bells",True
+"Security, Banking & Cash > Shredders & Accessories",False
+"Security, Banking & Cash > Shredders & Accessories > Shredder Accessories",True
+"Security, Banking & Cash > Shredders & Accessories > Shredders",True
+"Security, Banking & Cash > Tickets & Tags",True
+"Shipping, Packing & Mailing Supplies",False
+"Shipping, Packing & Mailing Supplies > Mailing Supplies",False
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Letter Openers",True
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Literature & Mail Sorters",True
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Mailers",True
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Mailing Tubes",False
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Mailing Tubes > Mailing Tubes",True
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Paper Folding Machines & Joggers",True
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Postage Stamps",True
+"Shipping, Packing & Mailing Supplies > Mailing Supplies > Postal Scales & Meters",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Corrugated Boxes & Pads",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Corrugated Boxes & Pads > Corrugated Mailers",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Corrugated Boxes & Pads > Layer Pads",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Corrugated Boxes & Pads > Shippers",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Corrugated Boxes & Pads > Shipping Boxes",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Air Pillows & Inflatable Packaging",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Bubble Rolls",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Cushioning Bags & Sleeves",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Cushioning Sheets",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Foam Rolls",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Packing Paper Rolls",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Cushioning & Void Fill > Packing Paper Sheets",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Desiccants & Cold Packs",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Desiccants & Cold Packs > Desiccants",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Desiccants & Cold Packs > Shipping Cold Packs",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Moving Supplies",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Package Identification & Indicators",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Package Identification & Indicators > Damage Indicators",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Package Identification & Indicators > Packing List Envelopes",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Package Identification & Indicators > Shipping Tags & Seals",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Packing Peanuts",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Packing Tape & Dispensers",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Packing Tape & Dispensers > Packing Tape Dispensers",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Poly Bags & Tubing",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Poly Bags & Tubing > Impulse Sealers",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Poly Bags & Tubing > Pallet Covers & Sheeting",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Poly Bags & Tubing > Poly Bags",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Poly Bags & Tubing > Poly Tubing",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Poly Bags & Tubing > Twist Ties & Bag Tape",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Shipping & Packing Dispensers",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Edge Protectors",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Pallet Cones",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Rope, String & Twine",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Seals & Buckles",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Strapping",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Strapping Carts",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Strapping Machines",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Strapping & Strapping Equipment > Strapping Tools",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Stretch & Shrink Film",False
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Stretch & Shrink Film > Shrink Film",True
+"Shipping, Packing & Mailing Supplies > Shipping Supplies > Stretch & Shrink Film > Stretch Wrap",True
+"Shredders, Projectors & Office Machines",False
+"Shredders, Projectors & Office Machines > Binding Equipment",False
+"Shredders, Projectors & Office Machines > Binding Equipment > Binding Combs & Spines",True
+"Shredders, Projectors & Office Machines > Binding Equipment > Binding Covers & Accessories",True
+"Shredders, Projectors & Office Machines > Binding Equipment > Binding Machines",True
+"Shredders, Projectors & Office Machines > Calculators",False
+"Shredders, Projectors & Office Machines > Calculators > Basic Calculators",True
+"Shredders, Projectors & Office Machines > Calculators > Calculator Accessories",True
+"Shredders, Projectors & Office Machines > Calculators > Financial Calculators",True
+"Shredders, Projectors & Office Machines > Calculators > Graphing Calculators",True
+"Shredders, Projectors & Office Machines > Calculators > Industry Specific Calculators",True
+"Shredders, Projectors & Office Machines > Calculators > Printing Calculators",True
+"Shredders, Projectors & Office Machines > Calculators > Scientific Calculators",True
+"Shredders, Projectors & Office Machines > Copiers",True
+"Shredders, Projectors & Office Machines > Fax Machines",True
+"Shredders, Projectors & Office Machines > Projectors & Accessories",False
+"Shredders, Projectors & Office Machines > Projectors & Accessories > Document Cameras",True
+"Shredders, Projectors & Office Machines > Projectors & Accessories > Laser Pointers & Remotes",True
+"Shredders, Projectors & Office Machines > Projectors & Accessories > Projector Parts & Accessories",True
+"Shredders, Projectors & Office Machines > Projectors & Accessories > Projector Screens",True
+"Shredders, Projectors & Office Machines > Projectors & Accessories > Projectors",True
+"Shredders, Projectors & Office Machines > Typewriters & Typewriter Supplies",True
+Smart Home & Security,False
+Smart Home & Security > Security Cameras & Systems,True
+Smart Home & Security > Security System Accessories,True
+Smart Home & Security > Smart Bulbs,True
+Smart Home & Security > Smart Doorbells,True
+Smart Home & Security > Smart Light Switches & Dimmers,True
+Smart Home & Security > Smart Locks,True
+Smart Home & Security > Smart Plugs & Outlets,True
+Smart Home & Security > Smart Sensors,True
+Smart Home & Security > Smart Speakers & Displays,True
+Smart Home & Security > Smart Thermostats,True
+TV & Streaming Media,False
+TV & Streaming Media > DJ Equipment & Musical Instruments,False
+"TV & Streaming Media > DJ Equipment & Musical Instruments > Drums, Keyboards, & Guitars",True
+TV & Streaming Media > DJ Equipment & Musical Instruments > Equalizers & Mixers,True
+TV & Streaming Media > DJ Equipment & Musical Instruments > Karaoke Machines,True
+TV & Streaming Media > DJ Equipment & Musical Instruments > Music Cases,True
+TV & Streaming Media > DJ Equipment & Musical Instruments > Stage Equipment,True
+TV & Streaming Media > DJ Equipment & Musical Instruments > Turn Tables & DJ Equipment,True
+TV & Streaming Media > Streaming Media Players,False
+TV & Streaming Media > Streaming Media Players > Streaming Media Players,True
+TV & Streaming Media > TV & Video,False
+TV & Streaming Media > TV & Video > Car CD Players & Monitors,True
+TV & Streaming Media > TV & Video > DVD & Blu-Ray Players,True
+TV & Streaming Media > TV & Video > Digital Signage,True
+TV & Streaming Media > TV & Video > Smart Boards,True
+TV & Streaming Media > TV & Video > TV Accessories,True
+TV & Streaming Media > TV & Video > TV Wall Mounts,True
+TV & Streaming Media > TV & Video > TVs,True
+Tablets & iPads,False
+Tablets & iPads > Digital Notebooks & Accessories,True
+Tablets & iPads > E-Readers,True
+"Tablets & iPads > Tablet & iPad Cases, Covers & Keyboards",True
+Tablets & iPads > Tablet Screen Protectors,True
+Tablets & iPads > Tablet Stands & Mounts,True
+Tablets & iPads > Tablets & iPads,True
+"Tools, Parts & Supplies",False
+"Tools, Parts & Supplies > Anchors: Screw & Wedge",True
+"Tools, Parts & Supplies > Automotive",False
+"Tools, Parts & Supplies > Automotive > Auto & Auto Part Cleaners",True
+"Tools, Parts & Supplies > Automotive > Automotive Accessories",True
+"Tools, Parts & Supplies > Automotive > Booster Cables, Battery Clamps & Chargers",True
+"Tools, Parts & Supplies > Automotive > Jack & Jack Stands",True
+"Tools, Parts & Supplies > Automotive > Liquid Transfer Tanks",True
+"Tools, Parts & Supplies > Automotive > Oil Drain Pans, Measuring Cans & Funnels",True
+"Tools, Parts & Supplies > Automotive > Plugs & Receptacles",True
+"Tools, Parts & Supplies > Automotive > Roadside Emergency Tool Kit",True
+"Tools, Parts & Supplies > Automotive > Tarps & Plastic Sheeting",True
+"Tools, Parts & Supplies > Automotive > Tires & Wheels",True
+"Tools, Parts & Supplies > Automotive > Windshield Wiper Fluid",True
+"Tools, Parts & Supplies > Buckles, Bands & Straps",True
+"Tools, Parts & Supplies > Cable Ties & Tie Guns",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools",False
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Chalk Line Reels & Marking Chalk",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Crayons: Lumber, Paint, Marking",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Labeling Tool Ribbons",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Markers: Metal, Paint, China",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Pencils: Welders, Carpenters, Art",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Soapstones & Holders",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Steel Hand Stamp Sets",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Stencil Sets",True
+"Tools, Parts & Supplies > Chalk Reels & Marking Tools > Temperature Indicators",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints",False
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Anti-Seize Compounds",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Corrosion Inhibitors",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Grease Guns & Fittings",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Lubricants",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Magnetic Particles",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Oilers & Sprayers",True
+"Tools, Parts & Supplies > Chemicals, Lubricants & Paints > Penetrants",True
+"Tools, Parts & Supplies > Clips, Rings & Pins",True
+"Tools, Parts & Supplies > Coated Disc Abrasives",True
+"Tools, Parts & Supplies > Coated Flap Disc Abrasives",True
+"Tools, Parts & Supplies > Coated Flap Wheel Abrasives",True
+"Tools, Parts & Supplies > Coated Roll Abrasives",True
+"Tools, Parts & Supplies > Coated Sheet Abrasives",True
+"Tools, Parts & Supplies > Cup Brushes",True
+"Tools, Parts & Supplies > Drill Rods",True
+"Tools, Parts & Supplies > End Brushes",True
+"Tools, Parts & Supplies > Fittings",True
+"Tools, Parts & Supplies > Flashlights, Lanterns & Work Lights",True
+"Tools, Parts & Supplies > Floor Scrapers",True
+"Tools, Parts & Supplies > Hand Tools",False
+"Tools, Parts & Supplies > Hand Tools > Bending & Flaring Tools",True
+"Tools, Parts & Supplies > Hand Tools > Chisels, Punches & Pins",True
+"Tools, Parts & Supplies > Hand Tools > Concrete & Masonry Tools",True
+"Tools, Parts & Supplies > Hand Tools > Cutters & Cutter Wheels",True
+"Tools, Parts & Supplies > Hand Tools > Electrical Tools, Meters & Fish Tape",True
+"Tools, Parts & Supplies > Hand Tools > Electrical Tools: Wire Pulling Grips",True
+"Tools, Parts & Supplies > Hand Tools > Files & Handles",True
+"Tools, Parts & Supplies > Hand Tools > Hand Pumps",True
+"Tools, Parts & Supplies > Hand Tools > Magnetic Pickups & Retrieving Tools",True
+"Tools, Parts & Supplies > Hand Tools > Pipe Threaders",True
+"Tools, Parts & Supplies > Hand Tools > Pullers & Accessories",True
+"Tools, Parts & Supplies > Hand Tools > Putty Knives & Scrapers",True
+"Tools, Parts & Supplies > Hand Tools > Reamers & Deburring Tools",True
+"Tools, Parts & Supplies > Hand Tools > Scribers & Scratch Awls",True
+"Tools, Parts & Supplies > Hand Tools > Sockets & Accessories",True
+"Tools, Parts & Supplies > Hand Tools > Staplers & Riveters",True
+"Tools, Parts & Supplies > Hand Tools > Tap Wrenches & Dies",True
+"Tools, Parts & Supplies > Hand Tools > Wedges",True
+"Tools, Parts & Supplies > Hardware",True
+"Tools, Parts & Supplies > Hose Clamps",True
+"Tools, Parts & Supplies > Industrial Adhesives, Sealants & Tapes",True
+"Tools, Parts & Supplies > Keystocks, Shims & Valves",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools",False
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Compasses, Protractors and Markers",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Dial & Digital Indicators",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Flange Pins",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Gauges / Gages",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Industrial Tape",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Medical Thermometers",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Plumb Bobs",True
+"Tools, Parts & Supplies > Measuring & Leveling Tools > Ruler",True
+"Tools, Parts & Supplies > Non Woven Disc Abrasives",True
+"Tools, Parts & Supplies > Non Woven Pad Abrasives",True
+"Tools, Parts & Supplies > Non Woven Roll Abrasive Parts & Accessories",True
+"Tools, Parts & Supplies > Non Woven Wheel Abrasives",True
+"Tools, Parts & Supplies > Power Tools",False
+"Tools, Parts & Supplies > Power Tools > Concrete Tools",True
+"Tools, Parts & Supplies > Power Tools > Drilling and Fastening Tools",True
+"Tools, Parts & Supplies > Power Tools > Finishing Tools",True
+"Tools, Parts & Supplies > Power Tools > Heat Guns & Torches",True
+"Tools, Parts & Supplies > Power Tools > Hydraulic Drivers & Punch Kits",True
+"Tools, Parts & Supplies > Power Tools > Metal Detectors",True
+"Tools, Parts & Supplies > Power Tools > Pressure Washer Accessories / Attachments",True
+"Tools, Parts & Supplies > Power Tools > Sanders & Accessories",True
+"Tools, Parts & Supplies > Power Tools > Sheet Sander Parts & Accessories",True
+"Tools, Parts & Supplies > Power Tools > Soldering Guns & Irons",True
+"Tools, Parts & Supplies > Resin Bonded Abrasives",True
+"Tools, Parts & Supplies > Scratch Brushes",True
+"Tools, Parts & Supplies > Steel Wool",True
+"Tools, Parts & Supplies > Tie Wire",True
+"Tools, Parts & Supplies > Tool & Garage Organization",False
+"Tools, Parts & Supplies > Tool & Garage Organization > Garage Storage Equipment",True
+"Tools, Parts & Supplies > Tube Brushes",True
+"Tools, Parts & Supplies > Vitrified Abrasives",True
+"Tools, Parts & Supplies > Welding Tools",True
+"Tools, Parts & Supplies > Wheel Brushes",True
+Wearable Technology,False
+Wearable Technology > Action Cameras,True
+Wearable Technology > Camera Glasses,True
+Wearable Technology > Heart Rate Monitors,True
+Wearable Technology > Pedometers & Fitness Trackers,True
+Wearable Technology > Smart Rings,True
+Wearable Technology > Smart Watches,True
+Wearable Technology > Sports & Handheld GPS,True
+Workwear,False
+Workwear > Flame Resistant Clothing,True
+Workwear > Occupational Workwear,False
+Workwear > Occupational Workwear > Healthcare Apparel,False
+Workwear > Occupational Workwear > Healthcare Apparel > Lab Coats,True
+Workwear > Occupational Workwear > Healthcare Apparel > Medical Gowns & Aprons,True
+Workwear > Occupational Workwear > Healthcare Apparel > Patient Apparel,True
+Workwear > Occupational Workwear > Healthcare Apparel > Scrubs & Medical Staff Apparel,True
+Workwear > Occupational Workwear > Painters Apparel,True
+Workwear > Occupational Workwear > Safety,True

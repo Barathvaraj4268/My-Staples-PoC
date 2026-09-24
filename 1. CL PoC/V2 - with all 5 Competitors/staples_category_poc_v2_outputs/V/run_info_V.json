@@ -1,0 +1,33 @@
+{
+  "encoder": "spacy",
+  "vector_backend": "qdrant",
+  "n_vectors": 15064,
+  "dim": 300,
+  "totals": {
+    "Staples": {
+      "items": 169669.0,
+      "leaves": 1463
+    },
+    "OfficeDepot": {
+      "items": 45830.0,
+      "leaves": 987
+    },
+    "WestElm": {
+      "items": 15015.0,
+      "leaves": 184
+    },
+    "Wayfair": {
+      "items": null,
+      "leaves": 1409
+    },
+    "Amazon": {
+      "items": null,
+      "leaves": 1128
+    },
+    "Walmart": {
+      "items": 22537759.0,
+      "leaves": 7677
+    }
+  },
+  "seconds": 113.4
+}
