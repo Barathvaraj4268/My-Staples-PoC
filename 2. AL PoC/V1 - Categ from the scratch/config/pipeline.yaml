@@ -85,9 +85,9 @@ sensitivity:
   top_n: 5
 
 skus:
-  n_exemplars: 4
+  n_exemplars: 3
   mmr_lambda: 0.7
-  style_extension_n: 8
+  style_extension_n: 5
 
 qa:
   g1_leaf_acc: 0.90             # Staples leave-one-out k-NN leaf accuracy
@@ -99,3 +99,17 @@ qa:
   g7_topn_stability: 0.70
   g7_auc: 0.80
   g8_data_error: 0.02
+
+report:
+  title: "Staples: Assortment Gap & Recommendation Analysis - Archetype"
+  file_stem: Staples_Assortment_Report   # each build writes <stem>_v<N>.html, N = previous highest + 1
+  # Shelf filter for the report only (all shelves are still scored and written to CSV).
+  # Applies ONLY to the L2s listed in max_shelves; any L2 not listed (e.g. new categories) shows every shelf.
+  shelf_filter:
+    max_shelves:
+      "Furniture > Chairs & Seating": 5
+      "Furniture > Desks": 3
+    # R1, R2 are hard gates; R3–R5 are counted, then ties break on recommendations, then agreement.
+    r3_min_high_confidence: 0.85   # R3 reliable placement
+    r4_min_spearman: 0.30          # R4 the two methods agree
+    r5_min_strong: 1               # R5 at least one recommendation backed by both methods (Strong tier)

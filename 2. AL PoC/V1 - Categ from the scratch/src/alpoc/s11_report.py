@@ -4,6 +4,7 @@ from __future__ import annotations
 import base64
 import datetime as dt
 import json
+import re
 
 import numpy as np
 import pandas as pd
@@ -36,6 +37,65 @@ def _money(x):
 
 def node_display(node_id: str) -> str:
     return node_id.replace(" > ", " → ")
+
+
+def next_report_path(stem: str):
+    """Versioned report: <stem>_v<N>.html with N one above the highest version already in outputs/report.
+    An unversioned <stem>.html from the first build counts as v1."""
+    d = out("report", "x").parent
+    vs = [int(m.group(1)) for f in d.glob(f"{stem}*.html") if (m := re.fullmatch(re.escape(stem) + r"_v(\d+)\.html", f.name))]
+    if (d / f"{stem}.html").exists():
+        vs.append(1)
+    return d / f"{stem}_v{max(vs, default=0) + 1}.html"
+
+
+def agreement_insight(rho, n_strong: int, n_short: int) -> str:
+    """One-line reading of the VOS-TG Spearman for the Final recommendations block."""
+    if rho is None:
+        return "Too few archetypes on this shelf to measure agreement."
+    level = ("Broad agreement" if rho >= 0.5 else "Partial agreement" if rho >= 0.2
+             else "Weak agreement" if rho >= 0 else "The methods pull in opposite directions")
+    if not n_short:
+        return f"{level}; no archetype passed both the safety gate and the agreement bar here."
+    tail = (" Treat single-method recommendations as leads for a merchant's review." if n_strong < n_short else "")
+    if n_short == 1:
+        return f"{level}: the one recommendation is {'' if n_strong else 'not '}backed by both methods (Strong tier).{tail}"
+    return f"{level}: {n_strong} of {n_short} recommendations are backed by both methods (Strong tier).{tail}"
+
+
+def select_shelves(nodes, fa, mp, qi) -> pd.DataFrame:
+    """Report-only shelf filter (config report.shelf_filter). Only L2s listed in max_shelves are capped;
+    every other L2 keeps all its scored and thin shelves. All shelves stay in the CSV outputs.
+      R1 enough data (scored, not thin)            hard gate
+      R2 at least one recommended archetype        hard gate
+      R3 high-confidence mapping share >= r3       counted
+      R4 Spearman VOS-TG >= r4                     counted
+      R5 Strong-tier recommendations >= r5         counted
+    Ranking inside a capped L2: rules passed (R3-R5), then number of recommendations, then Spearman."""
+    f = cfg()["report"]["shelf_filter"]
+    caps = f.get("max_shelves", {}) or {}
+    d = nodes[nodes["status"].isin(["scored", "thin"])][["node_id", "l2_key", "status", "n_staples", "n_competitor"]].copy()
+    m = mp[mp["status"] == "mapped"]
+    d["high_conf"] = 1 - d["node_id"].map(m.groupby("node_id")["low_conf"].mean())
+    d["spearman"] = d["node_id"].map(qi["spearman_vos_tg"])
+    sl = fa[fa["shortlisted"]]
+    d["n_recommended"] = d["node_id"].map(sl.groupby("node_id").size()).fillna(0).astype(int)
+    d["n_strong"] = d["node_id"].map(sl[sl["tier"] == "Strong"].groupby("node_id").size()).fillna(0).astype(int)
+    d["R1_enough_data"] = d["status"] == "scored"
+    d["R2_has_recommendations"] = d["n_recommended"] >= 1
+    d["R3_confident_mapping"] = d["high_conf"].fillna(0) >= f["r3_min_high_confidence"]
+    d["R4_methods_agree"] = d["spearman"].fillna(-1).round(2) >= f["r4_min_spearman"]   # as displayed
+    d["R5_strong_backing"] = d["n_strong"] >= f["r5_min_strong"]
+    d["soft_passed"] = d[["R3_confident_mapping", "R4_methods_agree", "R5_strong_backing"]].sum(axis=1)
+    d["capped_l2"] = d["l2_key"].isin(caps)
+    d["selected"] = ~d["capped_l2"]
+    d["rank_in_l2"] = np.nan
+    for l2, cap in caps.items():
+        g = d[(d["l2_key"] == l2) & d["R1_enough_data"] & d["R2_has_recommendations"]]
+        g = g.sort_values(["soft_passed", "n_recommended", "spearman"], ascending=False)
+        d.loc[g.index, "rank_in_l2"] = range(1, len(g) + 1)
+        d.loc[g.index[:cap], "selected"] = True
+    return d
 
 
 def gate(status: str, value: str, target: str, name: str, metric: str, note: str = "") -> dict:
@@ -96,46 +156,59 @@ def build_gates(qm, qx, qa6, qv, qi) -> list[dict]:
     return gs
 
 
-def node_insights(nd, ns_row, bands, gaps, fa, cand, se, vend, comp) -> list[str]:
-    out_ = []
-    out_.append(f"{comp} sample: {nd['n_competitor']:,} product families here vs {nd['n_staples']:,} at Staples. "
-                f"Median price {_money(ns_row['price_median_competitor'])} vs {_money(ns_row['price_median_staples'])}.")
+def pretty(v) -> str:
+    """Merchant-readable attribute value: 'l_shaped' -> 'L-shaped', other underscores -> spaces."""
+    v = re.sub(r"^([a-z])_", lambda m: m.group(1).upper() + "-", str(v))
+    return v.replace("_", " ")
+
+
+def attr_label(a: str) -> str:
+    return a.replace("_", " ").capitalize()
+
+
+def node_insights(nd, ns_row, bands, gaps, fa, cand, se, vend, comp) -> list[dict]:
+    """Insights grouped for the report: [{'group': title, 'items': [text, ...]}], empty groups dropped."""
+    groups: dict[str, list[str]] = {}
+
+    def add(g, t):
+        groups.setdefault(g, []).append(t)
+
+    size = "Price"
+    add(size, f"Median price: {comp} {_money(ns_row['price_median_competitor'])} vs Staples {_money(ns_row['price_median_staples'])}.")
     b = bands[(bands["credibility"] >= 0.9)].assign(d=lambda x: x["share_competitor"] - x["share_staples"])
     b = b[b["d"] > 0.03]
     if len(b):
         r = b.nlargest(1, "d").iloc[0]
-        out_.append(f"Price gap: {r['share_competitor']:.0%} of {comp}'s range sits in {r['band']} vs "
-                    f"{r['share_staples']:.0%} of Staples' (credible).")
+        add(size, f"Price gap in {r['band']}: {comp} {r['share_competitor']:.0%} of its range vs Staples {r['share_staples']:.0%} (credible).")
+    deeper = f"Where {comp} is deeper (credible gaps)"
     g = gaps[(gaps["credibility"] >= 0.9) & (~gaps["descriptive_only"]) & (gaps["delta"] > 0.04)]
     for r in g.nlargest(3, "delta").itertuples():
-        out_.append(f"{r.attribute.replace('_', ' ').capitalize()} “{r.value}”: {r.share_competitor:.0%} of {comp} "
-                    f"vs {r.share_staples:.0%} of Staples (credible gap).")
-    s = gaps[(gaps["credibility"] <= 0.1) & (~gaps["descriptive_only"]) & (gaps["delta"] < -0.08)]
-    if len(s):
-        r = s.nsmallest(1, "delta").iloc[0]
-        out_.append(f"Staples is deeper in {r['attribute'].replace('_', ' ')} “{r['value']}” "
-                    f"({r['share_staples']:.0%} vs {r['share_competitor']:.0%}): not a gap.")
+        add(deeper, f"{attr_label(r.attribute)} “{pretty(r.value)}”: {comp} {r.share_competitor:.0%} vs Staples {r.share_staples:.0%}.")
+    st = gaps[(gaps["credibility"] <= 0.1) & (~gaps["descriptive_only"]) & (gaps["delta"] < -0.08)]
+    for r in st.nsmallest(2, "delta").itertuples():
+        add("Where Staples is deeper (not a gap)",
+            f"{attr_label(r.attribute)} “{pretty(r.value)}”: Staples {r.share_staples:.0%} vs {comp} {r.share_competitor:.0%}.")
     if not np.isnan(ns_row["design_forward_share_competitor"]):
-        out_.append(f"Design-forward share (DFI ≥ 0.6): {comp} {ns_row['design_forward_share_competitor']:.0%} vs "
-                    f"Staples {ns_row['design_forward_share_staples']:.0%}.")
+        add("Design", f"Design-forward share (DFI ≥ {cfg()['gaps']['dfi_forward']}): {comp} {ns_row['design_forward_share_competitor']:.0%} "
+                      f"vs Staples {ns_row['design_forward_share_staples']:.0%}.")
+    rec = "Recommendation"
     if fa is not None and len(fa):
         sl = fa[fa["shortlisted"]].sort_values("final_rank")
         if len(sl):
             r = sl.iloc[0]
-            out_.append(f"Top recommendation: {r['name']}. {r['tier']} agreement between the two methods; "
-                        f"{r['safe_share']:.0%} of its {comp} products are safe to add.")
+            add(rec, f"Top pick: {r['name']} ({r['tier']} agreement); {r['safe_share']:.0%} of its {comp} products are safe to add.")
         else:
-            out_.append("No archetype passed the safety gate and the agreement bar here; see the excluded list below.")
+            add(rec, "No archetype passed the safety gate and the agreement bar here; see the excluded list below.")
     if cand is not None and len(cand):
         lc = cand["label"].value_counts()
-        out_.append(f"Across {len(cand):,} {comp} products: {lc.reindex(APPROVE).fillna(0).sum():.0f} approvable "
-                    f"({lc.get('CURATE', 0)} CURATE, {lc.get('STYLE-EXTENSION', 0)} STYLE-EXTENSION, {lc.get('TRADE-UP', 0)} TRADE-UP); "
-                    f"{lc.get('SUBSTITUTE', 0) + lc.get('UNDERCUT', 0)} would substitute or undercut a Staples item.")
+        add(rec, f"Safe to add: {lc.reindex(APPROVE).fillna(0).sum():.0f} of {len(cand):,} {comp} products "
+                 f"({lc.get('CURATE', 0)} CURATE, {lc.get('STYLE-EXTENSION', 0)} STYLE-EXTENSION, {lc.get('TRADE-UP', 0)} TRADE-UP).")
+        add(rec, f"Would cannibalise: {lc.get('SUBSTITUTE', 0) + lc.get('UNDERCUT', 0)} {comp} products would substitute or undercut a Staples item.")
     if vend is not None and len(vend):
         k = int(vend["brand_on_staples"].sum())
         if k:
-            out_.append(f"{k} brand(s) behind recommended products already sell on Staples: quickest recruits.")
-    return out_
+            add(rec, f"Quick-win sellers: {k} brand(s) behind recommended products already sell on Staples.")
+    return [{"group": k, "lines": v} for k, v in groups.items()]
 
 
 def run() -> dict:
@@ -171,14 +244,17 @@ def run() -> dict:
 
     # ---- overview figures
     ov = {}
-    ov["coverage"] = _b64(F.node_coverage(nodes, comp, out("figures", "overview", "node_coverage.png")))
+    F.node_coverage(nodes, comp, out("figures", "overview", "node_coverage.png"))   # PNG only (not in the report)
     for l2, q in qx["l2"].items():
         ov[f"acc_{slug(l2)}"] = _b64(F.extractor_accuracy(q["validation"], cfg()["qa"]["g2_field_acc"],
                                                           out("figures", "overview", f"extractor_accuracy_{slug(l2)}.png")))
 
     # ---- per-node payloads
     node_list, sections = [], []
-    order = nodes[nodes["status"].isin(["scored", "thin"])].sort_values("node_id")
+    sel = select_shelves(nodes, fa, mp, qi)
+    sel.to_csv(out("tables", "shelf_selection.csv"), index=False)
+    shown = set(sel.loc[sel["selected"], "node_id"])
+    order = nodes[nodes["node_id"].isin(shown)].sort_values("node_id")
     for _, nd in order.iterrows():
         nid = nd["node_id"]
         sid = slug(nid)
@@ -205,6 +281,10 @@ def run() -> dict:
             figs["decision"] = _b64(F.decision_scatter(ncand, T, v, d / "decision_scatter.png"))
             figs["agreement"] = _b64(F.agreement(nfa, d / "agreement.png"))
             figs["labelmix"] = _b64(F.label_mix(nfa, d / "label_mix.png"))
+            gp = cfg()["gaps"]
+            figs["vos"] = _b64(F.vos_components(nfa, v["vos_weights"], v["gamma"], d / "vos_components.png"))
+            figs["tg"] = _b64(F.tg_components(nfa, gp["tg_weights"], gp["credible"], gp["noncredible_shrink"],
+                                              d / "tg_components.png"))
         ns_row = nsum.loc[nid]
         ins = node_insights(nd, ns_row, nb, ng, nfa if scored else None, ncand if scored else None, se, nvend, comp)
         # archetype tables
@@ -213,12 +293,13 @@ def run() -> dict:
             return ", ".join(f"{k.replace('_', ' ')}: {v}" for k, v in json.loads(s).items()) or "–"
         m1 = [{"name": r.name, "def": facets_str(r.facets), "ns": r.n_staples, "nc": r.n_competitor, "vw": _num(r.vw, 2),
                "aas": _num(r.aas), "ad": _num(r.ad, 2), "crs": _num(r.crs), "ppr": _num(r.ppr, 2),
-               "safe": _pct(r.safe_share), "vos": _num(r.vos, 1), "elig": "yes" if r.eligible else "no"} for r in nfa.itertuples()]
+               "safe": _pct(r.safe_share), "vos": _num(r.vos, 1), "elig": "yes" if r.eligible else "no"} for r in nfa.sort_values("vos", ascending=False).itertuples()]
         m2 = [{"name": r.name, "ps": _pct(r.p_staples), "pc": _pct(r.p_competitor), "lsr": _num(r.lsr, 2),
                "cred": _pct(r.lsr_credibility), "flag": "absent at Staples" if r.absent else ("thin at Staples" if r.thin else ""),
                "ppg": (_num(r.ppg, 2) + (" ↑" if r.ppg_dir > 0 else " ↓" if r.ppg_dir < 0 else "")) if not pd.isna(r.ppg) else "–",
                "cg": _num(r.cg, 2), "msg": _num(r.msg, 2), "dfg": _num(r.dfg, 2), "tg": _num(r.tg, 1),
-               "tgo": _num(r.tg_original, 1), "miss": (r.missing_colours or "").replace("|", ", ")} for r in nfa.itertuples()]
+               "tgo": _num(r.tg_original, 1), "miss": (r.missing_colours or "").replace("|", ", ")}
+              for r in nfa.sort_values("tg", ascending=False).itertuples()]
         fin = [{"rank": int(r.final_rank) if not pd.isna(r.final_rank) else "", "name": r.name, "tier": r.tier,
                 "vos": _num(r.vos, 1), "tg": _num(r.tg, 1), "final": _num(r.final, 1),
                 "stab": f"{_pct(r.stability_tg)} / {_pct(r.stability_vos)}", "short": bool(r.shortlisted),
@@ -235,52 +316,50 @@ def run() -> dict:
         se_cards = [_card(x, comp) for x in nse.itertuples()]
         vend_rows = [{"brand": r.brand, "products": r.products, "arch": r.archetypes, "path": r.recruit_path,
                       "on": r.brand_on_staples, "house": r.house_brand} for r in nvend.head(25).itertuples()]
-        gap_rows = [{"attr": r.attribute.replace("_", " "), "val": r.value, "sc": _pct(r.share_competitor), "ss": _pct(r.share_staples),
-                     "delta": f"{r.delta:+.0%}", "cred": _pct(r.credibility), "desc": r.descriptive_only}
-                    for r in ng[(ng["credibility"] >= 0.9) | (ng["credibility"] <= 0.1)].assign(a=lambda x: x["delta"].abs())
-                    .nlargest(30, "a").itertuples()]
+        # attribute-level gaps: the 30 largest credible gaps, grouped by attribute; groups ordered by their
+        # largest absolute gap, values inside a group by signed gap ({comp} more first, Staples more last)
+        gsel = ng[(ng["credibility"] >= 0.9) | (ng["credibility"] <= 0.1)].assign(a=lambda x: x["delta"].abs()).nlargest(30, "a")
+        gap_rows = []
+        for attr in gsel.groupby("attribute")["a"].max().sort_values(ascending=False).index:
+            gg = gsel[gsel["attribute"] == attr].sort_values("delta", ascending=False)
+            gap_rows.append({"attr": attr_label(attr), "desc": bool(gg["descriptive_only"].any()),
+                             "rows": [{"val": pretty(r.value), "sc": _pct(r.share_competitor), "ss": _pct(r.share_staples),
+                                       "delta": f"{r.delta:+.0%}", "cred": _pct(r.credibility), "pos": r.delta > 0}
+                                      for r in gg.itertuples()]})
         lc = ncand["label"].value_counts().to_dict() if scored else {}
         node_list.append({"id": sid, "label": node_display(nid), "status": nd["status"], "l2": nd["l2_key"]})
         sections.append({
             "id": sid, "label": node_display(nid), "status": nd["status"], "l2": nd["l2_key"],
             "provisional": not nd["l2_config"], "ns": nd["n_staples"], "nc": nd["n_competitor"],
-            "rho": qi["spearman_vos_tg"].get(nid), "insights": ins, "figs": figs,
+            "comp": comp, "rho": qi["spearman_vos_tg"].get(nid),
+            "rho_note": agreement_insight(qi["spearman_vos_tg"].get(nid), int((nfa["shortlisted"] & (nfa["tier"] == "Strong")).sum()),
+                                          int(nfa["shortlisted"].sum())),
+            "insights": ins, "figs": figs,
             "facets": ", ".join(qa6.get(nid, {}).get("facets", [])).replace("_", " "),
             "m1": m1, "m2": m2, "final": fin, "excluded": excl, "skus": sku_groups, "style_ext": se_cards,
             "vendors": vend_rows, "gaps": gap_rows, "labels": lc,
-            "lowconf": float(np.nan_to_num(mp.loc[(mp["node_id"] == nid) & (mp["status"] == "mapped"), "low_conf"].mean())),
+            "highconf": 1 - float(np.nan_to_num(mp.loc[(mp["node_id"] == nid) & (mp["status"] == "mapped"), "low_conf"].mean())),
         })
 
-    # ---- overview numbers
-    mapped = mp[mp["status"] == "mapped"]
-    tiles = {
-        "staples_fam": int(nodes.loc[nodes["status"].isin(["scored", "thin"]), "n_staples"].sum()),
-        "comp_fam": int(len(fam[fam["retailer"] == comp_key])),
-        "comp_mapped": int(len(mapped)),
-        "scored": int((nodes["status"] == "scored").sum()),
-        "thin": int((nodes["status"] == "thin").sum()),
-        "backlog": int((mp["status"] != "mapped").sum()),
-        "shortlisted": int(fa["shortlisted"].sum()),
-        "exemplars": int(len(recs)),
-    }
-    bl = backlog.assign(page=backlog["pages"].str.split("|").str[0]).groupby(["page", "status"]).size().unstack(fill_value=0)
-    backlog_rows = [{"page": p, "none_page": int(r.get("none_page", 0)), "none_far": int(r.get("none_far", 0))}
-                    for p, r in bl.iterrows()]
-    staples_only = nodes[nodes["status"] == "staples_only"]
     ctx = {
-        "title": "Staples Assortment Gap PoC", "comp": comp, "date": dt.date.today().isoformat(),
+        "title": cfg()["report"]["title"], "comp": comp, "date": dt.date.today().isoformat(),
         "encoder": qm["encoder"], "bakeoff": qm["bakeoff"], "backend": qx["backend"],
-        "tiles": tiles, "gates": build_gates(qm, qx, qa6, qv, qi), "ov": ov, "l2s": list(qx["l2"].keys()),
-        "nodes": node_list, "sections": sections, "backlog": backlog_rows,
-        "staples_only": [{"node": node_display(r.node_id), "n": r.n_staples} for r in staples_only.sort_values("n_staples", ascending=False).head(25).itertuples()],
-        "n_staples_only": len(staples_only),
+        "gates": build_gates(qm, qx, qa6, qv, qi), "ov": ov, "l2s": list(qx["l2"].keys()),
+        "nodes": node_list, "sections": sections,
+        "low_conf_prob": cfg()["mapping"]["low_conf_prob"], "mapping_k": cfg()["mapping"]["k"],
+        "sel": [{"label": node_display(r.node_id), "l2": r.l2_key, "shown": bool(r.selected), "capped": bool(r.capped_l2),
+                 "r": [bool(r.R1_enough_data), bool(r.R2_has_recommendations), bool(r.R3_confident_mapping),
+                       bool(r.R4_methods_agree), bool(r.R5_strong_backing)],
+                 "hc": _pct(r.high_conf), "rho": _num(r.spearman, 2), "nrec": r.n_recommended, "nstrong": r.n_strong}
+                for r in sel[sel["capped_l2"]].sort_values(["l2_key", "selected", "rank_in_l2"], ascending=[True, False, True]).itertuples()],
+        "n_shown": len(shown), "n_all": len(sel), "sf": cfg()["report"]["shelf_filter"],
         "cfg": cfg(), "label_counts": qv["label_counts"], "tier_counts": qi["tier_counts"],
         "calib": {l2: q["calibration"] for l2, q in qv.items() if isinstance(q, dict) and "calibration" in q},
         "thresholds": {l2: q["thresholds"] for l2, q in qv.items() if isinstance(q, dict) and "thresholds" in q},
     }
     env = Environment(loader=FileSystemLoader(str(ROOT / "src" / "alpoc" / "templates")), autoescape=True)
     html = env.get_template("report.html.j2").render(**ctx)
-    p = out("report", "Staples_Assortment_Report.html")
+    p = next_report_path(cfg()["report"]["file_stem"])
     p.write_text(html, encoding="utf-8")
     log(f"S11 report: {p} ({p.stat().st_size / 1e6:.1f} MB), {len(sections)} node sections")
     return {"report": str(p), "size_mb": p.stat().st_size / 1e6}

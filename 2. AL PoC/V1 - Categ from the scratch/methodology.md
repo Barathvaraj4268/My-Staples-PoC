@@ -515,7 +515,9 @@ No Excel workbook or deck for now. Intermediate tables (CSV or parquet) are pipe
 - QA gate results (§10), with pass/fail and the actual values.
 - Assumptions, and anything flagged *provisional*.
 
-**Tab 2: Node-Level Analysis.** A **single-select dropdown** at the top lists every analysis node by full path (for example `Furniture → Chairs & Seating → Gaming Chairs`, or `Furniture → Chairs & Seating → Office Chairs → Task` for a pseudo-L5 node). Thin nodes are listed but marked. Choosing a node shows only that node's content:
+**Shelf filter (report only, added 2026-09-28).** For the two L2s that are already dense (Chairs & Seating, Desks), the dropdown is capped at 5 and 3 shelves. R1 enough data (scored, ≥ 30 families per side) and R2 at least one recommended archetype are hard gates; R3 high-confidence mapping ≥ 85%, R4 Spearman VOS↔TG ≥ 0.30 (on the displayed 2-dp value) and R5 at least one Strong-tier recommendation are counted. Rank = R3–R5 passed, then number of recommendations, then Spearman. L2s without a cap (every future category) list all their shelves. All shelves are still scored, and the rule results are written to `shelf_selection.csv`. The caps and thresholds live in `config/pipeline.yaml` → `report.shelf_filter`.
+
+**Tab 2: Gaps & Recommendations** (renamed from Node-Level Analysis). A **single-select dropdown** at the top lists every analysis node by full path (for example `Furniture → Chairs & Seating → Gaming Chairs`, or `Furniture → Chairs & Seating → Office Chairs → Task` for a pseudo-L5 node). Thin nodes are listed but marked. Choosing a node shows only that node's content:
 
 | Section | Content |
 |---|---|
@@ -609,6 +611,7 @@ These decisions were made while building the pipeline. Each one either tightens 
 | 7 | S5 | Features that text can only confirm (swivel, lumbar, headrest…) are measured as **"mentioned: yes/no" on both sides** | Mixing a spec "no" with text-only "yes" would create false gaps |
 | 8 | S5 | Colour is read from the **last** title segment first | Titles put the colour variant last ("…, Walnut Trim, Black") |
 | 9 | QA | **G1** = Staples leave-one-out leaf accuracy plus NONE balanced accuracy (proxy until the human gold set exists). **G5** = retailer predictability from the card (lower is better), reported against the title-bearing card | No human gold set, and too few same-brand pairs (2) for the original G5 |
+| 10 | S11 | **Report shelf filter**: Chairs & Seating is capped at 5 shelves and Desks at 3 (R1 data and R2 recommendations are gates; R3 confidence, R4 agreement and R5 Strong backing are counted) | 23 shelves made the report long (11.5 MB) and would crowd out new categories. Filtering drops the size to 5 MB, and no scoring changes (§9.2) |
 
 **What the first full run shows (for review, not for sign-off):**
 - G1 **fails** on the NONE decision. Out-of-scope products such as patio chairs and bean bags are semantically close to seating, so similarity alone rejects only about 29% of them. The page crosswalk catches whole pages; mixed pages need LLM adjudication.

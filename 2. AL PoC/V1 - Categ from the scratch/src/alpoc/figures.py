@@ -115,7 +115,8 @@ def value_gaps(df: pd.DataFrame, comp_name: str, path, n_pos=8, n_neg=4):
     if d.empty:
         return None
     fig, ax = plt.subplots(figsize=(6.4, 0.3 * len(d) + 1.0))
-    labels = [esc(s) for s in (d["attribute"].str.replace("_", " ") + ": " + d["value"].astype(str))]
+    vals = d["value"].astype(str).str.replace(r"^([a-z])_", lambda m: m.group(1).upper() + "-", regex=True).str.replace("_", " ")
+    labels = [esc(s) for s in (d["attribute"].str.replace("_", " ") + ": " + vals)]
     colours = np.where(d["delta"] > 0, C_COMP, C_STAPLES)
     ax.barh(labels, d["delta"], height=0.6, color=colours)
     ax.axvline(0, color=INK["axis"], linewidth=1)
@@ -226,3 +227,69 @@ def extractor_accuracy(val: dict, bar: float, path):
     ax.set_xlim(0, 1.1)
     ax.set_title("Text instrument vs Staples specs (accuracy when found)")
     return _save(fig, path)
+
+
+# score-component colours: kept clear of the retailer blue/orange
+COMP_COL = {"vw": "#4a3aa7", "aas": "#1baf7a", "ad": "#eda100",
+            "lsr": "#4a3aa7", "ppg": "#1baf7a", "cg": "#eda100", "msg": "#c2477f", "dfg": "#6f8f2e"}
+
+
+def _component_bars(d: pd.DataFrame, parts: list[tuple[str, str, str]], score: str, title: str, xlabel: str,
+                    path, note: pd.Series | None = None):
+    """Horizontal stacked bars, highest score on top; failed-gate archetypes drawn faded."""
+    d = d.iloc[::-1]
+    fig, ax = plt.subplots(figsize=(6.8, 0.34 * len(d) + 1.5))
+    y = np.arange(len(d))
+    alpha = np.where(d["eligible"].fillna(False).astype(bool), 1.0, 0.35)
+    left = np.zeros(len(d))
+    for col, colour, lab in parts:
+        vals = d[col].fillna(0).to_numpy()
+        for i in range(len(d)):
+            ax.barh(y[i], vals[i], left=left[i], height=0.62, color=colour, alpha=alpha[i],
+                    edgecolor=INK["surface"], linewidth=1.2)
+        left += vals
+    for i, (s, ok) in enumerate(zip(d[score], d["eligible"].fillna(False))):
+        extra = "" if note is None else f"  {note.iloc[i]}"
+        ax.text(left[i] + left.max() * 0.015, i, f"{s:.0f}" + extra + ("" if ok else " · failed gate"), va="center",
+                fontsize=7.5, color=INK["primary"] if ok else INK["muted"])
+    names = [esc(s if len(s) <= 50 else s[:48] + "…") for s in d["name"]]
+    ax.set_yticks(y, names, fontsize=7.5)
+    ax.set_xlim(0, float(left.max()) * (1.55 if note is not None else 1.3))
+    _grid(ax, "x")
+    ax.set_xlabel(xlabel)
+    ax.set_title(title)
+    from matplotlib.patches import Patch
+    ax.legend(handles=[Patch(color=c, label=l) for _, c, l in parts], loc="upper center",
+              bbox_to_anchor=(0.5, -0.1 if len(d) > 6 else -0.2), ncols=3, fontsize=8)
+    return _save(fig, path)
+
+
+def vos_components(fa: pd.DataFrame, w: dict, gamma: float, path, n: int = 15):
+    """VOS split into what VW, AAS and AD contribute after the CRS damping, plus the part CRS removed."""
+    d = fa[fa["depth"] > 0].dropna(subset=["vos"]).nlargest(n, "vos").copy()
+    if d.empty:
+        return None
+    damp = (1 - d["crs"] / 100) ** gamma
+    d["c_vw"] = 100 * w["vw"] * d["pct_vw"] * damp
+    d["c_aas"] = 100 * w["aas"] * d["aas"] / 100 * damp
+    d["c_ad"] = 100 * w["ad"] * d["pct_ad"] * damp
+    pre = 100 * (w["vw"] * d["pct_vw"] + w["aas"] * d["aas"] / 100 + w["ad"] * d["pct_ad"])
+    note = pre.map(lambda x: f"({x:.0f} before risk)")
+    return _component_bars(d, [("c_vw", COMP_COL["vw"], "Whitespace (VW)"), ("c_aas", COMP_COL["aas"], "Fit (AAS)"),
+                               ("c_ad", COMP_COL["ad"], "Look difference (AD)")],
+                           "vos", f"Method 1: VOS by archetype (top {len(d)})",
+                           "VOS (0–100) = segments after the cannibalisation-risk discount", path, note=note.iloc[::-1])
+
+
+def tg_components(fa: pd.DataFrame, w: dict, credible: float, shrink: float, path, n: int = 15):
+    """TG split into the weighted percentile contribution of each gap metric."""
+    d = fa[fa["depth"] > 0].dropna(subset=["tg"]).nlargest(n, "tg").copy()
+    if d.empty:
+        return None
+    sh = np.where(d["lsr_credibility"] >= credible, 1.0, shrink)
+    for k in ("lsr", "ppg", "cg", "msg", "dfg"):
+        d[f"c_{k}"] = 100 * w[k] * d[f"pct_{k}"] * (sh if k == "lsr" else 1.0)
+    return _component_bars(d, [("c_lsr", COMP_COL["lsr"], "Share (LSR)"), ("c_ppg", COMP_COL["ppg"], "Price (PPG)"),
+                               ("c_cg", COMP_COL["cg"], "Colour (CG)"), ("c_msg", COMP_COL["msg"], "Material/style (MSG)"),
+                               ("c_dfg", COMP_COL["dfg"], "Design-forward (DFG)")],
+                           "tg", f"Method 2: TG by archetype (top {len(d)})", "TG (0–100); bar length = score", path)

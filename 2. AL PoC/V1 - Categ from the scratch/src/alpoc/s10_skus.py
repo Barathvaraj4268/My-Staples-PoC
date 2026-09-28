@@ -62,7 +62,7 @@ def run() -> dict:
         products=("family_id", "size"), archetypes=("archetype_id", "nunique"),
         house_brand=("house_brand", "first"), brand_on_staples=("brand_on_staples", "first")).reset_index()
     vend["recruit_path"] = np.where(vend["brand_on_staples"], "Quick win: already a Staples supplier",
-                                    np.where(vend["house_brand"], "Wayfair house brand: source the archetype, not the SKU",
+                                    np.where(vend["house_brand"], "Competitor house brand: source the archetype, not the SKU",
                                              "Independent brand: recruit as a marketplace seller"))
     hhi = pool.groupby("archetype_id")["brand"].apply(lambda s: float(((s.value_counts() / len(s)) ** 2).sum()))
     fa["brand_hhi"] = fa["archetype_id"].map(hhi)

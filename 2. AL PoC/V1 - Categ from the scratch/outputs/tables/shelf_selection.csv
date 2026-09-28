@@ -1,0 +1,24 @@
+node_id,l2_key,status,n_staples,n_competitor,high_conf,spearman,n_recommended,n_strong,R1_enough_data,R2_has_recommendations,R3_confident_mapping,R4_methods_agree,R5_strong_backing,soft_passed,capped_l2,selected,rank_in_l2
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Furniture > Chairs & Seating,scored,114,1064,0.9445488721804511,0.4655462184873949,5,2,True,True,True,True,True,3,True,True,1.0
+Furniture > Chairs & Seating > Big and Tall Chairs,Furniture > Chairs & Seating,thin,25,6,0.16666666666666663,,0,0,False,False,False,False,False,0,True,False,
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Furniture > Chairs & Seating,scored,31,739,0.9066305818673883,0.07960275019098549,5,0,True,True,True,False,False,1,True,True,5.0
+Furniture > Chairs & Seating > Gaming Chairs,Furniture > Chairs & Seating,thin,22,57,0.5789473684210527,,0,0,False,False,False,False,False,0,True,False,
+Furniture > Chairs & Seating > Kids Seating,Furniture > Chairs & Seating,scored,72,138,0.9202898550724637,0.2606060606060606,0,0,True,False,True,False,False,1,True,False,
+Furniture > Chairs & Seating > Office Chairs > Computer and Desk,Furniture > Chairs & Seating,scored,80,289,0.9653979238754326,0.3578947368421052,0,0,True,False,True,True,False,2,True,False,
+Furniture > Chairs & Seating > Office Chairs > Executive,Furniture > Chairs & Seating,scored,188,499,0.9779559118236473,0.5492997198879552,1,0,True,True,True,True,False,2,True,True,4.0
+Furniture > Chairs & Seating > Office Chairs > Other,Furniture > Chairs & Seating,scored,86,152,0.5789473684210527,0.0,0,0,True,False,False,False,False,0,True,False,
+Furniture > Chairs & Seating > Office Chairs > Task,Furniture > Chairs & Seating,scored,177,485,0.9731958762886598,0.6196581196581197,0,0,True,False,True,True,False,2,True,False,
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Furniture > Chairs & Seating,scored,36,254,0.9763779527559056,0.4813186813186813,2,2,True,True,True,True,True,3,True,True,2.0
+"Furniture > Chairs & Seating > Sofas & Benches > Sofas, Loveseats & Sectionals",Furniture > Chairs & Seating,thin,26,54,0.2962962962962963,,0,0,False,False,False,False,False,0,True,False,
+Furniture > Chairs & Seating > Stacking & Folding Chairs,Furniture > Chairs & Seating,scored,257,245,0.7959183673469388,0.4633642930856553,0,0,True,False,False,True,False,1,True,False,
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Furniture > Chairs & Seating,scored,168,174,0.7816091954022988,0.7294117647058823,2,2,True,True,False,True,True,2,True,True,3.0
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Furniture > Chairs & Seating,scored,84,130,0.8153846153846154,0.26373626373626374,2,1,True,True,False,False,True,1,True,False,6.0
+Furniture > Chairs & Seating > Stools & Ottomans > Drafting Chairs & Office Stools,Furniture > Chairs & Seating,scored,106,58,0.9137931034482758,-0.19999999999999998,0,0,True,False,True,False,False,1,True,False,
+Furniture > Chairs & Seating > Stools & Ottomans > Foot Rests,Furniture > Chairs & Seating,thin,29,15,0.9333333333333333,,0,0,False,False,True,False,False,1,True,False,
+Furniture > Chairs & Seating > Stools & Ottomans > Ottomans,Furniture > Chairs & Seating,thin,29,1069,0.9934518241347053,,0,0,False,False,True,False,False,1,True,False,
+Furniture > Desks > Office Desks > Computer,Furniture > Desks,scored,270,939,0.9882854100106496,0.2952105570765019,3,1,True,True,True,True,True,3,True,True,1.0
+Furniture > Desks > Office Desks > Executive,Furniture > Desks,scored,110,283,0.9929328621908127,0.2541353383458646,0,0,True,False,True,False,False,1,True,False,
+Furniture > Desks > Office Desks > Other,Furniture > Desks,scored,66,333,0.993993993993994,0.287012987012987,0,0,True,False,True,False,False,1,True,False,
+Furniture > Desks > Office Desks > Table,Furniture > Desks,scored,57,108,0.9814814814814815,-0.3,1,0,True,True,True,False,False,1,True,True,3.0
+Furniture > Desks > Office Desks > Workstations,Furniture > Desks,scored,165,398,0.9874371859296482,0.44076923076923075,0,0,True,False,True,True,False,2,True,False,
+Furniture > Desks > Sit & Stand Desks,Furniture > Desks,scored,247,345,0.9507246376811594,0.3954887218045112,1,0,True,True,True,True,False,2,True,True,2.0

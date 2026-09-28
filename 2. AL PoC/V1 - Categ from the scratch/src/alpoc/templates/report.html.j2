@@ -32,9 +32,7 @@ a{color:var(--accent)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 16px}
 header{background:var(--surface);border-bottom:1px solid var(--line)}
 header .wrap{padding-top:20px;padding-bottom:0}
-h1{font-size:22px;margin:0 0 2px}
-.sub{color:var(--ink-2);margin:0 0 14px}
-.banner{background:var(--warn-bg);border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin:0 0 14px;font-size:13px}
+h1{font-size:22px;margin:0 0 12px}
 nav.tabs{display:flex;gap:4px}
 nav.tabs button{font:inherit;font-weight:600;background:none;border:0;border-bottom:3px solid transparent;color:var(--ink-2);
   padding:10px 12px;cursor:pointer}
@@ -42,30 +40,22 @@ nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(-
 main .wrap{padding-top:22px;padding-bottom:60px}
 section.panel[hidden]{display:none}
 h2{font-size:18px;margin:30px 0 8px}
-h3{font-size:15px;margin:22px 0 6px}
+h3{font-size:15px;margin:26px 0 6px}
+h4{font-size:13.5px;margin:16px 0 4px}
 p{margin:6px 0 10px;max-width:820px}
 .muted{color:var(--muted)} .ink2{color:var(--ink-2)}
+.small{font-size:12.5px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .grid{display:grid;gap:12px}
 .g2{grid-template-columns:repeat(2,minmax(0,1fr))}
-.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
-@media (max-width:820px){.g2,.g4{grid-template-columns:1fr 1fr}}
-@media (max-width:520px){.g2,.g4{grid-template-columns:1fr}}
-.tile .v{font-size:26px;font-weight:600}
-.tile .l{color:var(--ink-2);font-size:12.5px}
-.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;counter-reset:s}
-@media (max-width:820px){.flow{grid-template-columns:1fr 1fr}}
-.flow .st{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;position:relative}
-.flow .st b{display:block;font-size:13px}
-.flow .st span{font-size:12.5px;color:var(--ink-2)}
-.flow .st .n{position:absolute;top:8px;right:10px;font-size:11px;color:var(--muted)}
-.flow .st.m1{border-left:3px solid var(--accent)} .flow .st.m2{border-left:3px solid var(--comp)}
+@media (max-width:820px){.g2{grid-template-columns:1fr}}
 .tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:12.5px}
 th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 th{position:sticky;top:0;background:var(--surface-2);font-weight:600;cursor:pointer;white-space:nowrap;user-select:none}
 th.nosort{cursor:default}
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.key{font-weight:600}
 tr:last-child td{border-bottom:0}
 .chip{display:inline-block;padding:1px 8px;border-radius:99px;background:var(--chip);font-size:11.5px;white-space:nowrap}
 .st-PASS{background:var(--good-bg);color:var(--good)} .st-FAIL{background:var(--bad-bg);color:var(--bad)}
@@ -73,14 +63,27 @@ tr:last-child td{border-bottom:0}
 .fig{background:#fcfcfb;border:1px solid var(--line);border-radius:10px;padding:6px;margin:0}
 .fig img{display:block;width:100%;height:auto}
 .fig figcaption{font-size:12px;color:#52514e;padding:4px 6px 2px}
+.fig.solo{max-width:760px}
 .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);
   border-radius:10px;padding:12px 14px;position:sticky;top:0;z-index:5}
 .controls label{font-weight:600}
 .controls select{font:inherit;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface-2);
   color:var(--ink);max-width:100%;min-width:0;flex:1 1 380px}
-.node-head{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin:18px 0 6px}
+.node-head{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin:18px 0 4px}
 .node-head h2{margin:0}
+dl.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:6px 0 4px;font-size:13.5px;max-width:980px}
+dl.facts dt{font-weight:600;color:var(--ink-2)} dl.facts dd{margin:0}
+.compname{color:var(--comp)}
+dl.insg{display:grid;grid-template-columns:minmax(150px,max-content) 1fr;gap:10px 18px;margin:0}
+dl.insg dt{font-weight:600;font-size:13px;padding-top:4px} dl.insg dd{margin:0}
+dl.insg dt:not(:first-of-type),dl.insg dt:not(:first-of-type)+dd{border-top:1px solid var(--line);padding-top:10px}
+dl.insg ul.ins{margin:0}
+@media (max-width:620px){dl.facts,dl.insg{grid-template-columns:1fr} dl.insg dt:not(:first-of-type)+dd{border-top:0;padding-top:0}}
+table.grouped tbody{border-top:2px solid var(--line)} table.grouped td.grp{font-weight:600;background:var(--surface-2);min-width:130px}
+td.pos{color:var(--comp)} td.neg{color:var(--accent)}
 ul.ins{margin:6px 0 0;padding-left:18px} ul.ins li{margin:4px 0}
+ol.steps{padding-left:20px;max-width:860px} ol.steps > li{margin:8px 0} ol.steps ul{margin:4px 0;padding-left:18px}
+.lede{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:10px 14px;margin:8px 0 12px;max-width:none}
 .skugrp{margin:14px 0 20px}
 .sku{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);margin:8px 0}
 @media (max-width:620px){.sku{grid-template-columns:1fr}}
@@ -96,6 +99,36 @@ dl.lab dt{font-weight:600}
 dl.lab dd{margin:0;color:var(--ink-2)}
 details{margin:8px 0} summary{cursor:pointer;font-weight:600}
 .legend-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+/* flow chart */
+.fc{display:flex;flex-direction:column;align-items:center;max-width:1000px}
+.fc > .fc-step,.fc > .fc-phase{width:min(800px,100%)}
+.fc > .fc-fork,.fc > .fc-arrow{width:100%}
+.meta{font-size:12px;color:var(--ink-2);margin-top:3px;display:flex;gap:8px;align-items:baseline}
+.meta .k{flex:0 0 46px;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.meta .tech{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11.5px}
+ul.agree{margin:0;padding-left:18px} ul.agree li{margin:3px 0}
+.selinfo{margin:10px 0 0} .selinfo ol{margin:6px 0;padding-left:20px;font-size:13px} .selinfo ol li{margin:2px 0}
+.yes{color:var(--good);font-weight:600} .no-{color:var(--muted)}
+.fc-phase{font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.fc-step{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.fc-step.m1{border-left:4px solid var(--accent)} .fc-step.m2{border-left:4px solid var(--comp)}
+.fc-tag{font-weight:700;font-size:12px;color:var(--ink-2);background:var(--surface-2);border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;min-height:34px;align-self:start}
+.fc-step h4{margin:0 0 2px;font-size:14px}
+.fc-step p{margin:2px 0 4px;font-size:13px;color:var(--ink-2);max-width:none}
+.fc-arrow{height:24px;position:relative}
+.fc-arrow::before{content:"";position:absolute;left:50%;top:2px;bottom:7px;border-left:2px solid var(--muted)}
+.fc-arrow::after{content:"";position:absolute;left:calc(50% - 5px);bottom:1px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid var(--muted)}
+.fc-fork{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fc-fork .fc-arrow{grid-column:auto}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:6px 0}
+.chain .pill{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:3px 8px;font-size:12.5px}
+.chain .to{color:var(--muted);font-size:13px}
+.outs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.o{border-radius:8px;padding:4px 9px;font-size:12px;border:1px solid var(--line)}
+.o.ok{background:var(--good-bg)} .o.hold{background:var(--warn-bg)} .o.no{background:var(--bad-bg)}
+.o b{font-weight:600}
+.planned{display:inline-block;font-size:11px;padding:0 7px;border-radius:99px;border:1px dashed var(--muted);color:var(--ink-2);white-space:nowrap;margin-left:4px}
+@media (max-width:720px){.fc-fork{grid-template-columns:1fr}.fc-fork .fc-arrow:nth-child(2){display:none}.fc-step{grid-template-columns:1fr}.fc-tag{justify-content:flex-start}}
 footer{color:var(--muted);font-size:12px;padding:30px 0}
 @media print{
   header nav, .controls{display:none}
@@ -109,13 +142,9 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
 <header>
   <div class="wrap">
     <h1>{{ title }}</h1>
-    <p class="sub">Where {{ comp }} carries product archetypes and attribute variants that Staples lacks, and which of them Staples could add through its marketplace without cannibalising its own assortment. Generated {{ date }}.</p>
-    <div class="banner"><b>Provisional PoC run.</b> Attributes come from the local rules + embedding instrument (no LLM key available);
-      style, vibe tags and the Design-Forward Index still need human validation; thresholds are weakly supervised, not yet calibrated with Pat.
-      All figures are shares within a convenience sample, never absolute market sizes.</div>
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="method" aria-selected="true">Approach &amp; Methodology</button>
-      <button role="tab" data-tab="nodes" aria-selected="false">Node-Level Analysis</button>
+      <button role="tab" data-tab="nodes" aria-selected="false">Gaps &amp; Recommendations</button>
     </nav>
   </div>
 </header>
@@ -125,49 +154,111 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
 <!-- ======================================================= TAB 1 -->
 <section class="panel" id="tab-method">
   <h2 style="margin-top:0">The question</h2>
-  <p>Staples wants to grow its marketplace with <b>core-adjacent</b> products: design and lifestyle extensions of things it already sells (the “White Chair” idea: an aesthetic-first chair next to Staples' ergonomic range), without taking sales from its own first-party assortment. Using only external data, this PoC asks, for each granular Staples shelf:</p>
+  <p>Staples wants to grow its marketplace with <b>core-adjacent</b> products: design and lifestyle extensions of things it already sells (the “White Chair” idea: an aesthetic-first chair next to Staples' ergonomic range), without taking sales from its own first-party assortment. Using only external data, this PoC compares each granular Staples shelf with a competitor's range and asks:</p>
   <ul>
-    <li><b>Where are the gaps?</b> Which archetypes and attribute values (colour, material, style, price band, features) are more common at {{ comp }} than at Staples?</li>
+    <li><b>Where are the gaps?</b> Which archetypes and attribute values (colour, material, style, price band, features) are more common at the competitor than at Staples?</li>
     <li><b>Are they safe and on-brand?</b> Would a product take a sale from a Staples item, does it fit Staples' customer, and is it priced to trade up or to undercut?</li>
     <li><b>What should be added?</b> Named archetypes with example products and notes on brands and sellers.</li>
   </ul>
 
-  <h2>At a glance</h2>
-  <div class="grid g4">
-    <div class="card tile"><div class="v">{{ "{:,}".format(tiles.comp_mapped) }}</div><div class="l">{{ comp }} products placed on a Staples shelf (of {{ "{:,}".format(tiles.comp_fam) }})</div></div>
-    <div class="card tile"><div class="v">{{ tiles.scored }}</div><div class="l">shelves fully analysed (+{{ tiles.thin }} thin, descriptive only)</div></div>
-    <div class="card tile"><div class="v">{{ tiles.shortlisted }}</div><div class="l">archetypes recommended across shelves</div></div>
-    <div class="card tile"><div class="v">{{ "{:,}".format(tiles.backlog) }}</div><div class="l">{{ comp }} products with no Staples shelf (new-node backlog)</div></div>
-  </div>
-
   <h2>How we approached it</h2>
-  <p>Twelve stages. The first four make the comparison fair; the two methods then score every archetype independently; a shared safety gate and a fused ranking produce the recommendations.</p>
-  <div class="flow">
-    <div class="st"><span class="n">S0</span><b>Ingest &amp; clean</b><span>Parse prices and Staples' spec sheets; strip customer reviews (personal data) from {{ comp }} text.</span></div>
-    <div class="st"><span class="n">S1</span><b>Product families</b><span>Staples lists each colour as its own SKU; group them so both sides count products the same way.</span></div>
-    <div class="st"><span class="n">S2</span><b>Shelves (analysis nodes)</b><span>Staples leaf categories; large ones split by Staples' own type facet (a pseudo-L5).</span></div>
-    <div class="st"><span class="n">S3</span><b>Map {{ comp }} products</b><span>Each product placed on a Staples shelf by a classifier trained on Staples' own products, or sent to the backlog.</span></div>
-    <div class="st"><span class="n">S4–S5</span><b>Attributes</b><span>Colour, material, style, features, use context, vibe, dimensions, and a Design-Forward Index; checked against Staples specs.</span></div>
-    <div class="st"><span class="n">S6</span><b>Archetypes</b><span>A small grid of the most informative attributes per shelf; thin cells merge upward; checked against clustering.</span></div>
-    <div class="st m1"><span class="n">S7</span><b>Method 1: vector view → VOS</b><span>Empty space near Staples, fit, visible difference, and cannibalisation risk, per product and archetype.</span></div>
-    <div class="st m2"><span class="n">S8</span><b>Method 2: attribute view → TG</b><span>Share, price, colour, material/style and design-forward gaps per archetype and attribute value.</span></div>
-    <div class="st"><span class="n">S9</span><b>Gate + fused re-rank</b><span>Drop archetypes that mostly substitute or undercut Staples; rank the rest by both scores together.</span></div>
-    <div class="st"><span class="n">S10</span><b>Products &amp; sellers</b><span>Diverse example products per recommendation, each shown next to its nearest Staples product.</span></div>
-    <div class="st"><span class="n">S11</span><b>Outputs</b><span>This report, PNG figures and CSV tables.</span></div>
-    <div class="st"><span class="n">QA</span><b>Quality gates</b><span>Eight checks (below); failures are reported, not hidden.</span></div>
-  </div>
+  <p>Four phases: make the comparison fair, describe every product the same way, score each archetype two ways, then decide.</p>
+  <div class="fc">
+    <div class="fc-phase">1 · Make the comparison fair</div>
+    <div class="fc-step"><div class="fc-tag">S0</div><div>
+      <h4>Ingest &amp; clean</h4>
+      <p>Load both retailers' product files and clean them so every later stage reads the same fields.</p>
+      <div class="chain"><span class="pill">Parse prices &amp; spec sheets</span><span class="to">→</span><span class="pill">Fix garbled text</span><span class="to">→</span><span class="pill">Strip reviews (personal data)</span></div>
+      <div class="meta"><span class="k">Output</span>Clean product tables for both retailers</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">pandas · PyArrow · ftfy · regex · Python ast</span></div>
+    </div></div>
+    <div class="fc-arrow"></div>
+    <div class="fc-step"><div class="fc-tag">S1</div><div>
+      <h4>Product families</h4>
+      <p>Group Staples colour-variant SKUs into one family so both retailers are counted the same way.</p>
+      <div class="chain"><span class="pill">Brand + name-stem grouping</span><span class="to">→</span><span class="pill">Colourway count</span><span class="to">→</span><span class="pill">Same product at both retailers?</span></div>
+      <div class="meta"><span class="k">Output</span>Families, colourway counts, identical-product flags</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">pandas · regex name stems · cosine similarity · size/price blocking</span></div>
+    </div></div>
+    <div class="fc-arrow"></div>
+    <div class="fc-step"><div class="fc-tag">S2</div><div>
+      <h4>Shelves (analysis nodes)</h4>
+      <p>Use Staples' own leaf categories as shelves, splitting large ones by Staples' product-type facet.</p>
+      <div class="chain"><span class="pill">Staples leaves</span><span class="to">→</span><span class="pill">≥ {{ cfg.nodes.split_min_families }} families: split by type (pseudo-L5)</span><span class="to">→</span><span class="pill">&lt; {{ cfg.nodes.min_families_scored }} per side: thin</span></div>
+      <div class="meta"><span class="k">Output</span>Shelf list, found from the data on every run</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">pandas · Staples spec facets · YAML config</span></div>
+    </div></div>
+    <div class="fc-arrow"></div>
+    <div class="fc-step"><div class="fc-tag">S3</div><div>
+      <h4>Map competitor products</h4>
+      <p>Place each competitor product on a Staples shelf, or send it to the new-node backlog.</p>
+      <div class="chain"><span class="pill">Page prior</span><span class="to">→</span><span class="pill">Vote of {{ mapping_k }} nearest Staples products</span><span class="to">→</span><span class="pill">Distance check</span></div>
+      <div class="outs">
+        <span class="o ok"><b>Mapped</b> (≥ {{ "{:.0%}".format(low_conf_prob) }} vote)</span>
+        <span class="o hold"><b>Close call</b> → LLM adjudication <span class="planned">planned</span></span>
+        <span class="o no"><b>No shelf</b> → backlog</span>
+      </div>
+      <div class="meta"><span class="k">Output</span>Product → shelf map, new-node backlog</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">sentence-transformers · {{ encoder }} · similarity-weighted k-NN · Youden's J · NumPy cosine search · Claude Sonnet 5 (planned)</span></div>
+    </div></div>
 
-  <h2>Data coverage</h2>
-  <p>{{ comp }}'s sample overlaps Staples mainly in Chairs &amp; Seating and Desks, so those are the shelves analysed today. Scope is decided by the data on every run: when new categories or competitors are added, the same pipeline picks up whatever shelves have enough products on both sides.</p>
-  <div class="grid g2">
-    <figure class="fig"><img alt="Families per analysis node, Staples vs {{ comp }}" src="{{ ov.coverage }}"><figcaption>Shelves with products on both sides. Thin = fewer than {{ cfg.nodes.min_families_scored }} families on one side.</figcaption></figure>
-    <div>
-      <h3 style="margin-top:0">New-node backlog ({{ comp }} products with no Staples shelf)</h3>
-      <div class="tbl-wrap"><table class="sortable"><thead><tr><th>{{ comp }} page</th><th class="num">No Staples shelf for the page</th><th class="num">Too far from any candidate shelf</th></tr></thead><tbody>
-      {% for r in backlog %}<tr><td>{{ r.page }}</td><td class="num">{{ r.none_page }}</td><td class="num">{{ r.none_far }}</td></tr>{% endfor %}
-      </tbody></table></div>
-      <p class="muted" style="font-size:12.5px">{{ n_staples_only }} Staples shelves have no {{ comp }} products in this sample (for example Labels, Shipping) and are not scored.</p>
+    <div class="fc-arrow"></div>
+    <div class="fc-phase">2 · Describe every product the same way</div>
+    <div class="fc-step"><div class="fc-tag">S4–S5</div><div>
+      <h4>Attributes</h4>
+      <p>Extract the same attributes from both retailers' text and check them against Staples spec sheets.</p>
+      <div class="chain"><span class="pill">Category vocabulary</span><span class="to">→</span><span class="pill">Same extractor, both sides</span><span class="to">→</span><span class="pill">&lt; {{ "{:.0%}".format(cfg.qa.g2_field_acc) }} accurate: excluded</span><span class="to">→</span><span class="pill">Design-Forward Index</span></div>
+      <div class="meta"><span class="k">Output</span>Attribute table, DFI (0–1), per-field accuracy</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">closed-vocabulary regex · embedding zero-shot · anchor contrast · Claude Haiku 4.5 Batch API (planned)</span></div>
+    </div></div>
+    <div class="fc-arrow"></div>
+    <div class="fc-step"><div class="fc-tag">S6</div><div>
+      <h4>Archetypes</h4>
+      <p>Cut each shelf into nameable archetypes using its most informative attributes.</p>
+      <div class="chain"><span class="pill">Pick ≤ {{ cfg.archetypes.max_facets }} attributes</span><span class="to">→</span><span class="pill">Grid cells</span><span class="to">→</span><span class="pill">&lt; {{ cfg.archetypes.min_pooled }} products: merge up</span><span class="to">→</span><span class="pill">Cluster cross-check</span></div>
+      <div class="meta"><span class="k">Output</span>Named archetypes, e.g. “Mid-century — warm neutral, $200–$350”</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">normalised entropy · UMAP · HDBSCAN · ARI / AMI · bootstrap</span></div>
+    </div></div>
+
+    <div class="fc-arrow"></div>
+    <div class="fc-phase">3 · Score every archetype, two independent ways</div>
+    <div class="fc-fork">
+      <div class="fc-step m1"><div class="fc-tag">S7</div><div>
+        <h4>Method 1 · vector view → VOS</h4>
+        <p>Scores whitespace, fit, look difference and cannibalisation risk for every competitor product.</p>
+        <div class="chain"><span class="pill">Standard card → vector</span><span class="to">→</span><span class="pill">VW · AAS · AD · CRS · PPR</span><span class="to">→</span><span class="pill">Label per product</span><span class="to">→</span><span class="pill">Archetype <b>VOS</b></span></div>
+        <div class="outs"><span class="o ok">CURATE · STYLE-EXT · TRADE-UP</span><span class="o hold">REVIEW · EDGE</span><span class="o no">SUBSTITUTE · UNDERCUT · OFF-BRAND</span></div>
+        <div class="meta"><span class="k">Output</span>Decision labels, VOS per archetype</div>
+        <div class="meta"><span class="k">Tech</span><span class="tech">{{ encoder }} · NumPy cosine k-NN · logistic regression (scikit-learn) · ROC AUC</span></div>
+      </div></div>
+      <div class="fc-step m2"><div class="fc-tag">S8</div><div>
+        <h4>Method 2 · attribute view → TG</h4>
+        <p>Compares each archetype's share and attribute mix between the competitor and Staples.</p>
+        <div class="chain"><span class="pill">Share per side</span><span class="to">→</span><span class="pill">LSR · PPG · CG · MSG · DFG</span><span class="to">→</span><span class="pill">Percentiles: <b>TG</b></span></div>
+        <div class="meta"><span class="k">Output</span>TG per archetype, attribute-value gaps</div>
+        <div class="meta"><span class="k">Tech</span><span class="tech">Jeffreys Beta smoothing · Monte-Carlo credibility · Wasserstein-1 (SciPy) · Jensen–Shannon divergence</span></div>
+      </div></div>
+      <div class="fc-arrow"></div><div class="fc-arrow"></div>
     </div>
+
+    <div class="fc-phase" style="margin-top:0">4 · Decide</div>
+    <div class="fc-step"><div class="fc-tag">S9</div><div>
+      <h4>Gate &amp; re-rank</h4>
+      <p>Remove archetypes that would cannibalise Staples, then rank the rest on both scores together.</p>
+      <div class="chain"><span class="pill">Safety gate</span><span class="to">→</span><span class="pill">Fused re-rank</span><span class="to">→</span><span class="pill">Agreement tier</span><span class="to">→</span><span class="pill">≤ {{ cfg.integration.shortlist_n }} per shelf</span></div>
+      <div class="outs"><span class="o ok">Strong</span><span class="o hold">Gap-led · Vector-led</span><span class="o no">Weak</span></div>
+      <div class="meta"><span class="k">Output</span>Ranked recommendations per shelf</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">percentile ranks · Spearman · reciprocal-rank fusion · Dirichlet weight sampling</span></div>
+    </div></div>
+    <div class="fc-arrow"></div>
+    <div class="fc-step"><div class="fc-tag">S10</div><div>
+      <h4>Products &amp; sellers</h4>
+      <p>Pick varied example products per recommendation, each shown beside its nearest Staples product.</p>
+      <div class="chain"><span class="pill">{{ cfg.skus.n_exemplars }} examples per archetype</span><span class="to">→</span><span class="pill">Nearest Staples match</span><span class="to">→</span><span class="pill">{{ cfg.skus.style_extension_n }} style extensions per shelf</span><span class="to">→</span><span class="pill">Recruit path</span></div>
+      <div class="outs"><span class="o ok">Existing Staples supplier</span><span class="o hold">Independent seller</span><span class="o">Competitor house brand</span></div>
+      <div class="meta"><span class="k">Output</span>SKU cards, vendor / seller list</div>
+      <div class="meta"><span class="k">Tech</span><span class="tech">Maximal Marginal Relevance (MMR) · cosine nearest neighbour</span></div>
+    </div></div>
   </div>
 
   <h2>The two methods</h2>
@@ -189,17 +280,17 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
       <h3 style="margin-top:0">Method 2 · attribute view → TG</h3>
       <p class="ink2">Archetypes are compared as shares of each retailer's shelf, so a sample is compared with a sample, never with a census.</p>
       <dl class="lab">
-        <dt>LSR</dt><dd>Log share ratio: how over-represented the archetype is at {{ comp }}. Defined even when Staples has none; shrunk when not statistically credible.</dd>
-        <dt>PPG</dt><dd>Price position gap: distance between the two price distributions (↑ = {{ comp }} priced higher).</dd>
+        <dt>LSR</dt><dd>Log share ratio: how over-represented the archetype is at the competitor. Defined even when Staples has none; shrunk when not statistically credible.</dd>
+        <dt>PPG</dt><dd>Price position gap: distance between the two price distributions (↑ = competitor priced higher).</dd>
         <dt>CG</dt><dd>Colour gap: difference in colour-tone mix.</dd>
         <dt>MSG</dt><dd>Material &amp; style gap.</dd>
-        <dt>DFG</dt><dd>Design-forward gap: {{ comp }} median DFI minus Staples median DFI.</dd>
+        <dt>DFG</dt><dd>Design-forward gap: competitor median DFI minus Staples median DFI.</dd>
       </dl>
       <p><code>TG = 100 × [{{ cfg.gaps.tg_weights.lsr }}·pct(LSR) + {{ cfg.gaps.tg_weights.ppg }}·pct(PPG) + {{ cfg.gaps.tg_weights.cg }}·pct(CG) + {{ cfg.gaps.tg_weights.msg }}·pct(MSG) + {{ cfg.gaps.tg_weights.dfg }}·pct(DFG)]</code></p>
     </div>
   </div>
 
-  <h3>Decision labels (per {{ comp }} product)</h3>
+  <h3>Decision labels (per competitor product)</h3>
   <div class="tbl-wrap"><table><thead><tr><th class="nosort">Label</th><th class="nosort">Meaning</th><th class="nosort">Action</th><th class="nosort num">Products</th></tr></thead><tbody>
     <tr><td><span class="legend-dot" style="background:#1baf7a"></span>CURATE</td><td>Low cannibalisation, good fit: true whitespace.</td><td>Approve</td><td class="num">{{ label_counts.get('CURATE',0) }}</td></tr>
     <tr><td><span class="legend-dot" style="background:#1baf7a"></span>STYLE-EXTENSION</td><td>Does the same job as a Staples product but in a colour, material or style Staples lacks (the “flavours” case).</td><td>Approve</td><td class="num">{{ label_counts.get('STYLE-EXTENSION',0) }}</td></tr>
@@ -213,9 +304,24 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
   </tbody></table></div>
 
   <h3>From two scores to one list</h3>
-  <p><b>1 · Safety gate.</b> An archetype qualifies only if at least {{ "{:.0%}".format(cfg.integration.safe_share_min) }} of its {{ comp }} products are approvable and fewer than {{ "{:.0%}".format(cfg.integration.reject_share_max) }} substitute or undercut Staples. The gate applies to both methods, because TG alone cannot see cannibalisation.
-  <b>2 · Fused re-rank.</b> Within a shelf, <code>Final = {{ cfg.integration.w_vos }}·rank(VOS) + {{ cfg.integration.w_tg }}·rank(TG)</code>.
-  <b>3 · Agreement tier.</b> <i>Strong</i> = top third in both methods; <i>Gap-led</i> = TG only (a real gap the vector view finds crowded or close to Staples); <i>Vector-led</i> = VOS only (whitespace the attribute grid does not capture); <i>Weak</i> = neither. Up to {{ cfg.integration.shortlist_n }} non-Weak archetypes per shelf are recommended.</p>
+  <ol class="steps">
+    <li><b>Safety gate (shared by both methods).</b> An archetype qualifies only if:
+      <ul>
+        <li>at least {{ "{:.0%}".format(cfg.integration.safe_share_min) }} of its competitor products are approvable (CURATE, STYLE-EXTENSION or TRADE-UP), and</li>
+        <li>fewer than {{ "{:.0%}".format(cfg.integration.reject_share_max) }} would substitute or undercut a Staples product.</li>
+      </ul>
+      It applies to both scores because TG alone cannot see cannibalisation.</li>
+    <li><b>Fused re-rank.</b> Within each shelf, VOS and TG are turned into percentile ranks and combined: <code>Final = {{ cfg.integration.w_vos }}·rank(VOS) + {{ cfg.integration.w_tg }}·rank(TG)</code>. Using ranks stops either score's scale from dominating.</li>
+    <li><b>Agreement tier.</b> Each archetype is placed in a tier by where it sits in each method's ranking:
+      <ul>
+        <li><i>Strong</i>: top third in both methods.</li>
+        <li><i>Gap-led</i>: top third on TG only (a real attribute gap that the vector view finds crowded or close to Staples).</li>
+        <li><i>Vector-led</i>: top third on VOS only (whitespace the attribute grid does not capture).</li>
+        <li><i>Weak</i>: top third in neither; never recommended.</li>
+      </ul></li>
+    <li><b>Shortlist.</b> Up to {{ cfg.integration.shortlist_n }} non-Weak archetypes per shelf, in Final order.</li>
+    <li><b>Robustness check.</b> Both sets of weights are re-drawn {{ "{:,}".format(cfg.sensitivity.draws) }} times; the report shows how often each archetype stays in its shelf's top {{ cfg.sensitivity.top_n }}.</li>
+  </ol>
 
   <h2>Quality gates</h2>
   <div class="tbl-wrap"><table><thead><tr><th class="nosort">Gate</th><th class="nosort">What is checked</th><th class="nosort">Result</th><th class="nosort">Target</th><th class="nosort">Status</th><th class="nosort">Note</th></tr></thead><tbody>
@@ -236,10 +342,13 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
 
   <h2>Assumptions and caveats</h2>
   <ul>
+    <li><b>Provisional PoC run.</b> Attributes come from the local rules + embedding instrument (no LLM key available); style, vibe tags and the Design-Forward Index still need human validation; thresholds are weakly supervised, not yet calibrated with Pat.</li>
+    <li>All figures are shares within a convenience sample, never absolute market sizes.</li>
+    <li>The competitor is chosen per shelf. In this run every shelf is compared with {{ comp }}, the only competitor with product-level data so far.</li>
     <li>Everything Staples.com sells counts as existing assortment for cannibalisation, including third-party brands it retails.</li>
-    <li>The {{ comp }} data is a convenience sample (pages that scraped successfully). Every number is a within-sample share with a credibility check; nothing here estimates market size or demand.</li>
-    <li>{{ comp }} consumer and Professional pages are pooled. Prices are list prices at crawl time.</li>
-    <li>{{ comp }}'s “vendor” is usually a house brand, not a manufacturer: those products are recommendations to <i>source the archetype</i>, not to recruit that brand.</li>
+    <li>The competitor data is a convenience sample (pages that scraped successfully). Every number is a within-sample share with a credibility check; nothing here estimates market size or demand.</li>
+    <li>Competitor consumer and professional (B2B) pages are pooled. Prices are list prices at crawl time.</li>
+    <li>The competitor's “vendor” is often a house brand, not a manufacturer: those products are recommendations to <i>source the archetype</i>, not to recruit that brand.</li>
     <li>Category-specific vocabularies, the page crosswalk and the house-brand list are drafts awaiting review. Shelves in L2s without a reviewed configuration are marked provisional.</li>
   </ul>
 </section>
@@ -254,6 +363,20 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
       </optgroup>{% endfor %}
     </select>
   </div>
+  {% if sel %}<details class="selinfo"><summary>Showing {{ n_shown }} of {{ n_all }} shelves: how they were chosen</summary>
+    <p class="ink2 small">To keep the report focused, {% for l2, n in sf.max_shelves.items() %}{{ l2.split(' > ')[-1] }} is limited to {{ n }} shelves{% if not loop.last %} and {% endif %}{% endfor %}. Categories added later show every shelf. All shelves are still scored and listed in <code>outputs/tables/shelf_selection.csv</code>.</p>
+    <ol>
+      <li><b>R1 Enough data</b> (required): at least {{ cfg.nodes.min_families_scored }} product families on each side.</li>
+      <li><b>R2 Meaningful recommendations</b> (required): at least one archetype recommended.</li>
+      <li><b>R3 Reliable placement</b>: ≥ {{ "{:.0%}".format(sf.r3_min_high_confidence) }} of mapped competitor products placed with high confidence.</li>
+      <li><b>R4 Methods agree</b>: Spearman VOS↔TG ≥ {{ "%.2f"|format(sf.r4_min_spearman) }}.</li>
+      <li><b>R5 Backed by both methods</b>: at least {{ sf.r5_min_strong }} Strong-tier recommendation.</li>
+    </ol>
+    <p class="ink2 small">Shelves meeting R1–R2 are ranked by how many of R3–R5 they pass, then by number of recommendations, then by agreement.</p>
+    <div class="tbl-wrap"><table><thead><tr><th class="nosort">Shelf</th><th class="nosort">R1</th><th class="nosort">R2</th><th class="nosort">R3</th><th class="nosort">R4</th><th class="nosort">R5</th><th class="nosort num">High confidence</th><th class="nosort num">Spearman</th><th class="nosort num">Recommended (Strong)</th><th class="nosort">Shown</th></tr></thead><tbody>
+    {% for r in sel %}<tr><td>{{ r.label }}</td>{% for ok in r.r %}<td>{% if ok %}<span class="yes">✓</span>{% else %}<span class="no-">✗</span>{% endif %}</td>{% endfor %}<td class="num">{{ r.hc }}</td><td class="num">{{ r.rho }}</td><td class="num">{{ r.nrec }} ({{ r.nstrong }})</td><td>{% if r.shown %}<span class="chip st-PASS">shown</span>{% else %}<span class="muted">–</span>{% endif %}</td></tr>{% endfor %}
+    </tbody></table></div>
+  </details>{% endif %}
 
   {% for s in sections %}
   <article class="node-sec" id="n-{{ s.id }}" hidden>
@@ -262,32 +385,59 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
       {% if s.status == 'thin' %}<span class="chip st-PENDING">thin shelf: descriptive only</span>{% endif %}
       {% if s.provisional %}<span class="chip st-PARTIAL">provisional configuration</span>{% endif %}
     </div>
-    <p class="ink2">Staples {{ "{:,}".format(s.ns) }} families · {{ comp }} {{ "{:,}".format(s.nc) }} families · {{ "{:.0%}".format(s.lowconf) }} of mapped {{ comp }} products low-confidence
-      {% if s.rho is not none %} · method agreement (Spearman VOS↔TG) {{ "%.2f"|format(s.rho) }}{% endif %}
-      {% if s.facets %} · archetype grid: {{ s.facets }}{% endif %}</p>
+    <dl class="facts">
+      <dt>Competitor chosen</dt><dd><b class="compname">({{ s.comp }})</b></dd>
+      <dt>Product families</dt><dd>Staples {{ "{:,}".format(s.ns) }} · {{ s.comp }} {{ "{:,}".format(s.nc) }}</dd>
+      <dt>Mapping confidence</dt><dd>{{ "{:.0%}".format(s.highconf) }} of mapped {{ s.comp }} products placed with high confidence <span class="muted">(≥ {{ "{:.0%}".format(low_conf_prob) }} of the similarity-weighted vote of the {{ mapping_k }} nearest Staples products points to this shelf)</span></dd>
+      {% if s.facets %}<dt>Archetype grid</dt><dd>{{ s.facets }}</dd>{% endif %}
+    </dl>
 
     <h3>Key insights</h3>
-    <div class="card"><ul class="ins">{% for i in s.insights %}<li>{{ i }}</li>{% endfor %}</ul></div>
+    <div class="card"><dl class="insg">{% for g in s.insights %}
+      <dt>{{ g.group }}</dt><dd><ul class="ins">{% for i in g.lines %}<li>{{ i }}</li>{% endfor %}</ul></dd>{% endfor %}
+    </dl></div>
 
     <h3>Coverage</h3>
     <div class="grid g2">
-      {% if s.figs.price %}<figure class="fig"><img alt="Price-band coverage" src="{{ s.figs.price }}"><figcaption>Share of each retailer's families per price band. “gap” = {{ comp }} share credibly higher.</figcaption></figure>{% endif %}
+      {% if s.figs.price %}<figure class="fig"><img alt="Price-band coverage" src="{{ s.figs.price }}"><figcaption>Share of each retailer's families per price band. “gap” = {{ s.comp }} share credibly higher.</figcaption></figure>{% endif %}
       <figure class="fig"><img alt="Design-forward distribution" src="{{ s.figs.dfi }}"><figcaption>Design-Forward Index, pooled percentile of a design-vs-utility contrast (provisional until human validation).</figcaption></figure>
       {% if s.figs.jsd %}<figure class="fig"><img alt="Attribute divergence" src="{{ s.figs.jsd }}"><figcaption>Higher = the two retailers' mixes differ more on that attribute.</figcaption></figure>{% endif %}
       {% if s.figs.gaps %}<figure class="fig"><img alt="Attribute value gaps" src="{{ s.figs.gaps }}"><figcaption>Credible gaps only (≥ 90% posterior probability); fields that failed validation are excluded.</figcaption></figure>{% endif %}
     </div>
 
     <h3>Attribute-level gaps</h3>
-    <div class="tbl-wrap"><table class="sortable"><thead><tr><th>Attribute</th><th>Value</th><th class="num">{{ comp }}</th><th class="num">Staples</th><th class="num">Gap</th><th class="num">Credibility</th></tr></thead><tbody>
-    {% for g in s.gaps %}<tr><td>{{ g.attr }}{% if g.desc %} <span class="chip">descriptive only</span>{% endif %}</td><td>{{ g.val }}</td><td class="num">{{ g.sc }}</td><td class="num">{{ g.ss }}</td><td class="num">{{ g.delta }}</td><td class="num">{{ g.cred }}</td></tr>{% endfor %}
-    </tbody></table></div>
-    <p class="muted" style="font-size:12px">Credibility = posterior probability that {{ comp }}'s share is higher. Values near 0% mean Staples is credibly deeper.</p>
+    <div class="tbl-wrap"><table class="grouped"><thead><tr><th class="nosort">Attribute</th><th class="nosort">Value</th><th class="nosort num">{{ s.comp }}</th><th class="nosort num">Staples</th><th class="nosort num">Gap</th><th class="nosort num">Credibility</th></tr></thead>
+    {% for g in s.gaps %}<tbody>{% for r in g.rows %}<tr>{% if loop.first %}<td rowspan="{{ g.rows|length }}" class="grp">{{ g.attr }}{% if g.desc %}<br><span class="chip">descriptive only</span>{% endif %}</td>{% endif %}<td>{{ r.val }}</td><td class="num">{{ r.sc }}</td><td class="num">{{ r.ss }}</td><td class="num {{ 'pos' if r.pos else 'neg' }}">{{ r.delta }}</td><td class="num">{{ r.cred }}</td></tr>{% endfor %}</tbody>{% endfor %}
+    </table></div>
+    <p class="muted" style="font-size:12px">Grouped by attribute; attributes ordered by their largest gap, values by gap ({{ s.comp }} deeper first). Credibility = posterior probability that {{ s.comp }}'s share is higher; values near 0% mean Staples is credibly deeper.</p>
 
     {% if s.status == 'scored' %}
-    <h3>Final recommendations</h3>
+    <h3>Method 1: Vector view results</h3>
+    <p class="ink2">Every archetype on this shelf, highest VOS first. VOS rewards whitespace, fit with Staples and a visibly different look, then is reduced by cannibalisation risk. Faded bars and “no” in the Gate column failed the shared safety gate.</p>
+    <div class="grid g2">
+      {% if s.figs.vos %}<figure class="fig"><img alt="VOS by archetype" src="{{ s.figs.vos }}"><figcaption>Bar segments = what whitespace, fit and look difference contribute after the cannibalisation-risk discount; the number in brackets is the score before that discount.</figcaption></figure>{% endif %}
+      {% if s.figs.decision %}<figure class="fig"><img alt="Decision scatter" src="{{ s.figs.decision }}"><figcaption>Every {{ s.comp }} product on this shelf; lines = CRS {{ cfg.vector.crs_low }}/{{ cfg.vector.crs_high }} and AAS thresholds.</figcaption></figure>{% endif %}
+    </div>
+    <div class="tbl-wrap" style="margin-top:10px"><table class="sortable"><thead><tr><th>Archetype</th><th class="num">VOS</th><th class="num">Staples</th><th class="num">{{ s.comp }}</th><th class="num">VW</th><th class="num">AAS</th><th class="num">AD</th><th class="num">CRS</th><th class="num">PPR</th><th class="num">Safe share</th><th>Gate</th></tr></thead><tbody>
+    {% for r in s.m1 %}<tr><td>{{ r.name }}</td><td class="num"><b>{{ r.vos }}</b></td><td class="num">{{ r.ns }}</td><td class="num">{{ r.nc }}</td><td class="num">{{ r.vw }}</td><td class="num">{{ r.aas }}</td><td class="num">{{ r.ad }}</td><td class="num">{{ r.crs }}</td><td class="num">{{ r.ppr }}</td><td class="num">{{ r.safe }}</td><td>{{ r.elig }}</td></tr>{% endfor %}
+    </tbody></table></div>
+
+    <h3>Method 2: Attribute view results</h3>
+    <p class="ink2">Every archetype on this shelf, highest TG first. TG measures how far {{ s.comp }} over-indexes on the archetype and how different its price, colour, material/style and design-forward mix is.</p>
+    {% if s.figs.tg %}<figure class="fig solo"><img alt="TG by archetype" src="{{ s.figs.tg }}"><figcaption>Bar segments = weighted contribution of each gap metric (percentile within the category). Faded = failed the safety gate.</figcaption></figure>{% endif %}
+    <div class="tbl-wrap" style="margin-top:10px"><table class="sortable"><thead><tr><th>Archetype</th><th class="num">TG</th><th class="num">Staples share</th><th class="num">{{ s.comp }} share</th><th class="num">LSR</th><th class="num">Credibility</th><th>Flag</th><th class="num">PPG</th><th class="num">CG</th><th class="num">MSG</th><th class="num">DFG</th><th class="num">TG (original weights)</th><th>Colours Staples lacks</th></tr></thead><tbody>
+    {% for r in s.m2 %}<tr><td>{{ r.name }}</td><td class="num"><b>{{ r.tg }}</b></td><td class="num">{{ r.ps }}</td><td class="num">{{ r.pc }}</td><td class="num">{{ r.lsr }}</td><td class="num">{{ r.cred }}</td><td>{{ r.flag }}</td><td class="num">{{ r.ppg }}</td><td class="num">{{ r.cg }}</td><td class="num">{{ r.msg }}</td><td class="num">{{ r.dfg }}</td><td class="num">{{ r.tgo }}</td><td class="ink2">{{ r.miss }}</td></tr>{% endfor %}
+    </tbody></table></div>
+
+    <h3>Final recommendations: re-ranked</h3>
+    <div class="lede"><ul class="agree">
+      <li><b>Method agreement score: {% if s.rho is not none %}{{ "%.2f"|format(s.rho) }}{% else %}–{% endif %}</b> <span class="ink2">(Spearman correlation coefficient, VOS vs TG)</span></li>
+      <li>{{ s.rho_note }}</li>
+      <li class="ink2">Scale: −1 = opposite rankings · 0 = unrelated · +1 = identical rankings. Read ≥ 0.5 as broad agreement, 0.2–0.5 as partial, below 0.2 as weak.</li>
+    </ul></div>
     <div class="grid g2">
       {% if s.figs.agreement %}<figure class="fig"><img alt="TG versus VOS" src="{{ s.figs.agreement }}"><figcaption>#n = recommended, by fused rank. Hollow = failed the safety gate.</figcaption></figure>{% endif %}
-      {% if s.figs.labelmix %}<figure class="fig"><img alt="Label mix per archetype" src="{{ s.figs.labelmix }}"><figcaption>Share of each archetype's {{ comp }} products per decision group.</figcaption></figure>{% endif %}
+      {% if s.figs.labelmix %}<figure class="fig"><img alt="Label mix per archetype" src="{{ s.figs.labelmix }}"><figcaption>Share of each archetype's {{ s.comp }} products per decision group.</figcaption></figure>{% endif %}
     </div>
     <div class="tbl-wrap" style="margin-top:10px"><table class="sortable"><thead><tr><th class="num">Rank</th><th>Archetype</th><th>Agreement</th><th class="num">VOS</th><th class="num">TG</th><th class="num">Final</th><th class="num">Top-5 stability (TG / VOS)</th><th>Definition</th></tr></thead><tbody>
     {% for r in s.final %}<tr><td class="num">{{ r.rank }}</td><td>{% if r.short %}<b>{{ r.name }}</b> <span class="chip st-PASS">recommended</span>{% else %}{{ r.name }}{% endif %}</td><td>{{ r.tier }}</td><td class="num">{{ r.vos }}</td><td class="num">{{ r.tg }}</td><td class="num">{{ r.final }}</td><td class="num">{{ r.stab }}</td><td class="ink2">{{ r.def }}</td></tr>
@@ -300,32 +450,21 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
       {% for c in g.cards %}{% include 'card.html.j2' %}{% endfor %}
     </div>{% else %}<p class="muted">No shortlisted archetype on this shelf.</p>{% endfor %}
 
-    {% if s.style_ext %}<details><summary>STYLE-EXTENSION list: {{ s.style_ext|length }} colour, material or style variants of existing Staples products</summary>
+    {% if s.style_ext %}<h4>Style extensions: {{ s.style_ext|length }} colour, material or style variants of existing Staples products</h4>
       {% for c in s.style_ext %}{% include 'card.html.j2' %}{% endfor %}
-    </details>{% endif %}
+    {% endif %}
 
     <h3>Vendor / seller view</h3>
     <div class="tbl-wrap"><table class="sortable"><thead><tr><th>Display brand</th><th class="num">Approvable products</th><th class="num">Archetypes</th><th>Recruit path</th></tr></thead><tbody>
-    {% for v in s.vendors %}<tr><td>{{ v.brand }}{% if v.on %} <span class="chip st-PASS">sells on Staples</span>{% endif %}{% if v.house %} <span class="chip">{{ comp }} house brand</span>{% endif %}</td><td class="num">{{ v.products }}</td><td class="num">{{ v.arch }}</td><td class="ink2">{{ v.path }}</td></tr>
+    {% for v in s.vendors %}<tr><td>{{ v.brand }}{% if v.on %} <span class="chip st-PASS">sells on Staples</span>{% endif %}{% if v.house %} <span class="chip">{{ s.comp }} house brand</span>{% endif %}</td><td class="num">{{ v.products }}</td><td class="num">{{ v.arch }}</td><td class="ink2">{{ v.path }}</td></tr>
     {% else %}<tr><td colspan="4" class="muted">No approvable products in recommended archetypes.</td></tr>{% endfor %}
     </tbody></table></div>
 
-    <details><summary>Method 1 · vector view: all archetypes</summary>
-      {% if s.figs.decision %}<figure class="fig" style="margin:10px 0"><img alt="Decision scatter" src="{{ s.figs.decision }}"><figcaption>Every {{ comp }} product on this shelf; lines = CRS {{ cfg.vector.crs_low }}/{{ cfg.vector.crs_high }} and AAS thresholds.</figcaption></figure>{% endif %}
-      <div class="tbl-wrap"><table class="sortable"><thead><tr><th>Archetype</th><th class="num">Staples</th><th class="num">{{ comp }}</th><th class="num">VW</th><th class="num">AAS</th><th class="num">AD</th><th class="num">CRS</th><th class="num">PPR</th><th class="num">Safe share</th><th class="num">VOS</th><th>Gate</th></tr></thead><tbody>
-      {% for r in s.m1 %}<tr><td>{{ r.name }}</td><td class="num">{{ r.ns }}</td><td class="num">{{ r.nc }}</td><td class="num">{{ r.vw }}</td><td class="num">{{ r.aas }}</td><td class="num">{{ r.ad }}</td><td class="num">{{ r.crs }}</td><td class="num">{{ r.ppr }}</td><td class="num">{{ r.safe }}</td><td class="num">{{ r.vos }}</td><td>{{ r.elig }}</td></tr>{% endfor %}
-      </tbody></table></div>
-    </details>
-    <details><summary>Method 2 · attribute view: all archetypes</summary>
-      <div class="tbl-wrap"><table class="sortable"><thead><tr><th>Archetype</th><th class="num">Staples share</th><th class="num">{{ comp }} share</th><th class="num">LSR</th><th class="num">Credibility</th><th>Flag</th><th class="num">PPG</th><th class="num">CG</th><th class="num">MSG</th><th class="num">DFG</th><th class="num">TG</th><th class="num">TG (original weights)</th><th>Colours Staples lacks</th></tr></thead><tbody>
-      {% for r in s.m2 %}<tr><td>{{ r.name }}</td><td class="num">{{ r.ps }}</td><td class="num">{{ r.pc }}</td><td class="num">{{ r.lsr }}</td><td class="num">{{ r.cred }}</td><td>{{ r.flag }}</td><td class="num">{{ r.ppg }}</td><td class="num">{{ r.cg }}</td><td class="num">{{ r.msg }}</td><td class="num">{{ r.dfg }}</td><td class="num">{{ r.tg }}</td><td class="num">{{ r.tgo }}</td><td class="ink2">{{ r.miss }}</td></tr>{% endfor %}
-      </tbody></table></div>
-    </details>
-    <details><summary>Excluded archetypes ({{ s.excluded|length }})</summary>
-      <div class="tbl-wrap"><table class="sortable"><thead><tr><th>Archetype</th><th>Why excluded</th><th>Agreement</th><th class="num">VOS</th><th class="num">TG</th></tr></thead><tbody>
-      {% for r in s.excluded %}<tr><td>{{ r.name }}</td><td class="ink2">{{ r.reason }}</td><td>{{ r.tier }}</td><td class="num">{{ r.vos }}</td><td class="num">{{ r.tg }}</td></tr>{% endfor %}
-      </tbody></table></div>
-    </details>
+    <h3>Excluded archetypes ({{ s.excluded|length }})</h3>
+    <div class="tbl-wrap"><table class="sortable"><thead><tr><th>Archetype</th><th>Why excluded</th><th>Agreement</th><th class="num">VOS</th><th class="num">TG</th></tr></thead><tbody>
+    {% for r in s.excluded %}<tr><td>{{ r.name }}</td><td class="ink2">{{ r.reason }}</td><td>{{ r.tier }}</td><td class="num">{{ r.vos }}</td><td class="num">{{ r.tg }}</td></tr>
+    {% else %}<tr><td colspan="5" class="muted">None: every archetype passed the safety gate.</td></tr>{% endfor %}
+    </tbody></table></div>
     {% else %}
     <p class="muted">Fewer than {{ cfg.nodes.min_families_scored }} families on one side: shown descriptively; archetypes and recommendations are not scored for this shelf.</p>
     {% endif %}
@@ -333,7 +472,7 @@ footer{color:var(--muted);font-size:12px;padding:30px 0}
   {% endfor %}
 </section>
 
-<footer>Staples Marketplace assortment PoC · LatentView · method: methodology.md v1.2 · encoder {{ encoder }} · extraction backend: {{ backend }}.</footer>
+<footer>Staples Marketplace assortment PoC · LatentView · generated {{ date }} · method: methodology.md v1.2 · encoder {{ encoder }} · extraction backend: {{ backend }}.</footer>
 </div></main>
 
 <script>

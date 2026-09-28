@@ -22,9 +22,9 @@ Embeddings are cached in `data/cache/`, so re-runs only encode new text.
 
 | Path | What |
 |---|---|
-| `outputs/report/Staples_Assortment_Report.html` | The shareable report: one static file that works offline. Tab 1 covers approach and methodology; Tab 2 has a node dropdown |
+| `outputs/report/Staples_Assortment_Report_v<N>.html` | The shareable report: one static file that works offline. Every S11 run writes the next version (v1, v2, …) and keeps the earlier ones. Tab 1 = Approach & Methodology; Tab 2 = Gaps & Recommendations (shelf dropdown) |
 | `outputs/figures/<node>/*.png`, `outputs/figures/overview/*.png` | Every chart in the report |
-| `outputs/tables/*.csv` | Final archetypes, candidates, attribute gaps, SKU recommendations, vendors, backlog, audit samples |
+| `outputs/tables/*.csv` | Final archetypes, candidates, attribute gaps, SKU recommendations, vendors, backlog, audit samples, `shelf_selection.csv` (why each shelf is or isn't in the report dropdown) |
 | `data/interim/` | Stage outputs (parquet) and QA files (`qa_*.json`) |
 
 ## Pipeline
