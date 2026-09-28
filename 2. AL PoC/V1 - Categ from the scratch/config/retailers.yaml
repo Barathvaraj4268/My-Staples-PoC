@@ -1,0 +1,32 @@
+# Retailer adapters (S0). A new competitor = a new entry here plus a crosswalk file.
+staples:
+  role: base
+  file: "Staples product level dataset latest - Samples.xlsx"
+  columns:
+    id: product_id
+    title: product_name
+    price: price
+    url: product_link
+    description: description        # serialized dict {paragraph, bullets, specification}
+    rating: reviews
+    model: model_number
+  path_columns: [L1, L2, L3, L4]
+  leaf_column: "Final level Category"
+  description_format: staples_dict
+
+wayfair:
+  role: competitor
+  file: "Wayfair product level dataset latest - Samples.xlsx"
+  columns:
+    id: product_id
+    title: product_name
+    price: price
+    url: url
+    vendor: vendor
+    choice: selected_choice
+    description: description        # prose + optional " | " customer review (dropped: PII)
+    page: category
+  description_format: text_with_review
+  page_name_fixes: {"   ": " & "}
+  crosswalk: crosswalk/wayfair.yaml
+  house_brands_key: wayfair

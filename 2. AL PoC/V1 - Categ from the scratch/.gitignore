@@ -1,0 +1,8 @@
+# pipeline intermediates: large, regenerable, and derived from raw scrapes
+data/interim/
+data/cache/
+data/run.log
+__pycache__/
+*.pyc
+# Excel lock files
+~$*.xlsx

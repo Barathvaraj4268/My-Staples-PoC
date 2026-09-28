@@ -1,0 +1,91 @@
+# Per-L2 generated artefact (methodology §1.4): Tier 2 functional attributes, grid facets, DFI anchors.
+# A new L2 without a file runs on universal attributes only, flagged provisional.
+l2: "Furniture > Chairs & Seating"
+generated_by: "claude-opus-5-5 session draft from Staples spec keys + Wayfair sample, 2026-09-28"
+reviewed_by: null
+
+material_spec_keys: ['Seat Material', 'Office Chair Back Material', 'Furnishing Material']
+
+tier2:
+  form_factor:
+    mode: priority
+    values:
+      gaming: ['gaming', 'racing']
+      executive: ['executive']
+      drafting: ['drafting']
+      task: ['task chair', 'computer chair', 'desk chair', 'office chair', 'swivel chair', 'ergonomic chair']
+      stool: ['stools?']
+      bench: ['bench', 'settee', 'beam seating']
+      sofa: ['sofa', 'loveseat', 'sectional', 'couch']
+      ottoman: ['ottoman', 'pouf', 'footstool', 'foot ?rest']
+      recliner: ['recliner', 'glider', 'rocker', 'rocking']
+      lounge: ['lounge chair', 'club chair', 'slipper chair', 'chaise']
+      accent: ['accent chair', 'armchair', 'arm chair', 'barrel chair', 'wingback', 'wing chair']
+      guest: ['guest chair', 'side chair', 'reception chair', 'waiting room chair', 'visitor']
+      stacking: ['stacking', 'stackable']
+      folding: ['folding']
+      dining: ['dining chair', 'cafe chair', 'bistro', 'breakroom chair']
+      kids: ['kids', 'children', 'student chair', 'toddler']
+  arm_type:
+    mode: priority
+    values:
+      armless: ['armless', 'without arms', 'no arms']
+      adjustable: ['adjustable arms?', 'adjustable armrests?', 'flip[- ]up arms?', '4d arms?', '3d arms?', 'height[- ]adjustable arms?', 'pivot arms?']
+      fixed: ['arms?', 'armrests?', 'armchair', 'arm chair']
+    spec_keys: ['Arm Type']
+    spec_map: {Armless: armless, Fixed: fixed, Height Adjustable: adjustable, All Adjustable: adjustable, "Height & Width Adjustable": adjustable, Width Adjustable: adjustable}
+  base_type:
+    mode: priority
+    values:
+      casters: ['casters?', 'wheels?', 'rolling']
+      sled: ['sled']
+      pedestal: ['pedestal', 'tulip base']
+      legs: ['legs?', 'four[- ]leg', '4[- ]leg', 'tapered']
+    spec_keys: ['Chair Base Type']
+    spec_map: {Casters: casters, Legs: legs, Sled Base: sled, Feet: legs}
+  swivel:
+    mode: priority
+    values: {"yes": ['swivel', "360"]}
+    spec_keys: ['Swivel']
+    spec_map: {Swivel: "yes", No Swivel: "no"}
+  height_adjustable:
+    mode: priority
+    values: {"yes": ['adjustable height', 'height[- ]adjustable', 'pneumatic', 'gas lift', 'gas cylinder', 'seat height adjust\w*']}
+    spec_keys: ['Adjustable Height', 'Height Adjustable']
+    spec_map: {Adjustable: "yes", Height Adjustable: "yes", Not Adjustable: "no", Fixed Height: "no"}
+  recline_tilt:
+    mode: priority
+    values: {"yes": ['reclin\w*', 'tilt\w*', 'rocking', 'rocker']}
+    spec_keys: ['Recline']
+    spec_map: {Recline: "yes", No Recline: "no"}
+  stack_fold:
+    mode: priority
+    values: {stacking: ['stack\w*', 'nesting'], folding: ['fold\w*']}
+    spec_keys: ['Stacking & Folding Chair Design']
+    spec_map: {Stacking: stacking, Folding: folding, "Stacking, Folding & Nesting": stacking, "Stacking & Folding": stacking, "Stacking & Nesting": stacking, "Nesting & Folding": folding, Nesting: stacking}
+  lumbar:
+    mode: priority
+    values: {"yes": ['lumbar']}
+    spec_keys: ['Chair Lumbar Support']
+    spec_map: {Fixed: "yes", Adjustable: "yes"}
+  headrest:
+    mode: priority
+    values: {"yes": ['headrest', 'head rest', 'head pillow']}
+  back_height:
+    mode: priority
+    values: {high: ['high[- ]back', 'tall back'], mid: ['mid[- ]back'], low: ['low[- ]back']}
+
+grid_candidates: ['material_class', 'colour_tone', 'style_family', 'price_band', 'arm_type', 'base_type', 'back_height']
+functional_core: ['form_factor', 'arm_type', 'base_type', 'swivel', 'height_adjustable', 'recline_tilt', 'stack_fold', 'back_height']
+aesthetic_attrs: ['colour_family', 'colour_tone', 'material_class', 'style_family', 'aesthetic_tags']
+material_tiers: {plastic: 1, vinyl: 1, mesh: 1, metal: 1, engineered wood: 1, fabric: 2, faux leather: 2, bonded leather: 2, glass: 2, wood: 3, wicker/rattan: 3, velvet: 3, boucle: 3, leather: 4}
+
+dfi_anchors:
+  design:
+    - "a modern designer accent chair with a sculptural silhouette for a residential interior, boucle or velvet upholstery"
+    - "a mid-century modern lounge chair with tapered wooden legs and a curved shell"
+    - "a stylish statement chair for a living room in soft neutral colors with an organic curved form"
+  utility:
+    - "a black mesh ergonomic task chair for corporate offices"
+    - "a basic stacking chair for training rooms with a plastic seat and steel frame"
+    - "a heavy-duty commercial guest chair with a vinyl seat and utilitarian design"

@@ -1,0 +1,15 @@
+<div class="sku">
+  <div class="comp">
+    <div class="who"><span class="dot" style="background:#eb6834"></span>{{ c.comp }} · {{ c.label }}</div>
+    <a class="t" href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a>
+    <div class="meta"><b>{{ c.price }}</b> · {{ c.brand }}{% if c.on %} <span class="chip st-PASS">sells on Staples</span>{% endif %}{% if c.house %} <span class="chip">house brand</span>{% endif %}</div>
+    <div class="meta">{{ c.colour }} · {{ c.material }} · {{ c.style }} · DFI {{ c.dfi }}</div>
+  </div>
+  <div>
+    <div class="who"><span class="dot" style="background:#2a78d6"></span>Nearest Staples product</div>
+    <a class="t" href="{{ c.st_url }}" target="_blank" rel="noopener">{{ c.st_title }}</a>
+    <div class="meta"><b>{{ c.st_price }}</b></div>
+    <div class="meta">{{ c.st_colour }} · {{ c.st_material }}</div>
+  </div>
+  <div class="scores">Cannibalisation risk (CRS) {{ c.crs }} · price ratio (PPR) {{ c.ppr }}× · aesthetic delta (AD) {{ c.ad }}</div>
+</div>

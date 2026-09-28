@@ -1,0 +1,38 @@
+# Competitor page -> candidate Staples leaves (S3 page prior). Many-to-many.
+# [] = no Staples shelf: every product on that page goes to the new-node backlog.
+# Pages missing from this file get automatic candidates (top-5 leaves by embedding similarity), flagged provisional.
+generated_by: "claude-opus-5-5 session draft, 2026-09-28 (checked against Staples leaf contents)"
+reviewed_by: null
+pages:
+  Accent Chairs: [Accent & Waiting Room Chairs, "Recliners, Gliders & Rockers"]
+  Custom Accent Chairs: [Accent & Waiting Room Chairs]
+  Active Seating: [Office Chairs, Drafting Chairs & Office Stools]
+  Bean Bag Chairs: []
+  Benching & Partition Desks: [Office Desks]
+  Breakroom Seating: [Breakroom & Dining Chairs, Stacking & Folding Chairs, Counter & Bar Stools, Benches & Beam Seating]
+  Chair Mats: []                     # no chair mats in the Staples sample
+  Chiavari Chairs: [Stacking & Folding Chairs, Breakroom & Dining Chairs]
+  Desks: [Office Desks, Sit & Stand Desks]
+  Dining Tables & Seating: [Breakroom & Dining Chairs, Counter & Bar Stools, Benches & Beam Seating]
+  Folding Chairs: [Stacking & Folding Chairs]
+  Gaming Chairs: [Gaming Chairs, Office Chairs]
+  Gaming Desks: [Office Desks]
+  Hospitality Seating: [Accent & Waiting Room Chairs, Breakroom & Dining Chairs, Counter & Bar Stools, Stacking & Folding Chairs, Benches & Beam Seating, "Sofas, Loveseats & Sectionals"]
+  Kitchen & Dining Chairs: [Breakroom & Dining Chairs, Counter & Bar Stools]
+  Meeting Space Seating: [Office Chairs, Accent & Waiting Room Chairs, Stacking & Folding Chairs, Benches & Beam Seating, Ottomans]
+  Office Benches: [Benches & Beam Seating]
+  Office Chairs: [Office Chairs, Big and Tall Chairs, Gaming Chairs, Drafting Chairs & Office Stools]
+  Office Cubicles: []                # no cubicles in the Staples sample
+  Open Floor Workspace Desks & Chairs: [Office Desks, Office Chairs, Sit & Stand Desks]
+  Ottomans & Poufs: [Ottomans, Foot Rests]
+  Outdoor Door Mats: []              # Staples Rugs contains no mats (checked)
+  Patio Dining Chairs: []            # no outdoor seating in the Staples sample
+  Reception Seating: [Accent & Waiting Room Chairs, "Sofas, Loveseats & Sectionals", Benches & Beam Seating]
+  Reception Sets: ["Sofas, Loveseats & Sectionals", Accent & Waiting Room Chairs]
+  Restaurant Table & Chair Sets: []
+  School Chairs & Seating: [Kids Seating, Stacking & Folding Chairs, Office Chairs]
+  School Media Center Seating: [Kids Seating, Ottomans, Accent & Waiting Room Chairs, Benches & Beam Seating]
+  Small Desk Chairs: [Office Chairs, Kids Seating]
+  Teen Desk Chairs: [Office Chairs, Kids Seating, Gaming Chairs]
+  Theater Seating: []                # Staples recliners leaf holds 14 SKUs: too thin to host theatre seating
+  Waiting Room & Reception Chairs: [Accent & Waiting Room Chairs, Benches & Beam Seating]

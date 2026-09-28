@@ -1,0 +1,101 @@
+# Pipeline settings: thresholds, weights, models. Method: methodology.md.
+# Everything tunable lives here, not in code.
+
+paths:
+  raw_dir: Excels
+  interim_dir: data/interim
+  cache_dir: data/cache
+  out_dir: outputs
+
+encoder:
+  default: BAAI/bge-small-en-v1.5
+  candidates: [BAAI/bge-small-en-v1.5, BAAI/bge-base-en-v1.5]   # bake-off on mapping (S3)
+  bakeoff: true
+  batch_size: 64
+
+extraction:
+  # "rules": local vocabulary + embedding zero-shot instrument (no API key needed).
+  # "claude": LLM instrument (methodology §6.2); needs ANTHROPIC_API_KEY. Not wired yet.
+  backend: rules
+  style_zero_shot: true
+  style_zero_shot_margin: 0.015
+  desc_words_in_card: 40
+
+nodes:
+  split_key_regex: "Type|Shape|Design"
+  split_key_exclude: "Arm|Base|Back|Seat|Caster|Compatibility|Mat |Mouse|Wrist|Footrest|Accessory|Mount"   # component facets are not product types
+  split_min_families: 250        # leaf size before a pseudo-L5 split is considered
+  split_min_coverage: 0.8        # share of leaf families that carry the split facet
+  child_min_families: 30         # per side, else the child folds into "Other"
+  min_families_scored: 30        # per side, else the node is "thin" (descriptive only)
+
+mapping:
+  k: 15
+  affinity_top: 5
+  none_percentile: 5             # fallback only: percentile of Staples' own affinity when no known negatives exist
+  low_conf_prob: 0.6
+
+archetypes:
+  max_facets: 4
+  max_unknown_share: 0.4
+  min_pooled: 10
+  min_competitor: 5
+  price_bands: 4
+  umap_components: 10
+  bootstrap: 20
+
+vector:
+  k_whitespace: 15
+  aas_top: 50
+  crs_top: 3
+  identical_cos: 0.95
+  identical_log_price: 0.15
+  crs_high: 70
+  crs_low: 30
+  aas_low_pct: 10                # percentile of Staples' own AAS
+  aas_high_pct: 35
+  ad_threshold: 0.5
+  ppr_undercut: 0.85
+  ppr_tradeup: 1.5
+  dfi_delta_tradeup: 0.15
+  gamma: 1.0
+  vos_weights: {vw: 0.45, aas: 0.30, ad: 0.25}
+  calib_pairs: 3000
+
+gaps:
+  credible: 0.9
+  noncredible_shrink: 0.5
+  dfi_forward: 0.6
+  min_side_for_within: 3
+  tg_weights: {lsr: 0.35, ppg: 0.20, cg: 0.15, msg: 0.15, dfg: 0.15}
+  original_tg_weights: {lsr: 0.35, ppg: 0.25, cg: 0.20, dfg: 0.20}
+  mc_draws: 20000
+
+integration:
+  w_vos: 0.5
+  w_tg: 0.5
+  shortlist_n: 5
+  safe_share_min: 0.5
+  reject_share_max: 0.3
+  rrf_k: 60
+
+sensitivity:
+  draws: 1000
+  alpha_scale: 20
+  top_n: 5
+
+skus:
+  n_exemplars: 4
+  mmr_lambda: 0.7
+  style_extension_n: 8
+
+qa:
+  g1_leaf_acc: 0.90             # Staples leave-one-out k-NN leaf accuracy
+  g1_none_bal: 0.85             # NONE decision, balanced accuracy on known in/out-of-scope products
+  g2_field_acc: 0.85
+  g5_max_source_auc: 0.80      # retailer predictability from the source-neutral card
+  g6_ari: 0.4
+  g6_stability: 0.6
+  g7_topn_stability: 0.70
+  g7_auc: 0.80
+  g8_data_error: 0.02

@@ -1,0 +1,159 @@
+# Tier 1 (universal) and Tier 3 (lifestyle) vocabularies (methodology §6.1).
+# Patterns are case-insensitive regexes, matched on word boundaries unless they contain \b already.
+# mode: position = earliest match in the highest-precedence source wins (longest pattern wins ties)
+#       priority = first value (in listed order) with any match wins
+#       multi    = every value with a match is kept
+generated_by: "claude-opus-5-5 session draft, 2026-09-28"
+reviewed_by: null
+
+colour_family:
+  mode: position
+  values:
+    multi/pattern: ['multicolou?r', 'multi-colou?r', 'assorted', 'patterned', 'pattern', 'floral', 'striped?', 'plaid', 'camo', 'print']
+    clear: ['clear', 'transparent', 'frosted']
+    metallic: ['silver', 'chrome', 'gold', 'brass', 'bronze', 'copper', 'nickel', 'platinum', 'metallic', 'rose gold', 'gunmetal']
+    black: ['black', 'ebony', 'onyx', 'jet']
+    white: ['white', 'snow', 'alabaster', 'pure white']
+    beige/cream: ['beige', 'cream', 'ivory', 'off-white', 'tan', 'taupe', 'khaki', 'sand', 'oatmeal', 'linen', 'natural', 'camel', 'ecru', 'bone', 'putty', 'mushroom', 'greige', 'champagne', 'wheat', 'flax']
+    grey: ['gr[ae]y', 'charcoal', 'slate', 'graphite', 'ash', 'stone', 'pewter', 'smoke', 'heather', 'storm', 'cement', 'concrete', 'dove']
+    brown/wood: ['natural (elm|oak|wood|walnut|cherry|maple|teak|pine|acacia|ash|birch|bamboo|hickory)', 'light wood', 'dark wood', 'medium wood', 'white (oak|wash|washed)', 'whitewash(ed)?', 'brown', 'walnut', 'oak', 'cherry', 'mahogany', 'espresso', 'teak', 'maple', 'driftwood', 'elm', 'hickory', 'pine', 'acacia', 'mocha', 'chestnut', 'cognac', 'java', 'cappuccino', 'wood tone', 'woodgrain', 'rustic brown', 'coffee', 'chocolate', 'caramel', 'whiskey', 'saddle', 'rosewood', 'barnwood', 'bamboo', 'birch', 'beech', 'ash wood', 'wenge', 'truffle', 'tobacco', 'rust brown', 'brandy']
+    navy: ['navy', 'midnight', 'indigo']
+    blue: ['blue', 'teal', 'turquoise', 'aqua', 'cobalt', 'sky', 'denim', 'royal', 'cyan', 'peacock', 'cerulean']
+    green: ['green', 'sage', 'olive', 'emerald', 'mint', 'forest', 'hunter', 'jade', 'moss', 'lime', 'pistachio', 'seafoam']
+    red/pink: ['red', 'burgundy', 'maroon', 'wine', 'crimson', 'pink', 'blush', 'rose', 'coral', 'fuchsia', 'magenta', 'berry', 'raspberry', 'cranberry', 'merlot']
+    yellow/orange: ['yellow', 'mustard', 'orange', 'rust', 'amber', 'saffron', 'ochre', 'terracotta', 'apricot', 'peach', 'tangerine', 'marigold']
+    purple: ['purple', 'lavender', 'lilac', 'violet', 'plum', 'mauve', 'eggplant', 'aubergine']
+
+colour_tone_map:
+  black: dark-neutral
+  navy: dark-neutral
+  white: light-neutral
+  beige/cream: light-neutral
+  clear: light-neutral
+  grey: mid-neutral
+  brown/wood: warm-neutral
+  blue: bold
+  green: bold
+  red/pink: bold
+  yellow/orange: bold
+  purple: bold
+  metallic: metallic
+  multi/pattern: pattern
+
+material_class:
+  mode: position
+  values:
+    boucle: ['bouclé', 'boucle', 'sherpa', 'teddy', 'shearling', 'faux fur', 'faux sheepskin']
+    velvet: ['velvet', 'velour', 'velvety']
+    bonded leather: ['bonded leather']
+    faux leather: ['faux leather', 'pu leather', 'vegan leather', 'leatherette', 'polyurethane', 'leathersoft', 'luxura', 'caressoft\w*', 'luxhide', 'softhread leather', 'pu']
+    leather: ['genuine leather', 'top[- ]grain', 'full[- ]grain', 'real leather', 'italian leather', 'leather']
+    vinyl: ['vinyl', 'pvc']
+    mesh: ['mesh']
+    fabric: ['fabric', 'polyester', 'microfiber', 'microfibre', 'twill', 'tweed', 'linen', 'cotton', 'chenille', 'olefin', 'textile', 'cloth', 'felt', 'upholstered fabric', 'polyester blend', 'acrylic fabric', 'performance fabric']
+    wicker/rattan: ['rattan', 'wicker', 'cane', 'seagrass', 'jute', 'woven rope']
+    plastic: ['plastic', 'polypropylene', 'resin', 'polycarbonate', 'abs', 'molded shell', 'polyethylene', 'acrylic']
+    wood: ['solid wood', 'hardwood', 'solid oak', 'solid acacia', 'solid pine', 'rubberwood', 'solid walnut', 'bamboo', 'wood']
+    engineered wood: ['laminate', 'laminated', 'mdf', 'particle ?board', 'engineered wood', 'melamine', 'veneer', 'manufactured wood', 'chipboard', 'mfc']
+    metal: ['metal', 'steel', 'alumin(i)?um', 'iron', 'chrome', 'tubular']
+    glass: ['tempered glass', 'glass']
+
+style_family:
+  mode: priority
+  values:
+    gaming: ['gaming', 'racing', 'gamer', 'e-?sports']
+    mid-century: ['mid-?century', 'midcentury', 'retro', 'mcm']
+    scandinavian: ['scandinavian', 'nordic', 'danish', 'japandi']
+    industrial: ['industrial', 'loft', 'pipe']
+    farmhouse/rustic: ['farmhouse', 'rustic', 'country', 'cottage', 'distressed', 'reclaimed', 'barnwood']
+    glam: ['glam', 'glamorous', 'hollywood', 'art deco', 'luxe']
+    boho/coastal: ['boho', 'bohemian', 'coastal', 'beach', 'tropical']
+    traditional: ['traditional', 'victorian', 'colonial', 'queen anne', 'wingback', 'chesterfield', 'classic']
+    transitional: ['transitional']
+    minimalist: ['minimalist', 'minimalistic', 'minimal']
+    contemporary: ['contemporary']
+    modern: ['modern']
+  zero_shot_prototypes:
+    mid-century: "mid-century modern furniture with tapered wooden legs and retro curved lines"
+    scandinavian: "scandinavian nordic furniture, light wood, simple soft forms"
+    industrial: "industrial furniture with black metal pipe frame and rustic wood"
+    farmhouse/rustic: "rustic farmhouse furniture, distressed wood, country cottage look"
+    glam: "glamorous luxe furniture with velvet and gold metal accents"
+    boho/coastal: "boho coastal furniture with rattan, wicker and natural woven textures"
+    traditional: "traditional classic furniture with tufting, rolled arms and dark wood"
+    minimalist: "minimalist furniture with clean lines, sleek simple silhouette"
+    contemporary: "contemporary commercial office furniture, plain professional look"
+    gaming: "racing style gaming furniture with bold colors and RGB lighting"
+  spec_style_map:   # Staples 'Furnishing Style' -> canonical (validation indicator only)
+    Contemporary: contemporary
+    Modern: modern
+    Industrial: industrial
+    Traditional: traditional
+    Modern Classic: transitional
+    Transitional: transitional
+    Boho: boho/coastal
+    Coastal: boho/coastal
+    Rustic: farmhouse/rustic
+    Cottage/Country: farmhouse/rustic
+    Mid-Century Modern: mid-century
+    Minimalist: minimalist
+    Mission/Shaker: traditional
+
+aesthetic_tags:
+  mode: multi
+  values:
+    tufted: ['tufted', 'button[- ]tufted', 'tufting']
+    channel-tufted: ['channel[- ]tufted', 'channel stitch\w*', 'channeled']
+    curved/organic: ['curved', 'rounded', 'barrel', 'curvy', 'organic shape', 'sculpted', 'sculptural', 'shell', 'wave', 'cocoon', 'egg chair']
+    statement: ['statement', 'eye-catching', 'striking', 'show-?stopping', 'bold look']
+    cozy/plush: ['plush', 'cozy', 'cosy', 'cushy', 'overstuffed', 'cloud', 'sink-in', 'deep seat']
+    sleek/minimal: ['sleek', 'clean lines', 'streamlined', 'slim profile', 'minimalist']
+    natural/woven: ['rattan', 'wicker', 'cane', 'woven', 'jute', 'natural wood', 'solid wood']
+    luxe: ['luxury', 'luxurious', 'luxe', 'elegant', 'sophisticated', 'upscale']
+    retro/vintage: ['retro', 'vintage', 'antique', 'old-world']
+    playful/colourful: ['playful', 'whimsical', 'vibrant', 'colorful', 'colourful', 'fun colors']
+    nailhead: ['nail ?head']
+    textured: ['textured', 'boucle', 'bouclé', 'sherpa', 'ribbed', 'fluted']
+    metal-accent: ['gold legs?', 'brass legs?', 'gold finish', 'chrome legs?', 'gold metal']
+
+use_context:
+  mode: multi
+  values:
+    home office: ['home office', 'work from home', 'wfh', 'remote work', 'home workspace', 'study room', 'home study']
+    corporate office: ["(?<!home )\\boffices?\\b(?!\\s+(chairs?|desks?|stools?|furniture))", 'workplace', 'cubicle', 'corporate', 'conference', 'meeting room', 'boardroom', 'open office']
+    reception/lobby: ['reception', 'lobby', 'waiting room', 'waiting area', 'guest seating']
+    residential living: ['living room', 'bedroom', 'family room', 'den', 'apartment', 'reading nook', 'entryway', 'lounge area', 'home decor']
+    breakroom/dining: ['break ?room', 'cafe', 'cafeteria', 'kitchen', 'dining']
+    education: ['school', 'classroom', 'library', 'dorm', 'student', 'college', 'university', 'training room']
+    healthcare: ['medical', 'clinic', 'hospital', 'healthcare', 'patient', 'exam room', 'laboratory']
+    hospitality/events: ['restaurant', 'hotel', '\bbar\b', 'hospitality', 'banquet', 'event', 'wedding', 'church', 'bistro']
+    gaming: ['gaming', 'gamer', 'e-?sports']
+    kids/teen: ['kids', 'children', 'child', 'toddler', 'teen', 'youth', 'nursery']
+    outdoor: ['outdoor', 'patio', 'garden', 'poolside']
+
+end_user_segment:
+  mode: multi
+  values:
+    big & tall: ['big (and|&) tall', "(4|5|6)\\d\\d ?lbs?"]
+    bariatric: ['bariatric']
+    kids: ['kids', 'children', 'toddler', 'child']
+    teens: ['teen', 'youth']
+    gamers: ['gamer', 'gaming']
+    students: ['student']
+    remote workers: ['work from home', 'remote work', 'home office']
+
+key_benefits:
+  mode: multi
+  values:
+    ergonomic: ['ergonomic', 'lumbar']
+    space-saving: ['space[- ]saving', 'compact', 'small spaces?', 'foldable', 'nesting']
+    easy-clean: ['easy to clean', 'wipe clean', 'stain[- ]resistant', 'water[- ]resistant', 'waterproof', 'antimicrobial', 'spill']
+    sustainable: ['recycled', 'sustainable', 'eco[- ]friendly', 'fsc', 'greenguard']
+    commercial-grade: ['commercial', 'contract grade', 'bifma', 'heavy[- ]duty']
+    comfort: ['memory foam', 'high[- ]density foam', 'cushioned', 'padded']
+
+size_class_by_width: {compact: ['0', '24'], standard: ['24', '60'], oversize: ['60', '1000']}
+
+generic_dfi_anchors:
+  design: ['"a stylish designer piece for a modern home interior', 'sculptural form', 'premium natural materials"', "an aesthetic statement product with a curated residential look and soft neutral colors"]
+  utility: ['"a basic utilitarian product for commercial offices', 'plain black', 'functional design"', '"a standard budget commercial product', 'simple and practical', 'no styling"']

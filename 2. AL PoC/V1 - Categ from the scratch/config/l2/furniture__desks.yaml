@@ -1,0 +1,68 @@
+l2: "Furniture > Desks"
+generated_by: "claude-opus-5-5 session draft from Staples spec keys + Wayfair sample, 2026-09-28"
+reviewed_by: null
+
+material_spec_keys: ['Desk Top Material', 'Furnishing Material']
+
+tier2:
+  desk_type:
+    mode: priority
+    values:
+      standing: ['standing desk', 'sit[- ]?(to[- ])?stand', 'stand[- ]up desk', 'desk converter', 'height[- ]adjustable desk', 'electric desk']
+      gaming: ['gaming']
+      executive: ['executive']
+      writing: ['writing desk', 'console desk']
+      reception: ['reception']
+      credenza: ['credenza']
+      secretary: ['secretary']
+      vanity: ['vanity']
+      ladder: ['ladder desk']
+      workstation: ['workstation', 'benching']
+      computer: ['computer desk', 'pc desk', 'laptop desk', 'office desk', 'desk']
+    spec_keys: ['Home & Computer Desk Type']
+    spec_map: {Computer: computer, Workstations: workstation, Executive: executive, Table: writing, Reception: reception, Writing: writing, Credenza: credenza, Secretary: secretary}
+  shape:
+    mode: priority
+    values:
+      u_shaped: ['u[- ]shaped?']
+      l_shaped: ['l[- ]shaped?', 'corner l']
+      corner: ['corner desk', 'corner']
+      bow: ['bow front', 'bow[- ]shaped']
+      rectangular: ['rectangular', 'rectangle']
+    spec_keys: ['Desk Shape']
+    spec_map: {Rectangular: rectangular, L-Shaped: l_shaped, U-Shaped: u_shaped, Corner: corner, Bow: bow}
+  sit_stand:
+    mode: priority
+    values:
+      electric: ['electric', 'motori[sz]ed', 'dual[- ]motor', 'single[- ]motor', 'memory (presets|settings)']
+      manual: ['hand crank', 'crank', 'manual height', 'gas spring', 'pneumatic', 'desk converter', 'riser']
+  drawers:
+    mode: priority
+    values: {"yes": ['drawers?']}
+  storage:
+    mode: priority
+    values: {"yes": ['shel(f|ves)', 'storage', 'cabinet', 'hutch', 'bookcase', 'cubb(y|ies)']}
+  keyboard_tray:
+    mode: priority
+    values: {"yes": ['keyboard tray']}
+  cable_mgmt:
+    mode: priority
+    values: {"yes": ['cable management', 'wire management', 'grommets?', 'cord management', 'cable tray']}
+
+numeric_bands:
+  width_band: {source: width, bands: {"<40 in": ['0', '40'], "40-48 in": ['40', '48'], "48-60 in": ['48', '60'], "60-72 in": ['60', '72'], "72+ in": ['72', '1000']}}
+
+grid_candidates: ['shape', 'desk_type', 'sit_stand', 'material_class', 'colour_tone', 'price_band', 'style_family', 'width_band']
+functional_core: ['desk_type', 'shape', 'sit_stand', 'drawers', 'storage', 'keyboard_tray', 'width_band']
+aesthetic_attrs: ['colour_family', 'colour_tone', 'material_class', 'style_family', 'aesthetic_tags']
+material_tiers: {plastic: 1, engineered wood: 1, metal: 1, glass: 2, wood: 3, wicker/rattan: 3, leather: 4}
+
+dfi_anchors:
+  design:
+    - "a mid-century modern writing desk with tapered solid wood legs for a stylish home office"
+    - "a sleek minimalist designer desk in warm walnut and brass for a residential interior"
+    - "a sculptural statement desk with curved edges and natural materials"
+  utility:
+    - "a basic laminate office desk for corporate cubicles in a gray finish"
+    - "a heavy-duty steel workstation desk for commercial offices"
+    - "a simple rectangular computer desk in black laminate, utilitarian"

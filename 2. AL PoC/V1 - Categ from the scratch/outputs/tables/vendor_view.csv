@@ -1,0 +1,162 @@
+node_id,brand,products,archetypes,house_brand,brand_on_staples,recruit_path
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,AllModern,6,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Latitude Run,6,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,George Oliver,5,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Lesro,5,1,False,True,Quick win: already a Staples supplier
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,sohoConcept,5,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Joss & Main,4,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Wade Logan,4,4,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Bernhardt,3,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Ebern Designs,3,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Hokku Designs,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Sand & Stable,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Birch Lane,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Fairfield Chair,2,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,KFI Studios,2,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Lark Manor,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Laurel Foundry Modern Farmhouse,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Mercer41,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Modway,2,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,One Allium Way,2,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Red Barrel Studio,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Williston Forge,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,AA Importing,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Bayou Breeze,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Canora Grey,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,CoyNet Sofa Boutique,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Craft'd,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Dovetail Furniture,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Finch,1,1,False,True,Quick win: already a Staples supplier
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Gus* Modern,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,HUAlin,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Harriet Bee,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Hooker Furniture,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Inbox Zero,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Industrial Style Sofa,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Jennifer Taylor Home,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Jonathan Charles Fine Furniture,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,NFusion,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Ophelia & Co.,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Orren Ellis,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Reprise Designs,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Tommy Bahama Home,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Trent Austin Design,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Willa Arlo Interiors,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,World Menagerie,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Accent & Waiting Room Chairs,Wrought Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Mercer41,5,4,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Red Barrel Studio,5,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,George Oliver,4,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Wade Logan,4,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Corrigan Studio,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Everly Quinn,3,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Ivy Bronx,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Lark Manor,3,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Orren Ellis,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Rosdorf Park,3,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,August Grove,2,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Bayou Breeze,2,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Birch Lane,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Gracie Oaks,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Hokku Designs,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Latitude Run,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Sika Design,2,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,A.R.T.,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,AllModern,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Bay Isle Home,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Beachcrest Home,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,CHAIRKER,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Caracole,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Charlton Home,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Ebern Designs,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,House of Hampton,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Manhattan Comfort,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Newline,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,One Allium Way,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Rosalind Wheeler,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Rosecliff Heights,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Three Posts,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Union Rustic,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Vondom,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Wildon Home,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Willa Arlo Interiors,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,Winston Porter,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,paj interiors,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Breakroom & Dining Chairs,sohoConcept,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Office Chairs > Executive,Hokku Designs,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Office Chairs > Executive,Inbox Zero,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Office Chairs > Executive,Latitude Run,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Office Chairs > Executive,Lorell,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Lesro,8,1,False,True,Quick win: already a Staples supplier
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Etta Avenue,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,George Oliver,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Gracie Oaks,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Inbox Zero,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Joss & Main,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Lark Manor,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Latitude Run,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Modway,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Ophelia & Co.,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,POLYWOOD,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Red Barrel Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Symple Stuff,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,The Twillery Co.,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Sofas & Benches > Benches & Beam Seating,Union Rustic,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,George Oliver,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Wade Logan,3,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Ivy Bronx,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Red Barrel Studio,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Corrigan Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Everly Quinn,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Latitude Run,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Mercury Row,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,TRQ,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Bar,Willa Arlo Interiors,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,17 Stories,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,August Grove,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Everly Quinn,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,George Oliver,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Gracie Oaks,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Hokku Designs,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Latitude Run,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Meridian Furniture,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Orren Ellis,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Chairs & Seating > Stools & Ottomans > Counter & Bar Stools > Counter,Winston Porter,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Orren Ellis,5,3,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Cozynest,4,2,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,Corrigan Studio,3,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Latitude Run,3,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Canora Grey,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Ebern Designs,2,2,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,One Allium Way,2,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,Red Barrel Studio,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Astoria Grand,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Bernhardt,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,East Urban Home,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Everly Quinn,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Groove Interior,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,Hokku Designs,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Inbox Zero,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Computer,Kaoloupin,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,The Twillery Co.,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,Wren Decors,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Computer,Wrought Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Cozynest,4,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Table,Inbox Zero,3,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Orren Ellis,3,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Wrought Studio,3,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Hokku Designs,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Trent Austin Design,2,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Table,Canora Grey,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Corrigan Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Ebern Designs,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Everly Quinn,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Groove Interior,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Office Desks > Table,Red Barrel Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Office Desks > Table,Wildon Home,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Sit & Stand Desks,Colamy Home,2,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Sit & Stand Desks,Latitude Run,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Sit & Stand Desks,Wrought Studio,2,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Sit & Stand Desks,August Grove,1,1,False,False,Independent brand: recruit as a marketplace seller
+Furniture > Desks > Sit & Stand Desks,Ebern Designs,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
+Furniture > Desks > Sit & Stand Desks,Red Barrel Studio,1,1,True,False,"Wayfair house brand: source the archetype, not the SKU"
